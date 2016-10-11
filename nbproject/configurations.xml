@@ -38,7 +38,12 @@
         </df>
         <df name="master_tank_navigation">
           <df name="src">
+            <in>MasterTankExplore.cpp</in>
             <in>MasterTankMain.cpp</in>
+            <in>MasterTankMarch.cpp</in>
+            <in>MasterTankMood.cpp</in>
+            <in>MasterTankObjectPlotter.cpp</in>
+            <in>mianTest.cpp</in>
           </df>
         </df>
         <df name="navigation">
@@ -232,6 +237,25 @@
         </df>
       </df>
     </df>
+    <logicalFolder name="usr" displayName="usr" projectFiles="true" root="/usr">
+      <logicalFolder name="share" displayName="share" projectFiles="true">
+        <logicalFolder name="cmake-3.5" displayName="cmake-3.5" projectFiles="true">
+          <logicalFolder name="Modules" displayName="Modules" projectFiles="true">
+            <itemPath>/usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c</itemPath>
+            <itemPath>/usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp</itemPath>
+            <itemPath>/usr/share/cmake-3.5/Modules/CMakeCompilerABI.h</itemPath>
+            <itemPath>/usr/share/cmake-3.5/Modules/CheckFunctionExists.c</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="src" displayName="src" projectFiles="true">
+        <logicalFolder name="gtest" displayName="gtest" projectFiles="true">
+          <logicalFolder name="src" displayName="src" projectFiles="true">
+            <itemPath>/usr/src/gtest/src/gtest-all.cc</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false"
@@ -253,7 +277,10 @@
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <flagsDictionary>
-        <element flagsID="0" commonFlags="-std=c++14"/>
+        <element flagsID="0" commonFlags="-fPIC"/>
+        <element flagsID="1" commonFlags="-std=c++0x -fPIC"/>
+        <element flagsID="2" commonFlags="-std=c++14"/>
+        <element flagsID="3" commonFlags="-std=c11"/>
       </flagsDictionary>
       <codeAssistance>
         <resolveSymbolicLinks>true</resolveSymbolicLinks>
@@ -261,16 +288,39 @@
       <makefileType>
         <makeTool>
           <buildCommandWorkingDir>.</buildCommandWorkingDir>
-          <buildCommand>./ckb.sh</buildCommand>
-          <cleanCommand>./ckb.sh</cleanCommand>
+          <buildCommand>./catkin_build.sh</buildCommand>
+          <cleanCommand>./catkin_clean.sh</cleanCommand>
           <executablePath></executablePath>
         </makeTool>
         <preBuild>
           <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
           <preBuildCommand>devel/setup.sh</preBuildCommand>
-          <preBuildFirst>true</preBuildFirst>
         </preBuild>
       </makefileType>
+      <item path="/usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/usr/share/cmake-3.5/Modules/CheckFunctionExists.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>CHECK_FUNCTION_EXISTS=pthread_create</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="/usr/src/gtest/src/gtest-all.cc" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
       <item path="build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
@@ -281,9 +331,22 @@
             tool="1"
             flavor2="4">
       </item>
-      <item path="build/CMakeFiles/feature_tests.c" ex="false" tool="0" flavor2="2">
+      <item path="build/CMakeFiles/feature_tests.c" ex="false" tool="0" flavor2="10">
+        <cTool flags="3">
+          <incDir>
+            <pElem>build/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
       </item>
-      <item path="build/CMakeFiles/feature_tests.cxx" ex="false" tool="1" flavor2="4">
+      <item path="build/CMakeFiles/feature_tests.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </ccTool>
       </item>
       <folder path="0/src/master_tank_navigation">
         <ccTool>
@@ -296,6 +359,66 @@
             <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
             <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
             <Elem>ROS_PACKAGE_NAME="masterTankNavigation"</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/navigation/amcl/src/amcl/pf">
+        <cTool>
+          <incDir>
+            <pElem>devel/include</pElem>
+            <pElem>src/navigation/amcl/include/amcl</pElem>
+            <pElem>src/navigation/amcl/include/amcl/map</pElem>
+            <pElem>src/navigation/amcl/include/amcl/sensors</pElem>
+            <pElem>src/navigation/amcl/include/amcl/pf</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/navigation/amcl</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
+            <Elem>ROS_PACKAGE_NAME="amcl"</Elem>
+            <Elem>amcl_pf_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="0/src/navigation/fake_localization">
+        <ccTool>
+          <incDir>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/navigation/fake_localization</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
+            <Elem>ROS_PACKAGE_NAME="fake_localization"</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="usr">
+        <cTool>
+          <incDir>
+            <pElem>build/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="usr/share">
+        <ccTool>
+          <incDir>
+            <pElem>build/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="usr/src">
+        <ccTool>
+          <incDir>
+            <pElem>/usr/src/gtest/include</pElem>
+            <pElem>/usr/src/gtest</pElem>
+            <pElem>build/gtest</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>GTEST_CREATE_SHARED_LIBRARY=1</Elem>
+            <Elem>GTEST_HAS_PTHREAD=1</Elem>
+            <Elem>gtest_EXPORTS</Elem>
           </preprocessorList>
         </ccTool>
       </folder>
@@ -316,7 +439,22 @@
       </item>
       <item path="src/hokuyo_node/src/getID.cpp" ex="false" tool="1" flavor2="4">
       </item>
-      <item path="src/hokuyo_node/src/hokuyo.cpp" ex="false" tool="1" flavor2="4">
+      <item path="src/hokuyo_node/src/hokuyo.cpp" ex="false" tool="1" flavor2="8">
+        <ccTool flags="1">
+          <incDir>
+            <pElem>devel/include</pElem>
+            <pElem>src/hokuyo_node/include</pElem>
+            <pElem>src/driver_common/driver_base/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/hokuyo_node</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
+            <Elem>ROS_PACKAGE_NAME="hokuyo_node"</Elem>
+            <Elem>libhokuyo_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
       </item>
       <item path="src/hokuyo_node/src/hokuyo_node.cpp"
             ex="false"
@@ -328,11 +466,46 @@
             tool="1"
             flavor2="4">
       </item>
+      <item path="src/master_tank_navigation/src/MasterTankExplore.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
       <item path="src/master_tank_navigation/src/MasterTankMain.cpp"
             ex="false"
             tool="1"
             flavor2="11">
-        <ccTool flags="0">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="src/master_tank_navigation/src/MasterTankMarch.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="src/master_tank_navigation/src/MasterTankMood.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="src/master_tank_navigation/src/MasterTankObjectPlotter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
+        </ccTool>
+      </item>
+      <item path="src/master_tank_navigation/src/mianTest.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
         </ccTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/map/map.c"
@@ -364,31 +537,43 @@
             ex="false"
             tool="0"
             flavor2="2">
+        <cTool flags="0">
+        </cTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/pf/pf.c"
             ex="false"
             tool="0"
             flavor2="2">
+        <cTool flags="0">
+        </cTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/pf/pf_draw.c"
             ex="false"
             tool="0"
             flavor2="2">
+        <cTool flags="0">
+        </cTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/pf/pf_kdtree.c"
             ex="false"
             tool="0"
             flavor2="2">
+        <cTool flags="0">
+        </cTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/pf/pf_pdf.c"
             ex="false"
             tool="0"
             flavor2="2">
+        <cTool flags="0">
+        </cTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/pf/pf_vector.c"
             ex="false"
             tool="0"
             flavor2="2">
+        <cTool flags="0">
+        </cTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/sensors/amcl_laser.cpp"
             ex="false"
@@ -739,6 +924,20 @@
             ex="false"
             tool="1"
             flavor2="4">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>src/navigation/map_server/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/navigation/map_server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_NEW_YAMLCPP</Elem>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
+            <Elem>ROS_PACKAGE_NAME="map_server"</Elem>
+            <Elem>map_server_image_loader_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
       </item>
       <item path="src/navigation/map_server/src/main.cpp"
             ex="false"
@@ -749,6 +948,19 @@
             ex="false"
             tool="1"
             flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/navigation/map_server/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/navigation/map_server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_NEW_YAMLCPP</Elem>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
+            <Elem>ROS_PACKAGE_NAME="map_server"</Elem>
+          </preprocessorList>
+        </ccTool>
       </item>
       <item path="src/navigation/map_server/test/rtest.cpp"
             ex="false"
