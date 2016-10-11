@@ -9,6 +9,7 @@ Remember to exclude your rtabmap from git :-)
 
 ## After this, run
 ./catkin_clean.sh
+
 ./firstBuild.sh
 
 Remember to source in your local bash!
