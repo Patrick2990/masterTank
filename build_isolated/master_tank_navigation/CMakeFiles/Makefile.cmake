@@ -176,9 +176,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "catkin_generated/stamps/masterTankNavigation/package.xml.stamp"
+  "catkin_generated/stamps/master_tank_navigation/package.xml.stamp"
   "catkin_generated/installspace/_setup_util.py"
-  "catkin_generated/stamps/masterTankNavigation/_setup_util.py.stamp"
+  "catkin_generated/stamps/master_tank_navigation/_setup_util.py.stamp"
   "catkin_generated/installspace/env.sh"
   "catkin_generated/installspace/setup.bash"
   "catkin_generated/installspace/setup.sh"
@@ -186,14 +186,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "catkin_generated/installspace/.rosinstall"
   "catkin_generated/generate_cached_setup.py"
   "catkin_generated/env_cached.sh"
-  "catkin_generated/stamps/masterTankNavigation/interrogate_setup_dot_py.py.stamp"
-  "catkin_generated/stamps/masterTankNavigation/ExploreTask.action.stamp"
+  "catkin_generated/stamps/master_tank_navigation/interrogate_setup_dot_py.py.stamp"
+  "catkin_generated/stamps/master_tank_navigation/ExploreTask.action.stamp"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/master_tank_navigation.dir/DependInfo.cmake"
   "CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "CMakeFiles/tf2_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "CMakeFiles/tf2_msgs_generate_messages_eus.dir/DependInfo.cmake"
@@ -238,7 +239,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/tf_generate_messages_nodejs.dir/DependInfo.cmake"
   "CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake"
   "CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake"
-  "CMakeFiles/MasterTankNavigation.dir/DependInfo.cmake"
   "CMakeFiles/download_extra_data.dir/DependInfo.cmake"
   "CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake"
   "CMakeFiles/actionlib_generate_messages_cpp.dir/DependInfo.cmake"

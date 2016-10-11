@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(masterTankNavigation)
+project(master_tank_navigation)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -223,8 +223,8 @@ include_directories(include ${catkin_INCLUDE_DIRS} ${Boost_INCLUDE_DIRS} ${PCL_I
 # catkin_add_nosetests(test)
 #include_directories(${LIBAO_INCLUDE_DIR} ${MPG123_INCLUDE_DIRS})
 #target_link_libraries(${LIBAO_LIBRARIES} ${MPG123_LIBRARIES})
-add_executable(MasterTankNavigation src/MasterTankMain.cpp include/MasterTankMain.h src/mianTest.cpp include/mianTest.h src/MasterTankExplore.cpp include/MasterTankExplore.h src/MasterTankObjectPlotter.cpp include/MasterTankObjectPlotter.h src/MasterTankMood.cpp include/MasterTankMood.h src/MasterTankMarch.cpp include/MasterTankMarch.h include/masterTankCommon.h)
-target_link_libraries(MasterTankNavigation ${catkin_LIBRARIES} ${LIBAO_LIBRARIES} ${MPG123_LIBRARIES} )
+add_executable(master_tank_navigation src/MasterTankMain.cpp include/MasterTankMain.h src/mianTest.cpp include/mianTest.h src/MasterTankExplore.cpp include/MasterTankExplore.h src/MasterTankObjectPlotter.cpp include/MasterTankObjectPlotter.h src/MasterTankMood.cpp include/MasterTankMood.h src/MasterTankMarch.cpp include/MasterTankMarch.h include/masterTankCommon.h)
+target_link_libraries(master_tank_navigation ${catkin_LIBRARIES} ${LIBAO_LIBRARIES} ${MPG123_LIBRARIES} )
 
 
 #add_executable(simple_navigation_goals src/simple_navigation_goals.cpp)

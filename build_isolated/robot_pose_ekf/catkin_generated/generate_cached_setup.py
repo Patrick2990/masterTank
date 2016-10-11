@@ -12,7 +12,7 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in "/home/plinux/RosPacks/masterTank/devel_isolated/navigation;/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation;/home/plinux/RosPacks/masterTank/devel_isolated/amcl;/home/plinux/RosPacks/masterTank/devel_isolated/map_server;/home/plinux/RosPacks/masterTank/devel_isolated/fake_localization;/home/plinux/RosPacks/masterTank/devel_isolated/driver_common;/home/plinux/RosPacks/masterTank/devel_isolated/driver_base;/home/plinux/RosPacks/urg_node/devel;/home/plinux/RosPacks/ork/devel;/home/plinux/RosPacks/moveit/devel;/home/plinux/RosPacks/usb_cam/devel;/opt/ros/kinetic".split(';'):
+    for workspace in "/home/plinux/RosPacks/masterTank/devel_isolated/navigation;/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation;/home/plinux/RosPacks/masterTank/devel_isolated/amcl;/home/plinux/RosPacks/masterTank/devel_isolated/map_server;/home/plinux/RosPacks/masterTank/devel_isolated/fake_localization;/home/plinux/RosPacks/masterTank/devel_isolated/driver_common;/home/plinux/RosPacks/masterTank/devel_isolated/driver_base;/opt/ros/kinetic".split(';'):
         python_path = os.path.join(workspace, 'lib/python2.7/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)

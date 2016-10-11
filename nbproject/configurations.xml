@@ -337,6 +337,14 @@
         <logicalFolder name="gtest" displayName="gtest" projectFiles="true">
           <logicalFolder name="src" displayName="src" projectFiles="true">
             <itemPath>/usr/src/gtest/src/gtest-all.cc</itemPath>
+            <itemPath>/usr/src/gtest/src/gtest-death-test.cc</itemPath>
+            <itemPath>/usr/src/gtest/src/gtest-filepath.cc</itemPath>
+            <itemPath>/usr/src/gtest/src/gtest-internal-inl.h</itemPath>
+            <itemPath>/usr/src/gtest/src/gtest-port.cc</itemPath>
+            <itemPath>/usr/src/gtest/src/gtest-printers.cc</itemPath>
+            <itemPath>/usr/src/gtest/src/gtest-test-part.cc</itemPath>
+            <itemPath>/usr/src/gtest/src/gtest-typed-test.cc</itemPath>
+            <itemPath>/usr/src/gtest/src/gtest.cc</itemPath>
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
@@ -385,36 +393,65 @@
       <item path="/usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="/usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
       </item>
       <item path="/usr/share/cmake-3.5/Modules/CheckFunctionExists.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
         <cTool>
           <preprocessorList>
             <Elem>CHECK_FUNCTION_EXISTS=pthread_create</Elem>
           </preprocessorList>
         </cTool>
       </item>
-      <item path="/usr/src/gtest/src/gtest-all.cc" ex="false" tool="1" flavor2="0">
+      <item path="/usr/src/gtest/src/gtest-all.cc" ex="false" tool="1" flavor2="4">
         <ccTool flags="0">
         </ccTool>
+      </item>
+      <item path="/usr/src/gtest/src/gtest-death-test.cc"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/src/gtest/src/gtest-filepath.cc"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/src/gtest/src/gtest-port.cc" ex="true" tool="3" flavor2="0">
+      </item>
+      <item path="/usr/src/gtest/src/gtest-printers.cc"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/src/gtest/src/gtest-test-part.cc"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/src/gtest/src/gtest-typed-test.cc"
+            ex="true"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/usr/src/gtest/src/gtest.cc" ex="true" tool="3" flavor2="0">
       </item>
       <item path="build_isolated/amcl/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build_isolated/amcl/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
       </item>
       <item path="build_isolated/amcl/CMakeFiles/feature_tests.c"
             ex="false"
@@ -439,12 +476,12 @@
       <item path="build_isolated/driver_base/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build_isolated/driver_base/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
       </item>
       <item path="build_isolated/driver_base/CMakeFiles/feature_tests.c"
             ex="false"
@@ -469,12 +506,12 @@
       <item path="build_isolated/driver_common/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build_isolated/driver_common/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
       </item>
       <item path="build_isolated/driver_common/CMakeFiles/feature_tests.c"
             ex="false"
@@ -499,12 +536,12 @@
       <item path="build_isolated/fake_localization/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build_isolated/fake_localization/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
       </item>
       <item path="build_isolated/fake_localization/CMakeFiles/feature_tests.c"
             ex="false"
@@ -529,12 +566,12 @@
       <item path="build_isolated/map_server/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build_isolated/map_server/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
       </item>
       <item path="build_isolated/map_server/CMakeFiles/feature_tests.c"
             ex="false"
@@ -559,12 +596,12 @@
       <item path="build_isolated/master_tank_navigation/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build_isolated/master_tank_navigation/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
       </item>
       <item path="build_isolated/master_tank_navigation/CMakeFiles/feature_tests.c"
             ex="false"
@@ -589,12 +626,12 @@
       <item path="build_isolated/navigation/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
-            flavor2="0">
+            flavor2="2">
       </item>
       <item path="build_isolated/navigation/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
       </item>
       <item path="build_isolated/navigation/CMakeFiles/feature_tests.c"
             ex="false"
@@ -615,7 +652,7 @@
           </incDir>
           <preprocessorList>
             <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
-            <Elem>ROS_PACKAGE_NAME="masterTankNavigation"</Elem>
+            <Elem>ROS_PACKAGE_NAME="master_tank_navigation"</Elem>
           </preprocessorList>
         </ccTool>
       </folder>
@@ -700,6 +737,43 @@
             <Elem>HAVE_NEW_YAMLCPP</Elem>
             <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
             <Elem>ROS_PACKAGE_NAME="map_server"</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/navigation/rotate_recovery">
+        <ccTool>
+          <incDir>
+            <pElem>src/navigation/rotate_recovery/include</pElem>
+            <pElem>devel_isolated/base_local_planner/include</pElem>
+            <pElem>src/navigation/base_local_planner/include</pElem>
+            <pElem>src/navigation/nav_core/include</pElem>
+            <pElem>devel_isolated/costmap_2d/include</pElem>
+            <pElem>src/navigation/costmap_2d/include</pElem>
+            <pElem>src/navigation/voxel_grid/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>/usr/include/eigen3</pElem>
+            <pElem>/usr/include/pcl-1.7</pElem>
+            <pElem>/usr/include/ni</pElem>
+            <pElem>/usr/include/openni2</pElem>
+            <pElem>/usr/include/vtk-6.2</pElem>
+            <pElem>/usr/include/python2.7</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/freetype2</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include</pElem>
+            <pElem>/usr/lib/openmpi/include</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi</pElem>
+            <pElem>/usr/include/hdf5/openmpi</pElem>
+            <pElem>/usr/include/jsoncpp</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>/usr/include/tcl</pElem>
+            <pElem>build_isolated/rotate_recovery</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_PACKAGE_NAME="rotate_recovery"</Elem>
+            <Elem>rotate_recovery_EXPORTS</Elem>
           </preprocessorList>
         </ccTool>
       </folder>
@@ -1385,6 +1459,8 @@
             ex="false"
             tool="1"
             flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
       </item>
       <item path="src/navigation/voxel_grid/src/voxel_grid.cpp"
             ex="false"

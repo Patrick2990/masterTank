@@ -166,6 +166,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named master_tank_navigation
+
+# Build rule for target.
+master_tank_navigation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 master_tank_navigation
+.PHONY : master_tank_navigation
+
+# fast build rule for target.
+master_tank_navigation/fast:
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/build
+.PHONY : master_tank_navigation/fast
+
+#=============================================================================
 # Target rules for targets named tf2_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -738,19 +751,6 @@ sensor_msgs_generate_messages_cpp/fast:
 .PHONY : sensor_msgs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named MasterTankNavigation
-
-# Build rule for target.
-MasterTankNavigation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 MasterTankNavigation
-.PHONY : MasterTankNavigation
-
-# fast build rule for target.
-MasterTankNavigation/fast:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/build
-.PHONY : MasterTankNavigation/fast
-
-#=============================================================================
 # Target rules for targets named download_extra_data
 
 # Build rule for target.
@@ -925,7 +925,7 @@ src/MasterTankExplore.o: src/MasterTankExplore.cpp.o
 
 # target to build an object file
 src/MasterTankExplore.cpp.o:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankExplore.cpp.o
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankExplore.cpp.o
 .PHONY : src/MasterTankExplore.cpp.o
 
 src/MasterTankExplore.i: src/MasterTankExplore.cpp.i
@@ -934,7 +934,7 @@ src/MasterTankExplore.i: src/MasterTankExplore.cpp.i
 
 # target to preprocess a source file
 src/MasterTankExplore.cpp.i:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankExplore.cpp.i
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankExplore.cpp.i
 .PHONY : src/MasterTankExplore.cpp.i
 
 src/MasterTankExplore.s: src/MasterTankExplore.cpp.s
@@ -943,7 +943,7 @@ src/MasterTankExplore.s: src/MasterTankExplore.cpp.s
 
 # target to generate assembly for a file
 src/MasterTankExplore.cpp.s:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankExplore.cpp.s
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankExplore.cpp.s
 .PHONY : src/MasterTankExplore.cpp.s
 
 src/MasterTankMain.o: src/MasterTankMain.cpp.o
@@ -952,7 +952,7 @@ src/MasterTankMain.o: src/MasterTankMain.cpp.o
 
 # target to build an object file
 src/MasterTankMain.cpp.o:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankMain.cpp.o
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankMain.cpp.o
 .PHONY : src/MasterTankMain.cpp.o
 
 src/MasterTankMain.i: src/MasterTankMain.cpp.i
@@ -961,7 +961,7 @@ src/MasterTankMain.i: src/MasterTankMain.cpp.i
 
 # target to preprocess a source file
 src/MasterTankMain.cpp.i:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankMain.cpp.i
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankMain.cpp.i
 .PHONY : src/MasterTankMain.cpp.i
 
 src/MasterTankMain.s: src/MasterTankMain.cpp.s
@@ -970,7 +970,7 @@ src/MasterTankMain.s: src/MasterTankMain.cpp.s
 
 # target to generate assembly for a file
 src/MasterTankMain.cpp.s:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankMain.cpp.s
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankMain.cpp.s
 .PHONY : src/MasterTankMain.cpp.s
 
 src/MasterTankMarch.o: src/MasterTankMarch.cpp.o
@@ -979,7 +979,7 @@ src/MasterTankMarch.o: src/MasterTankMarch.cpp.o
 
 # target to build an object file
 src/MasterTankMarch.cpp.o:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankMarch.cpp.o
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankMarch.cpp.o
 .PHONY : src/MasterTankMarch.cpp.o
 
 src/MasterTankMarch.i: src/MasterTankMarch.cpp.i
@@ -988,7 +988,7 @@ src/MasterTankMarch.i: src/MasterTankMarch.cpp.i
 
 # target to preprocess a source file
 src/MasterTankMarch.cpp.i:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankMarch.cpp.i
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankMarch.cpp.i
 .PHONY : src/MasterTankMarch.cpp.i
 
 src/MasterTankMarch.s: src/MasterTankMarch.cpp.s
@@ -997,7 +997,7 @@ src/MasterTankMarch.s: src/MasterTankMarch.cpp.s
 
 # target to generate assembly for a file
 src/MasterTankMarch.cpp.s:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankMarch.cpp.s
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankMarch.cpp.s
 .PHONY : src/MasterTankMarch.cpp.s
 
 src/MasterTankMood.o: src/MasterTankMood.cpp.o
@@ -1006,7 +1006,7 @@ src/MasterTankMood.o: src/MasterTankMood.cpp.o
 
 # target to build an object file
 src/MasterTankMood.cpp.o:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankMood.cpp.o
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankMood.cpp.o
 .PHONY : src/MasterTankMood.cpp.o
 
 src/MasterTankMood.i: src/MasterTankMood.cpp.i
@@ -1015,7 +1015,7 @@ src/MasterTankMood.i: src/MasterTankMood.cpp.i
 
 # target to preprocess a source file
 src/MasterTankMood.cpp.i:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankMood.cpp.i
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankMood.cpp.i
 .PHONY : src/MasterTankMood.cpp.i
 
 src/MasterTankMood.s: src/MasterTankMood.cpp.s
@@ -1024,7 +1024,7 @@ src/MasterTankMood.s: src/MasterTankMood.cpp.s
 
 # target to generate assembly for a file
 src/MasterTankMood.cpp.s:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankMood.cpp.s
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankMood.cpp.s
 .PHONY : src/MasterTankMood.cpp.s
 
 src/MasterTankObjectPlotter.o: src/MasterTankObjectPlotter.cpp.o
@@ -1033,7 +1033,7 @@ src/MasterTankObjectPlotter.o: src/MasterTankObjectPlotter.cpp.o
 
 # target to build an object file
 src/MasterTankObjectPlotter.cpp.o:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankObjectPlotter.cpp.o
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankObjectPlotter.cpp.o
 .PHONY : src/MasterTankObjectPlotter.cpp.o
 
 src/MasterTankObjectPlotter.i: src/MasterTankObjectPlotter.cpp.i
@@ -1042,7 +1042,7 @@ src/MasterTankObjectPlotter.i: src/MasterTankObjectPlotter.cpp.i
 
 # target to preprocess a source file
 src/MasterTankObjectPlotter.cpp.i:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankObjectPlotter.cpp.i
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankObjectPlotter.cpp.i
 .PHONY : src/MasterTankObjectPlotter.cpp.i
 
 src/MasterTankObjectPlotter.s: src/MasterTankObjectPlotter.cpp.s
@@ -1051,7 +1051,7 @@ src/MasterTankObjectPlotter.s: src/MasterTankObjectPlotter.cpp.s
 
 # target to generate assembly for a file
 src/MasterTankObjectPlotter.cpp.s:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/MasterTankObjectPlotter.cpp.s
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/MasterTankObjectPlotter.cpp.s
 .PHONY : src/MasterTankObjectPlotter.cpp.s
 
 src/mianTest.o: src/mianTest.cpp.o
@@ -1060,7 +1060,7 @@ src/mianTest.o: src/mianTest.cpp.o
 
 # target to build an object file
 src/mianTest.cpp.o:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/mianTest.cpp.o
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/mianTest.cpp.o
 .PHONY : src/mianTest.cpp.o
 
 src/mianTest.i: src/mianTest.cpp.i
@@ -1069,7 +1069,7 @@ src/mianTest.i: src/mianTest.cpp.i
 
 # target to preprocess a source file
 src/mianTest.cpp.i:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/mianTest.cpp.i
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/mianTest.cpp.i
 .PHONY : src/mianTest.cpp.i
 
 src/mianTest.s: src/mianTest.cpp.s
@@ -1078,7 +1078,7 @@ src/mianTest.s: src/mianTest.cpp.s
 
 # target to generate assembly for a file
 src/mianTest.cpp.s:
-	$(MAKE) -f CMakeFiles/MasterTankNavigation.dir/build.make CMakeFiles/MasterTankNavigation.dir/src/mianTest.cpp.s
+	$(MAKE) -f CMakeFiles/master_tank_navigation.dir/build.make CMakeFiles/master_tank_navigation.dir/src/mianTest.cpp.s
 .PHONY : src/mianTest.cpp.s
 
 # Help Target
@@ -1090,6 +1090,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... install/local"
 	@echo "... install/strip"
+	@echo "... master_tank_navigation"
 	@echo "... tf2_msgs_generate_messages_nodejs"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... tf2_msgs_generate_messages_eus"
@@ -1138,7 +1139,6 @@ help:
 	@echo "... tf_generate_messages_nodejs"
 	@echo "... tf_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... MasterTankNavigation"
 	@echo "... download_extra_data"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... actionlib_generate_messages_cpp"

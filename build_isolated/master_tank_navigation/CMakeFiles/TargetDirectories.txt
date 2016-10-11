@@ -1,6 +1,7 @@
 /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/edit_cache.dir
 /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/install/local.dir
 /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/install/strip.dir
+/home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/master_tank_navigation.dir
 /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir
 /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/tf2_msgs_generate_messages_lisp.dir
 /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/tf2_msgs_generate_messages_eus.dir
@@ -49,7 +50,6 @@
 /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/tf_generate_messages_nodejs.dir
 /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/tf_generate_messages_py.dir
 /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
-/home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/MasterTankNavigation.dir
 /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/download_extra_data.dir
 /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/sensor_msgs_generate_messages_lisp.dir
 /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/actionlib_generate_messages_cpp.dir

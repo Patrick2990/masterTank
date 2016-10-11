@@ -115,18 +115,18 @@ file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYP
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masterTankNavigation/action" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/src/master_tank_navigation/action/ExploreTask.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/master_tank_navigation/action" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/src/master_tank_navigation/action/ExploreTask.action")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/masterTankNavigation/msg" TYPE FILE FILES
-    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/masterTankNavigation/msg/ExploreTaskAction.msg"
-    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/masterTankNavigation/msg/ExploreTaskActionGoal.msg"
-    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/masterTankNavigation/msg/ExploreTaskActionResult.msg"
-    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/masterTankNavigation/msg/ExploreTaskActionFeedback.msg"
-    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/masterTankNavigation/msg/ExploreTaskGoal.msg"
-    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/masterTankNavigation/msg/ExploreTaskResult.msg"
-    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/masterTankNavigation/msg/ExploreTaskFeedback.msg"
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/master_tank_navigation/msg" TYPE FILE FILES
+    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/master_tank_navigation/msg/ExploreTaskAction.msg"
+    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/master_tank_navigation/msg/ExploreTaskActionGoal.msg"
+    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/master_tank_navigation/msg/ExploreTaskActionResult.msg"
+    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/master_tank_navigation/msg/ExploreTaskActionFeedback.msg"
+    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/master_tank_navigation/msg/ExploreTaskGoal.msg"
+    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/master_tank_navigation/msg/ExploreTaskResult.msg"
+    "/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/share/master_tank_navigation/msg/ExploreTaskFeedback.msg"
     )
 endif()
 

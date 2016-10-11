@@ -2934,6 +2934,8 @@
             <df name="installspace">
             </df>
             <df name="stamps">
+              <df name="master_tank_navigation">
+              </df>
               <df name="masterTankNavigation">
               </df>
             </df>
@@ -2984,6 +2986,10 @@
             <df name="geometry_msgs_generate_messages_nodejs.dir">
             </df>
             <df name="geometry_msgs_generate_messages_py.dir">
+            </df>
+            <df name="master_tank_navigation.dir">
+              <df name="src">
+              </df>
             </df>
             <df name="MasterTankNavigation.dir">
               <df name="src">
@@ -5954,10 +5960,16 @@
         </df>
         <df name="master_tank_navigation">
           <df name="lib">
+            <df name="master_tank_navigation">
+            </df>
             <df name="masterTankNavigation">
             </df>
           </df>
           <df name="share">
+            <df name="master_tank_navigation">
+              <df name="msg">
+              </df>
+            </df>
             <df name="masterTankNavigation">
               <df name="msg">
               </df>

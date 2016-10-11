@@ -132,7 +132,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=masterTankNavigation
+CMAKE_PROJECT_NAME:STATIC=master_tank_navigation
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -306,6 +306,12 @@ masterTankNavigation_BINARY_DIR:STATIC=/home/plinux/RosPacks/masterTank/build_is
 
 //Value Computed by CMake
 masterTankNavigation_SOURCE_DIR:STATIC=/home/plinux/RosPacks/masterTank/src/master_tank_navigation
+
+//Value Computed by CMake
+master_tank_navigation_BINARY_DIR:STATIC=/home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation
+
+//Value Computed by CMake
+master_tank_navigation_SOURCE_DIR:STATIC=/home/plinux/RosPacks/masterTank/src/master_tank_navigation
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake
