@@ -1,0 +1,23 @@
+ <launch>
+
+<!-- <node name="tf" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 1 base_link camera_link 10">
+</node> -->
+
+<node name="tf" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 1 base_footprint camera_link 10">
+</node> 
+
+  <include file="$(find my_robot_name_2dnav)/my_robot_configuration.launch"/>
+
+  <!-- <include file="$(find my_robot_name_2dnav)/move_base.launch"/> -->
+
+  <include file="$(find openni_launch)/launch/openni.launch"/>
+
+  <!-- <include file="$(find my_robot_name_2dnav)/ko2l.launch"/> -->
+    <include file="$(find my_robot_name_2dnav)/demo_turtlebot_mapping.launch"/> 
+  <!-- <include file="$(find hector_mapping)/launch/mapping_default.launch"/> -->
+
+  <!--<include file="$(find frontier_exploration)/launch/no_global_map.launch"/>-->
+
+
+
+</launch>

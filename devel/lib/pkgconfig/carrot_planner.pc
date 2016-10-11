@@ -1,0 +1,8 @@
+prefix=/home/plinux/RosPacks/masterTank/devel
+
+Name: carrot_planner
+Description: Description of carrot_planner
+Version: 1.14.0
+Cflags: -I/home/plinux/RosPacks/masterTank/src/navigation/carrot_planner/include
+Libs: -L/home/plinux/RosPacks/masterTank/devel/lib -lcarrot_planner
+Requires: roscpp pluginlib costmap_2d base_local_planner nav_core

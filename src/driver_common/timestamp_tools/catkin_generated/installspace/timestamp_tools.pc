@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: timestamp_tools
+Description: Description of timestamp_tools
+Version: 1.6.8
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: roslib roscpp

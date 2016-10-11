@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="CMakeFiles">
+          <df name="3.5.1">
+            <df name="CompilerIdC">
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+          <in>feature_tests.c</in>
+          <in>feature_tests.cxx</in>
+        </df>
+      </df>
+      <df name="src">
+        <df name="hokuyo_node">
+          <df name="CMakeFiles">
+            <df name="2.8.12.2">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+          </df>
+          <df name="src">
+            <in>getFirmwareVersion.cpp</in>
+            <in>getID.cpp</in>
+            <in>hokuyo.cpp</in>
+            <in>hokuyo_node.cpp</in>
+            <in>timestamp_test.cpp</in>
+          </df>
+        </df>
+        <df name="master_tank_navigation">
+          <df name="src">
+            <in>MasterTankMain.cpp</in>
+          </df>
+        </df>
+        <df name="navigation">
+          <df name="amcl">
+            <df name="src">
+              <df name="amcl">
+                <df name="map">
+                  <in>map.c</in>
+                  <in>map_cspace.cpp</in>
+                  <in>map_draw.c</in>
+                  <in>map_range.c</in>
+                  <in>map_store.c</in>
+                </df>
+                <df name="pf">
+                  <in>eig3.c</in>
+                  <in>pf.c</in>
+                  <in>pf_draw.c</in>
+                  <in>pf_kdtree.c</in>
+                  <in>pf_pdf.c</in>
+                  <in>pf_vector.c</in>
+                </df>
+                <df name="sensors">
+                  <in>amcl_laser.cpp</in>
+                  <in>amcl_odom.cpp</in>
+                  <in>amcl_sensor.cpp</in>
+                </df>
+              </df>
+              <in>amcl_node.cpp</in>
+            </df>
+          </df>
+          <df name="base_local_planner">
+            <df name="src">
+              <in>costmap_model.cpp</in>
+              <in>footprint_helper.cpp</in>
+              <in>goal_functions.cpp</in>
+              <in>latched_stop_rotate_controller.cpp</in>
+              <in>local_planner_util.cpp</in>
+              <in>map_cell.cpp</in>
+              <in>map_grid.cpp</in>
+              <in>map_grid_cost_function.cpp</in>
+              <in>map_grid_visualizer.cpp</in>
+              <in>obstacle_cost_function.cpp</in>
+              <in>odometry_helper_ros.cpp</in>
+              <in>oscillation_cost_function.cpp</in>
+              <in>point_grid.cpp</in>
+              <in>prefer_forward_cost_function.cpp</in>
+              <in>simple_scored_sampling_planner.cpp</in>
+              <in>simple_trajectory_generator.cpp</in>
+              <in>trajectory.cpp</in>
+              <in>trajectory_planner.cpp</in>
+              <in>trajectory_planner_ros.cpp</in>
+              <in>voxel_grid_model.cpp</in>
+            </df>
+            <df name="test">
+              <in>footprint_helper_test.cpp</in>
+              <in>gtest_main.cpp</in>
+              <in>line_iterator_test.cpp</in>
+              <in>map_grid_test.cpp</in>
+              <in>trajectory_generator_test.cpp</in>
+              <in>utest.cpp</in>
+              <in>velocity_iterator_test.cpp</in>
+            </df>
+          </df>
+          <df name="carrot_planner">
+            <df name="src">
+              <in>carrot_planner.cpp</in>
+            </df>
+          </df>
+          <df name="clear_costmap_recovery">
+            <df name="src">
+              <in>clear_costmap_recovery.cpp</in>
+            </df>
+            <df name="test">
+              <in>clear_tester.cpp</in>
+            </df>
+          </df>
+          <df name="costmap_2d">
+            <df name="plugins">
+              <in>inflation_layer.cpp</in>
+              <in>obstacle_layer.cpp</in>
+              <in>static_layer.cpp</in>
+              <in>voxel_layer.cpp</in>
+            </df>
+            <df name="src">
+              <in>array_parser.cpp</in>
+              <in>costmap_2d.cpp</in>
+              <in>costmap_2d_cloud.cpp</in>
+              <in>costmap_2d_markers.cpp</in>
+              <in>costmap_2d_node.cpp</in>
+              <in>costmap_2d_publisher.cpp</in>
+              <in>costmap_2d_ros.cpp</in>
+              <in>costmap_layer.cpp</in>
+              <in>costmap_math.cpp</in>
+              <in>footprint.cpp</in>
+              <in>layer.cpp</in>
+              <in>layered_costmap.cpp</in>
+              <in>observation_buffer.cpp</in>
+            </df>
+            <df name="test">
+              <in>array_parser_test.cpp</in>
+              <in>costmap_tester.cpp</in>
+              <in>footprint_tests.cpp</in>
+              <in>inflation_tests.cpp</in>
+              <in>module_tests.cpp</in>
+              <in>obstacle_tests.cpp</in>
+              <in>static_tests.cpp</in>
+            </df>
+          </df>
+          <df name="dwa_local_planner">
+            <df name="src">
+              <in>dwa_planner.cpp</in>
+              <in>dwa_planner_ros.cpp</in>
+            </df>
+          </df>
+          <df name="fake_localization">
+            <in>fake_localization.cpp</in>
+          </df>
+          <df name="global_planner">
+            <df name="src">
+              <in>astar.cpp</in>
+              <in>dijkstra.cpp</in>
+              <in>gradient_path.cpp</in>
+              <in>grid_path.cpp</in>
+              <in>orientation_filter.cpp</in>
+              <in>plan_node.cpp</in>
+              <in>planner_core.cpp</in>
+              <in>quadratic_calculator.cpp</in>
+            </df>
+          </df>
+          <df name="map_server">
+            <df name="src">
+              <in>image_loader.cpp</in>
+              <in>main.cpp</in>
+              <in>map_saver.cpp</in>
+            </df>
+            <df name="test">
+              <in>rtest.cpp</in>
+              <in>test_constants.cpp</in>
+              <in>utest.cpp</in>
+            </df>
+          </df>
+          <df name="move_base">
+            <df name="src">
+              <in>move_base.cpp</in>
+              <in>move_base_node.cpp</in>
+            </df>
+          </df>
+          <df name="move_slow_and_clear">
+            <df name="src">
+              <in>move_slow_and_clear.cpp</in>
+            </df>
+          </df>
+          <df name="navfn">
+            <df name="src">
+              <in>navfn.cpp</in>
+              <in>navfn_node.cpp</in>
+              <in>navfn_ros.cpp</in>
+              <in>navtest.cpp</in>
+              <in>navwin.cpp</in>
+              <in>read_pgm_costmap.cpp</in>
+            </df>
+            <df name="test">
+              <in>path_calc_test.cpp</in>
+            </df>
+          </df>
+          <df name="robot_pose_ekf">
+            <df name="src">
+              <in>nonlinearanalyticconditionalgaussianodo.cpp</in>
+              <in>odom_estimation.cpp</in>
+              <in>odom_estimation_node.cpp</in>
+            </df>
+            <df name="test">
+              <in>test_robot_pose_ekf.cpp</in>
+              <in>test_robot_pose_ekf_zero_covariance.cpp</in>
+            </df>
+            <in>plotekf.m</in>
+          </df>
+          <df name="rotate_recovery">
+            <df name="src">
+              <in>rotate_recovery.cpp</in>
+            </df>
+          </df>
+          <df name="voxel_grid">
+            <df name="src">
+              <in>voxel_grid.cpp</in>
+            </df>
+            <df name="test">
+              <in>voxel_grid_tests.cpp</in>
+            </df>
+          </df>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-std=c++14"/>
+      </flagsDictionary>
+      <codeAssistance>
+        <resolveSymbolicLinks>true</resolveSymbolicLinks>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>./ckb.sh</buildCommand>
+          <cleanCommand>./ckb.sh</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand>devel/setup.sh</preBuildCommand>
+          <preBuildFirst>true</preBuildFirst>
+        </preBuild>
+      </makefileType>
+      <item path="build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="build/CMakeFiles/feature_tests.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="build/CMakeFiles/feature_tests.cxx" ex="false" tool="1" flavor2="4">
+      </item>
+      <folder path="0/src/master_tank_navigation">
+        <ccTool>
+          <incDir>
+            <pElem>src/master_tank_navigation/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/master_tank_navigation</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
+            <Elem>ROS_PACKAGE_NAME="masterTankNavigation"</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <item path="src/hokuyo_node/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/hokuyo_node/CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/hokuyo_node/src/getFirmwareVersion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/hokuyo_node/src/getID.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/hokuyo_node/src/hokuyo.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/hokuyo_node/src/hokuyo_node.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/hokuyo_node/src/timestamp_test.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/master_tank_navigation/src/MasterTankMain.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/navigation/amcl/src/amcl/map/map.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/map/map_cspace.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/map/map_draw.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/map/map_range.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/map/map_store.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/pf/eig3.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/pf/pf.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/pf/pf_draw.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/pf/pf_kdtree.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/pf/pf_pdf.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/pf/pf_vector.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/sensors/amcl_laser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/sensors/amcl_odom.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/amcl/src/amcl/sensors/amcl_sensor.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/amcl/src/amcl_node.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/costmap_model.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/footprint_helper.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/goal_functions.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/latched_stop_rotate_controller.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/local_planner_util.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/map_cell.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/map_grid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/map_grid_cost_function.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/map_grid_visualizer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/obstacle_cost_function.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/odometry_helper_ros.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/oscillation_cost_function.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/point_grid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/prefer_forward_cost_function.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/simple_scored_sampling_planner.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/simple_trajectory_generator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/trajectory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/trajectory_planner.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/trajectory_planner_ros.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/src/voxel_grid_model.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/test/footprint_helper_test.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/test/gtest_main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/test/line_iterator_test.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/test/map_grid_test.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/test/trajectory_generator_test.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/test/utest.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/base_local_planner/test/velocity_iterator_test.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/carrot_planner/src/carrot_planner.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/clear_costmap_recovery/src/clear_costmap_recovery.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/clear_costmap_recovery/test/clear_tester.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/plugins/inflation_layer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/plugins/obstacle_layer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/plugins/static_layer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/plugins/voxel_layer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/array_parser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/costmap_2d.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/costmap_2d_cloud.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/costmap_2d_markers.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/costmap_2d_node.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/costmap_2d_publisher.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/costmap_2d_ros.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/costmap_layer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/costmap_math.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/footprint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/layer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/layered_costmap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/src/observation_buffer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/test/array_parser_test.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/test/costmap_tester.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/test/footprint_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/test/inflation_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/test/module_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/test/obstacle_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/costmap_2d/test/static_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/dwa_local_planner/src/dwa_planner.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/dwa_local_planner/src/dwa_planner_ros.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/fake_localization/fake_localization.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/global_planner/src/astar.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/global_planner/src/dijkstra.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/global_planner/src/gradient_path.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/global_planner/src/grid_path.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/global_planner/src/orientation_filter.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/global_planner/src/plan_node.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/global_planner/src/planner_core.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/global_planner/src/quadratic_calculator.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/map_server/src/image_loader.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/map_server/src/main.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/map_server/src/map_saver.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/map_server/test/rtest.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/map_server/test/test_constants.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/map_server/test/utest.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/move_base/src/move_base.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/move_base/src/move_base_node.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/move_slow_and_clear/src/move_slow_and_clear.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/navfn/src/navfn.cpp" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="src/navigation/navfn/src/navfn_node.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/navfn/src/navfn_ros.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/navfn/src/navtest.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/navfn/src/navwin.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/navfn/src/read_pgm_costmap.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/navfn/test/path_calc_test.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/robot_pose_ekf/plotekf.m"
+            ex="false"
+            tool="0"
+            flavor2="2">
+      </item>
+      <item path="src/navigation/robot_pose_ekf/src/nonlinearanalyticconditionalgaussianodo.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/robot_pose_ekf/src/odom_estimation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/robot_pose_ekf/src/odom_estimation_node.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/robot_pose_ekf/test/test_robot_pose_ekf.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/robot_pose_ekf/test/test_robot_pose_ekf_zero_covariance.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/rotate_recovery/src/rotate_recovery.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/voxel_grid/src/voxel_grid.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+      <item path="src/navigation/voxel_grid/test/voxel_grid_tests.cpp"
+            ex="false"
+            tool="1"
+            flavor2="4">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

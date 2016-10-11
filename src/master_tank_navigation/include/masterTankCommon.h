@@ -1,0 +1,11 @@
+//
+// Created by thor on 10/4/16.
+//
+
+#ifndef PROJECT_MASTERTANKCOMMON_H
+#define PROJECT_MASTERTANKCOMMON_H
+
+
+
+
+#endif //PROJECT_MASTERTANKCOMMON_H
