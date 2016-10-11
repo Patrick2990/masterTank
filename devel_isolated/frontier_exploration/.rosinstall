@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/setup.sh
