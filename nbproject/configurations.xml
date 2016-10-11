@@ -2,18 +2,103 @@
 <configurationDescriptor version="97">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
-      <df name="build">
-        <df name="CMakeFiles">
-          <df name="3.5.1">
-            <df name="CompilerIdC">
-              <in>CMakeCCompilerId.c</in>
+      <df name="build_isolated">
+        <df name="amcl">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
             </df>
-            <df name="CompilerIdCXX">
-              <in>CMakeCXXCompilerId.cpp</in>
-            </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
           </df>
-          <in>feature_tests.c</in>
-          <in>feature_tests.cxx</in>
+        </df>
+        <df name="driver_base">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
+          </df>
+        </df>
+        <df name="driver_common">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
+          </df>
+        </df>
+        <df name="fake_localization">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
+          </df>
+        </df>
+        <df name="map_server">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
+          </df>
+        </df>
+        <df name="master_tank_navigation">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
+          </df>
+        </df>
+        <df name="navigation">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+            <in>feature_tests.c</in>
+          </df>
         </df>
       </df>
       <df name="src">
@@ -321,90 +406,314 @@
         <ccTool flags="0">
         </ccTool>
       </item>
-      <item path="build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+      <item path="build_isolated/amcl/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
-            flavor2="2">
+            flavor2="0">
       </item>
-      <item path="build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+      <item path="build_isolated/amcl/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
             ex="false"
             tool="1"
-            flavor2="4">
+            flavor2="0">
       </item>
-      <item path="build/CMakeFiles/feature_tests.c" ex="false" tool="0" flavor2="10">
+      <item path="build_isolated/amcl/CMakeFiles/feature_tests.c"
+            ex="false"
+            tool="0"
+            flavor2="10">
         <cTool flags="3">
           <incDir>
-            <pElem>build/CMakeFiles/CMakeTmp</pElem>
+            <pElem>build_isolated/amcl/CMakeFiles/CMakeTmp</pElem>
           </incDir>
         </cTool>
       </item>
-      <item path="build/CMakeFiles/feature_tests.cxx"
+      <item path="build_isolated/amcl/CMakeFiles/feature_tests.cxx"
             ex="false"
             tool="1"
             flavor2="11">
         <ccTool flags="2">
           <incDir>
-            <pElem>build/CMakeFiles/CMakeTmp</pElem>
+            <pElem>build_isolated/amcl/CMakeFiles/CMakeTmp</pElem>
           </incDir>
         </ccTool>
+      </item>
+      <item path="build_isolated/driver_base/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/driver_base/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/driver_base/CMakeFiles/feature_tests.c"
+            ex="false"
+            tool="0"
+            flavor2="10">
+        <cTool flags="3">
+          <incDir>
+            <pElem>build_isolated/driver_base/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="build_isolated/driver_base/CMakeFiles/feature_tests.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build_isolated/driver_base/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="build_isolated/driver_common/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/driver_common/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/driver_common/CMakeFiles/feature_tests.c"
+            ex="false"
+            tool="0"
+            flavor2="10">
+        <cTool flags="3">
+          <incDir>
+            <pElem>build_isolated/driver_common/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="build_isolated/driver_common/CMakeFiles/feature_tests.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build_isolated/driver_common/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="build_isolated/fake_localization/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/fake_localization/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/fake_localization/CMakeFiles/feature_tests.c"
+            ex="false"
+            tool="0"
+            flavor2="10">
+        <cTool flags="3">
+          <incDir>
+            <pElem>build_isolated/fake_localization/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="build_isolated/fake_localization/CMakeFiles/feature_tests.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build_isolated/fake_localization/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="build_isolated/map_server/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/map_server/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/map_server/CMakeFiles/feature_tests.c"
+            ex="false"
+            tool="0"
+            flavor2="10">
+        <cTool flags="3">
+          <incDir>
+            <pElem>build_isolated/map_server/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="build_isolated/map_server/CMakeFiles/feature_tests.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build_isolated/map_server/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="build_isolated/master_tank_navigation/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/master_tank_navigation/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/master_tank_navigation/CMakeFiles/feature_tests.c"
+            ex="false"
+            tool="0"
+            flavor2="10">
+        <cTool flags="3">
+          <incDir>
+            <pElem>build_isolated/master_tank_navigation/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="build_isolated/master_tank_navigation/CMakeFiles/feature_tests.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build_isolated/master_tank_navigation/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="build_isolated/navigation/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/navigation/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/navigation/CMakeFiles/feature_tests.c"
+            ex="false"
+            tool="0"
+            flavor2="10">
+        <cTool flags="3">
+          <incDir>
+            <pElem>build_isolated/navigation/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
       </item>
       <folder path="0/src/master_tank_navigation">
         <ccTool>
           <incDir>
             <pElem>src/master_tank_navigation/include</pElem>
             <pElem>/opt/ros/kinetic/include</pElem>
-            <pElem>build/master_tank_navigation</pElem>
+            <pElem>build_isolated/master_tank_navigation</pElem>
           </incDir>
           <preprocessorList>
             <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
-            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
             <Elem>ROS_PACKAGE_NAME="masterTankNavigation"</Elem>
           </preprocessorList>
         </ccTool>
       </folder>
-      <folder path="0/src/navigation/amcl/src/amcl/pf">
+      <folder path="0/src/navigation/amcl">
         <cTool>
           <incDir>
-            <pElem>devel/include</pElem>
+            <pElem>devel_isolated/amcl/include</pElem>
             <pElem>src/navigation/amcl/include/amcl</pElem>
             <pElem>src/navigation/amcl/include/amcl/map</pElem>
             <pElem>src/navigation/amcl/include/amcl/sensors</pElem>
             <pElem>src/navigation/amcl/include/amcl/pf</pElem>
             <pElem>/opt/ros/kinetic/include</pElem>
-            <pElem>build/navigation/amcl</pElem>
+            <pElem>build_isolated/amcl</pElem>
           </incDir>
           <preprocessorList>
             <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
-            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
             <Elem>ROS_PACKAGE_NAME="amcl"</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>devel_isolated/amcl/include</pElem>
+            <pElem>src/navigation/amcl/include/amcl</pElem>
+            <pElem>src/navigation/amcl/include/amcl/map</pElem>
+            <pElem>src/navigation/amcl/include/amcl/sensors</pElem>
+            <pElem>src/navigation/amcl/include/amcl/pf</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build_isolated/amcl</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_PACKAGE_NAME="amcl"</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/navigation/amcl/src/amcl/map">
+        <cTool>
+          <preprocessorList>
+            <Elem>amcl_map_EXPORTS</Elem>
+          </preprocessorList>
+        </cTool>
+        <ccTool>
+          <preprocessorList>
+            <Elem>amcl_map_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/navigation/amcl/src/amcl/pf">
+        <cTool>
+          <preprocessorList>
             <Elem>amcl_pf_EXPORTS</Elem>
           </preprocessorList>
         </cTool>
+      </folder>
+      <folder path="0/src/navigation/amcl/src/amcl/sensors">
+        <ccTool>
+          <preprocessorList>
+            <Elem>amcl_sensors_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
       </folder>
       <folder path="0/src/navigation/fake_localization">
         <ccTool>
           <incDir>
             <pElem>/opt/ros/kinetic/include</pElem>
-            <pElem>build/navigation/fake_localization</pElem>
+            <pElem>build_isolated/fake_localization</pElem>
           </incDir>
           <preprocessorList>
             <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
-            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
             <Elem>ROS_PACKAGE_NAME="fake_localization"</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/navigation/map_server/src">
+        <ccTool>
+          <incDir>
+            <pElem>src/navigation/map_server/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build_isolated/map_server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_NEW_YAMLCPP</Elem>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_PACKAGE_NAME="map_server"</Elem>
           </preprocessorList>
         </ccTool>
       </folder>
       <folder path="usr">
         <cTool>
           <incDir>
-            <pElem>build/CMakeFiles/CMakeTmp</pElem>
+            <pElem>build_isolated/driver_base/CMakeFiles/CMakeTmp</pElem>
           </incDir>
         </cTool>
       </folder>
       <folder path="usr/share">
         <ccTool>
           <incDir>
-            <pElem>build/CMakeFiles/CMakeTmp</pElem>
+            <pElem>build_isolated/driver_base/CMakeFiles/CMakeTmp</pElem>
           </incDir>
         </ccTool>
       </folder>
@@ -413,7 +722,7 @@
           <incDir>
             <pElem>/usr/src/gtest/include</pElem>
             <pElem>/usr/src/gtest</pElem>
-            <pElem>build/gtest</pElem>
+            <pElem>build_isolated/map_server/gtest</pElem>
           </incDir>
           <preprocessorList>
             <Elem>GTEST_CREATE_SHARED_LIBRARY=1</Elem>
@@ -512,26 +821,36 @@
             ex="false"
             tool="0"
             flavor2="2">
+        <cTool flags="0">
+        </cTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/map/map_cspace.cpp"
             ex="false"
             tool="1"
             flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/map/map_draw.c"
             ex="false"
             tool="0"
             flavor2="2">
+        <cTool flags="0">
+        </cTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/map/map_range.c"
             ex="false"
             tool="0"
             flavor2="2">
+        <cTool flags="0">
+        </cTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/map/map_store.c"
             ex="false"
             tool="0"
             flavor2="2">
+        <cTool flags="0">
+        </cTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/pf/eig3.c"
             ex="false"
@@ -579,16 +898,22 @@
             ex="false"
             tool="1"
             flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/sensors/amcl_odom.cpp"
             ex="false"
             tool="1"
             flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/sensors/amcl_sensor.cpp"
             ex="false"
             tool="1"
             flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
       </item>
       <item path="src/navigation/amcl/src/amcl_node.cpp"
             ex="false"
@@ -925,16 +1250,7 @@
             tool="1"
             flavor2="4">
         <ccTool flags="0">
-          <incDir>
-            <pElem>src/navigation/map_server/include</pElem>
-            <pElem>/opt/ros/kinetic/include</pElem>
-            <pElem>build/navigation/map_server</pElem>
-          </incDir>
           <preprocessorList>
-            <Elem>HAVE_NEW_YAMLCPP</Elem>
-            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
-            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
-            <Elem>ROS_PACKAGE_NAME="map_server"</Elem>
             <Elem>map_server_image_loader_EXPORTS</Elem>
           </preprocessorList>
         </ccTool>
@@ -948,29 +1264,40 @@
             ex="false"
             tool="1"
             flavor2="4">
-        <ccTool>
-          <incDir>
-            <pElem>src/navigation/map_server/include</pElem>
-            <pElem>/opt/ros/kinetic/include</pElem>
-            <pElem>build/navigation/map_server</pElem>
-          </incDir>
-          <preprocessorList>
-            <Elem>HAVE_NEW_YAMLCPP</Elem>
-            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
-            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
-            <Elem>ROS_PACKAGE_NAME="map_server"</Elem>
-          </preprocessorList>
-        </ccTool>
       </item>
       <item path="src/navigation/map_server/test/rtest.cpp"
             ex="false"
             tool="1"
             flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/navigation/map_server/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build_isolated/map_server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_NEW_YAMLCPP</Elem>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_PACKAGE_NAME="map_server"</Elem>
+          </preprocessorList>
+        </ccTool>
       </item>
       <item path="src/navigation/map_server/test/test_constants.cpp"
             ex="false"
             tool="1"
             flavor2="4">
+        <ccTool>
+          <incDir>
+            <pElem>src/navigation/map_server/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build_isolated/map_server</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>HAVE_NEW_YAMLCPP</Elem>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_PACKAGE_NAME="map_server"</Elem>
+          </preprocessorList>
+        </ccTool>
       </item>
       <item path="src/navigation/map_server/test/utest.cpp"
             ex="false"

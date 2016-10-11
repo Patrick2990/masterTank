@@ -2,1523 +2,102 @@
 <configurationDescriptor version="97">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <df root="." name="0">
-      <df name="build">
-        <df name="catkin">
-          <df name="catkin_generated">
-            <df name="version">
+      <df name="build_isolated">
+        <df name="amcl">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
             </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
           </df>
         </df>
-        <df name="catkin_generated">
-          <df name="installspace">
-          </df>
-          <df name="metapackages">
-            <df name="driver_common">
+        <df name="driver_base">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
             </df>
-            <df name="navigation">
-            </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
           </df>
-          <df name="stamps">
-            <df name="Project">
-            </df>
-          </df>
-        </df>
-        <df name="CMakeFiles">
-          <df name="3.5.1">
-            <df name="CompilerIdC">
-              <in>CMakeCCompilerId.c</in>
-            </df>
-            <df name="CompilerIdCXX">
-              <in>CMakeCXXCompilerId.cpp</in>
-            </df>
-          </df>
-          <df name="clean_test_results.dir">
-          </df>
-          <df name="CMakeTmp">
-          </df>
-          <df name="download_extra_data.dir">
-          </df>
-          <df name="doxygen.dir">
-          </df>
-          <df name="Progress">
-          </df>
-          <df name="run_tests.dir">
-          </df>
-          <df name="tests.dir">
-          </df>
-          <in>feature_tests.c</in>
-          <in>feature_tests.cxx</in>
         </df>
         <df name="driver_common">
-          <df name="driver_base">
-            <df name="catkin_generated">
-              <df name="installspace">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
               </df>
-              <df name="stamps">
-                <df name="driver_base">
-                </df>
-              </df>
-            </df>
-            <df name="cmake">
-            </df>
-            <df name="CMakeFiles">
-              <df name="_driver_base_generate_messages_check_deps_ConfigString.dir">
-              </df>
-              <df name="_driver_base_generate_messages_check_deps_ConfigValue.dir">
-              </df>
-              <df name="_driver_base_generate_messages_check_deps_SensorLevels.dir">
-              </df>
-              <df name="driver_base_gencpp.dir">
-              </df>
-              <df name="driver_base_generate_messages.dir">
-              </df>
-              <df name="driver_base_generate_messages_cpp.dir">
-              </df>
-              <df name="driver_base_generate_messages_eus.dir">
-              </df>
-              <df name="driver_base_generate_messages_lisp.dir">
-              </df>
-              <df name="driver_base_generate_messages_nodejs.dir">
-              </df>
-              <df name="driver_base_generate_messages_py.dir">
-              </df>
-              <df name="driver_base_geneus.dir">
-              </df>
-              <df name="driver_base_genlisp.dir">
-              </df>
-              <df name="driver_base_gennodejs.dir">
-              </df>
-              <df name="driver_base_genpy.dir">
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
               </df>
             </df>
-          </df>
-          <df name="driver_common">
-            <df name="catkin_generated">
-              <df name="stamps">
-                <df name="driver_common">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-              <df name="_catkin_empty_exported_target.dir">
-              </df>
-            </df>
-          </df>
-          <df name="timestamp_tools">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="timestamp_tools">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-              <df name="_run_tests_timestamp_tools.dir">
-              </df>
-              <df name="_run_tests_timestamp_tools_gtest.dir">
-              </df>
-              <df name="_run_tests_timestamp_tools_gtest_test_trigger_matcher.dir">
-              </df>
-              <df name="clean_test_results_timestamp_tools.dir">
-              </df>
-              <df name="roscpp_generate_messages_cpp.dir">
-              </df>
-              <df name="roscpp_generate_messages_eus.dir">
-              </df>
-              <df name="roscpp_generate_messages_lisp.dir">
-              </df>
-              <df name="roscpp_generate_messages_nodejs.dir">
-              </df>
-              <df name="roscpp_generate_messages_py.dir">
-              </df>
-              <df name="rosgraph_msgs_generate_messages_cpp.dir">
-              </df>
-              <df name="rosgraph_msgs_generate_messages_eus.dir">
-              </df>
-              <df name="rosgraph_msgs_generate_messages_lisp.dir">
-              </df>
-              <df name="rosgraph_msgs_generate_messages_nodejs.dir">
-              </df>
-              <df name="rosgraph_msgs_generate_messages_py.dir">
-              </df>
-              <df name="run_tests_timestamp_tools.dir">
-              </df>
-              <df name="run_tests_timestamp_tools_gtest.dir">
-              </df>
-              <df name="run_tests_timestamp_tools_gtest_test_trigger_matcher.dir">
-              </df>
-              <df name="std_msgs_generate_messages_cpp.dir">
-              </df>
-              <df name="std_msgs_generate_messages_eus.dir">
-              </df>
-              <df name="std_msgs_generate_messages_lisp.dir">
-              </df>
-              <df name="std_msgs_generate_messages_nodejs.dir">
-              </df>
-              <df name="std_msgs_generate_messages_py.dir">
-              </df>
-              <df name="test_trigger_matcher.dir">
-                <df name="test">
-                </df>
-              </df>
-            </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
           </df>
         </df>
-        <df name="frontier_exploration">
-          <df name="catkin_generated">
-            <df name="installspace">
-            </df>
-            <df name="stamps">
-              <df name="frontier_exploration">
-              </df>
-            </df>
-          </df>
-          <df name="cmake">
-          </df>
+        <df name="fake_localization">
           <df name="CMakeFiles">
-            <df name="_frontier_exploration_generate_messages_check_deps_ExploreTaskAction.dir">
-            </df>
-            <df name="_frontier_exploration_generate_messages_check_deps_ExploreTaskActionFeedback.dir">
-            </df>
-            <df name="_frontier_exploration_generate_messages_check_deps_ExploreTaskActionGoal.dir">
-            </df>
-            <df name="_frontier_exploration_generate_messages_check_deps_ExploreTaskActionResult.dir">
-            </df>
-            <df name="_frontier_exploration_generate_messages_check_deps_ExploreTaskFeedback.dir">
-            </df>
-            <df name="_frontier_exploration_generate_messages_check_deps_ExploreTaskGoal.dir">
-            </df>
-            <df name="_frontier_exploration_generate_messages_check_deps_ExploreTaskResult.dir">
-            </df>
-            <df name="_frontier_exploration_generate_messages_check_deps_Frontier.dir">
-            </df>
-            <df name="_frontier_exploration_generate_messages_check_deps_GetNextFrontier.dir">
-            </df>
-            <df name="_frontier_exploration_generate_messages_check_deps_UpdateBoundaryPolygon.dir">
-            </df>
-            <df name="_run_tests_frontier_exploration.dir">
-            </df>
-            <df name="_run_tests_frontier_exploration_gtest.dir">
-            </df>
-            <df name="_run_tests_frontier_exploration_gtest_costmap_tools_tests.dir">
-            </df>
-            <df name="_run_tests_frontier_exploration_gtest_frontier_search_tests.dir">
-            </df>
-            <df name="_run_tests_frontier_exploration_gtest_geometry_tools_tests.dir">
-            </df>
-            <df name="clean_test_results_frontier_exploration.dir">
-            </df>
-            <df name="costmap_tools_tests.dir">
-              <df name="src">
-                <df name="test">
-                </df>
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
               </df>
             </df>
-            <df name="explore_client.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="explore_costmap.dir">
-              <df name="plugins">
-              </df>
-              <df name="src">
-              </df>
-            </df>
-            <df name="explore_server.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="frontier_exploration_gencpp.dir">
-            </df>
-            <df name="frontier_exploration_generate_messages.dir">
-            </df>
-            <df name="frontier_exploration_generate_messages_cpp.dir">
-            </df>
-            <df name="frontier_exploration_generate_messages_eus.dir">
-            </df>
-            <df name="frontier_exploration_generate_messages_lisp.dir">
-            </df>
-            <df name="frontier_exploration_generate_messages_nodejs.dir">
-            </df>
-            <df name="frontier_exploration_generate_messages_py.dir">
-            </df>
-            <df name="frontier_exploration_geneus.dir">
-            </df>
-            <df name="frontier_exploration_genlisp.dir">
-            </df>
-            <df name="frontier_exploration_gennodejs.dir">
-            </df>
-            <df name="frontier_exploration_genpy.dir">
-            </df>
-            <df name="frontier_search_tests.dir">
-              <df name="src">
-                <df name="test">
-                </df>
-              </df>
-            </df>
-            <df name="geometry_tools_tests.dir">
-              <df name="src">
-                <df name="test">
-                </df>
-              </df>
-            </df>
-            <df name="run_tests_frontier_exploration.dir">
-            </df>
-            <df name="run_tests_frontier_exploration_gtest.dir">
-            </df>
-            <df name="run_tests_frontier_exploration_gtest_costmap_tools_tests.dir">
-            </df>
-            <df name="run_tests_frontier_exploration_gtest_frontier_search_tests.dir">
-            </df>
-            <df name="run_tests_frontier_exploration_gtest_geometry_tools_tests.dir">
-            </df>
-            <df name="visualization_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="visualization_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="visualization_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="visualization_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="visualization_msgs_generate_messages_py.dir">
-            </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
           </df>
         </df>
-        <df name="gtest">
+        <df name="map_server">
           <df name="CMakeFiles">
-            <df name="gtest.dir">
-              <df name="src">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
               </df>
             </df>
-            <df name="gtest_main.dir">
-              <df name="src">
-              </df>
-            </df>
-          </df>
-        </df>
-        <df name="hokuyo_node">
-          <df name="catkin_generated">
-            <df name="installspace">
-            </df>
-            <df name="stamps">
-              <df name="hokuyo_node">
-              </df>
-            </df>
-          </df>
-          <df name="CMakeFiles">
-            <df name="diagnostic_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="diagnostic_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="diagnostic_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="diagnostic_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="diagnostic_msgs_generate_messages_py.dir">
-            </df>
-            <df name="dynamic_reconfigure_gencfg.dir">
-            </df>
-            <df name="dynamic_reconfigure_generate_messages_cpp.dir">
-            </df>
-            <df name="dynamic_reconfigure_generate_messages_eus.dir">
-            </df>
-            <df name="dynamic_reconfigure_generate_messages_lisp.dir">
-            </df>
-            <df name="dynamic_reconfigure_generate_messages_nodejs.dir">
-            </df>
-            <df name="dynamic_reconfigure_generate_messages_py.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_py.dir">
-            </df>
-            <df name="getFirmwareVersion.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="getID.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="hokuyo_node.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="hokuyo_node_gencfg.dir">
-            </df>
-            <df name="libhokuyo.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="sensor_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_py.dir">
-            </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
           </df>
         </df>
         <df name="master_tank_navigation">
-          <df name="catkin_generated">
-            <df name="stamps">
-              <df name="masterTankNavigation">
-              </df>
-            </df>
-          </df>
           <df name="CMakeFiles">
-            <df name="actionlib_generate_messages_cpp.dir">
-            </df>
-            <df name="actionlib_generate_messages_eus.dir">
-            </df>
-            <df name="actionlib_generate_messages_lisp.dir">
-            </df>
-            <df name="actionlib_generate_messages_nodejs.dir">
-            </df>
-            <df name="actionlib_generate_messages_py.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_py.dir">
-            </df>
-            <df name="MasterTankNavigation.dir">
-              <df name="src">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
               </df>
             </df>
-            <df name="move_base_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="move_base_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="move_base_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="move_base_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="move_base_msgs_generate_messages_py.dir">
-            </df>
-            <df name="tf2_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="tf2_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="tf2_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="tf2_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="tf2_msgs_generate_messages_py.dir">
-            </df>
-            <df name="tf_generate_messages_cpp.dir">
-            </df>
-            <df name="tf_generate_messages_eus.dir">
-            </df>
-            <df name="tf_generate_messages_lisp.dir">
-            </df>
-            <df name="tf_generate_messages_nodejs.dir">
-            </df>
-            <df name="tf_generate_messages_py.dir">
-            </df>
-          </df>
-        </df>
-        <df name="my_robot_name_2dnav">
-          <df name="catkin_generated">
-            <df name="installspace">
-            </df>
-            <df name="stamps">
-              <df name="my_robot_name_2dnav">
-              </df>
-            </df>
-          </df>
-          <df name="CMakeFiles">
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
           </df>
         </df>
         <df name="navigation">
-          <df name="amcl">
-            <df name="catkin_generated">
-              <df name="installspace">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
               </df>
-              <df name="stamps">
-                <df name="amcl">
-                </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
               </df>
             </df>
-            <df name="CMakeFiles">
-              <df name="_run_tests_amcl.dir">
-              </df>
-              <df name="_run_tests_amcl_rostest.dir">
-              </df>
-              <df name="_run_tests_amcl_rostest_test_basic_localization_stage.xml.dir">
-              </df>
-              <df name="_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir">
-              </df>
-              <df name="_run_tests_amcl_rostest_test_set_initial_pose.xml.dir">
-              </df>
-              <df name="_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir">
-              </df>
-              <df name="_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir">
-              </df>
-              <df name="_run_tests_amcl_rostest_test_small_loop_prf.xml.dir">
-              </df>
-              <df name="_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir">
-              </df>
-              <df name="_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir">
-              </df>
-              <df name="amcl.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="amcl_basic_localization_stage_indexed.bag.dir">
-              </df>
-              <df name="amcl_gencfg.dir">
-              </df>
-              <df name="amcl_global_localization_stage_indexed.bag.dir">
-              </df>
-              <df name="amcl_map.dir">
-                <df name="src">
-                  <df name="amcl">
-                    <df name="map">
-                    </df>
-                  </df>
-                </df>
-              </df>
-              <df name="amcl_pf.dir">
-                <df name="src">
-                  <df name="amcl">
-                    <df name="pf">
-                    </df>
-                  </df>
-                </df>
-              </df>
-              <df name="amcl_rosie_localization_stage.bag.dir">
-              </df>
-              <df name="amcl_sensors.dir">
-                <df name="src">
-                  <df name="amcl">
-                    <df name="sensors">
-                    </df>
-                  </df>
-                </df>
-              </df>
-              <df name="amcl_small_loop_crazy_driving_prg_indexed.bag.dir">
-              </df>
-              <df name="amcl_small_loop_prf_indexed.bag.dir">
-              </df>
-              <df name="amcl_texas_greenroom_loop_indexed.bag.dir">
-              </df>
-              <df name="amcl_texas_willow_hallway_loop_indexed.bag.dir">
-              </df>
-              <df name="amcl_willow-full-0.05.pgm.dir">
-              </df>
-              <df name="amcl_willow-full.pgm.dir">
-              </df>
-              <df name="clean_test_results_amcl.dir">
-              </df>
-              <df name="run_tests_amcl.dir">
-              </df>
-              <df name="run_tests_amcl_rostest.dir">
-              </df>
-              <df name="run_tests_amcl_rostest_test_basic_localization_stage.xml.dir">
-              </df>
-              <df name="run_tests_amcl_rostest_test_rosie_multilaser.xml.dir">
-              </df>
-              <df name="run_tests_amcl_rostest_test_set_initial_pose.xml.dir">
-              </df>
-              <df name="run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir">
-              </df>
-              <df name="run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir">
-              </df>
-              <df name="run_tests_amcl_rostest_test_small_loop_prf.xml.dir">
-              </df>
-              <df name="run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir">
-              </df>
-              <df name="run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir">
-              </df>
-              <df name="topic_tools_generate_messages_cpp.dir">
-              </df>
-              <df name="topic_tools_generate_messages_eus.dir">
-              </df>
-              <df name="topic_tools_generate_messages_lisp.dir">
-              </df>
-              <df name="topic_tools_generate_messages_nodejs.dir">
-              </df>
-              <df name="topic_tools_generate_messages_py.dir">
-              </df>
-            </df>
-          </df>
-          <df name="base_local_planner">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="base_local_planner">
-                </df>
-              </df>
-            </df>
-            <df name="cmake">
-            </df>
-            <df name="CMakeFiles">
-              <df name="_base_local_planner_generate_messages_check_deps_Position2DInt.dir">
-              </df>
-              <df name="_run_tests_base_local_planner.dir">
-              </df>
-              <df name="_run_tests_base_local_planner_gtest.dir">
-              </df>
-              <df name="_run_tests_base_local_planner_gtest_base_local_planner_utest.dir">
-              </df>
-              <df name="_run_tests_base_local_planner_gtest_line_iterator.dir">
-              </df>
-              <df name="base_local_planner.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="base_local_planner_gencfg.dir">
-              </df>
-              <df name="base_local_planner_gencpp.dir">
-              </df>
-              <df name="base_local_planner_generate_messages.dir">
-              </df>
-              <df name="base_local_planner_generate_messages_cpp.dir">
-              </df>
-              <df name="base_local_planner_generate_messages_eus.dir">
-              </df>
-              <df name="base_local_planner_generate_messages_lisp.dir">
-              </df>
-              <df name="base_local_planner_generate_messages_nodejs.dir">
-              </df>
-              <df name="base_local_planner_generate_messages_py.dir">
-              </df>
-              <df name="base_local_planner_geneus.dir">
-              </df>
-              <df name="base_local_planner_genlisp.dir">
-              </df>
-              <df name="base_local_planner_gennodejs.dir">
-              </df>
-              <df name="base_local_planner_genpy.dir">
-              </df>
-              <df name="base_local_planner_utest.dir">
-                <df name="test">
-                </df>
-              </df>
-              <df name="clean_test_results_base_local_planner.dir">
-              </df>
-              <df name="line_iterator.dir">
-                <df name="test">
-                </df>
-              </df>
-              <df name="point_grid.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="run_tests_base_local_planner.dir">
-              </df>
-              <df name="run_tests_base_local_planner_gtest.dir">
-              </df>
-              <df name="run_tests_base_local_planner_gtest_base_local_planner_utest.dir">
-              </df>
-              <df name="run_tests_base_local_planner_gtest_line_iterator.dir">
-              </df>
-              <df name="trajectory_planner_ros.dir">
-                <df name="src">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="carrot_planner">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="carrot_planner">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-              <df name="carrot_planner.dir">
-                <df name="src">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="clear_costmap_recovery">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="clear_costmap_recovery">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-              <df name="_run_tests_clear_costmap_recovery.dir">
-              </df>
-              <df name="_run_tests_clear_costmap_recovery_rostest.dir">
-              </df>
-              <df name="_run_tests_clear_costmap_recovery_rostest_test_clear_tests.launch.dir">
-              </df>
-              <df name="clean_test_results_clear_costmap_recovery.dir">
-              </df>
-              <df name="clear_costmap_recovery.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="clear_tester.dir">
-                <df name="test">
-                </df>
-              </df>
-              <df name="run_tests_clear_costmap_recovery.dir">
-              </df>
-              <df name="run_tests_clear_costmap_recovery_rostest.dir">
-              </df>
-              <df name="run_tests_clear_costmap_recovery_rostest_test_clear_tests.launch.dir">
-              </df>
-            </df>
-          </df>
-          <df name="costmap_2d">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="costmap_2d">
-                </df>
-              </df>
-            </df>
-            <df name="cmake">
-            </df>
-            <df name="CMakeFiles">
-              <df name="_costmap_2d_generate_messages_check_deps_VoxelGrid.dir">
-              </df>
-              <df name="_run_tests_costmap_2d.dir">
-              </df>
-              <df name="_run_tests_costmap_2d_gtest.dir">
-              </df>
-              <df name="_run_tests_costmap_2d_gtest_array_parser_test.dir">
-              </df>
-              <df name="_run_tests_costmap_2d_rostest.dir">
-              </df>
-              <df name="_run_tests_costmap_2d_rostest_test_footprint_tests.launch.dir">
-              </df>
-              <df name="_run_tests_costmap_2d_rostest_test_inflation_tests.launch.dir">
-              </df>
-              <df name="_run_tests_costmap_2d_rostest_test_obstacle_tests.launch.dir">
-              </df>
-              <df name="_run_tests_costmap_2d_rostest_test_simple_driving_test.xml.dir">
-              </df>
-              <df name="_run_tests_costmap_2d_rostest_test_static_tests.launch.dir">
-              </df>
-              <df name="array_parser_test.dir">
-                <df name="test">
-                </df>
-              </df>
-              <df name="bond_generate_messages_cpp.dir">
-              </df>
-              <df name="bond_generate_messages_eus.dir">
-              </df>
-              <df name="bond_generate_messages_lisp.dir">
-              </df>
-              <df name="bond_generate_messages_nodejs.dir">
-              </df>
-              <df name="bond_generate_messages_py.dir">
-              </df>
-              <df name="clean_test_results_costmap_2d.dir">
-              </df>
-              <df name="costmap_2d.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="costmap_2d_cloud.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="costmap_2d_gencfg.dir">
-              </df>
-              <df name="costmap_2d_gencpp.dir">
-              </df>
-              <df name="costmap_2d_generate_messages.dir">
-              </df>
-              <df name="costmap_2d_generate_messages_cpp.dir">
-              </df>
-              <df name="costmap_2d_generate_messages_eus.dir">
-              </df>
-              <df name="costmap_2d_generate_messages_lisp.dir">
-              </df>
-              <df name="costmap_2d_generate_messages_nodejs.dir">
-              </df>
-              <df name="costmap_2d_generate_messages_py.dir">
-              </df>
-              <df name="costmap_2d_geneus.dir">
-              </df>
-              <df name="costmap_2d_genlisp.dir">
-              </df>
-              <df name="costmap_2d_gennodejs.dir">
-              </df>
-              <df name="costmap_2d_genpy.dir">
-              </df>
-              <df name="costmap_2d_markers.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="costmap_2d_node.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="costmap_2d_simple_driving_test_indexed.bag.dir">
-              </df>
-              <df name="costmap_2d_willow-full-0.025.pgm.dir">
-              </df>
-              <df name="costmap_tester.dir">
-                <df name="test">
-                </df>
-              </df>
-              <df name="footprint_tests.dir">
-                <df name="test">
-                </df>
-              </df>
-              <df name="inflation_tests.dir">
-                <df name="test">
-                </df>
-              </df>
-              <df name="layers.dir">
-                <df name="plugins">
-                </df>
-                <df name="src">
-                </df>
-              </df>
-              <df name="map_msgs_generate_messages_cpp.dir">
-              </df>
-              <df name="map_msgs_generate_messages_eus.dir">
-              </df>
-              <df name="map_msgs_generate_messages_lisp.dir">
-              </df>
-              <df name="map_msgs_generate_messages_nodejs.dir">
-              </df>
-              <df name="map_msgs_generate_messages_py.dir">
-              </df>
-              <df name="nodelet_generate_messages_cpp.dir">
-              </df>
-              <df name="nodelet_generate_messages_eus.dir">
-              </df>
-              <df name="nodelet_generate_messages_lisp.dir">
-              </df>
-              <df name="nodelet_generate_messages_nodejs.dir">
-              </df>
-              <df name="nodelet_generate_messages_py.dir">
-              </df>
-              <df name="obstacle_tests.dir">
-                <df name="test">
-                </df>
-              </df>
-              <df name="pcl_msgs_generate_messages_cpp.dir">
-              </df>
-              <df name="pcl_msgs_generate_messages_eus.dir">
-              </df>
-              <df name="pcl_msgs_generate_messages_lisp.dir">
-              </df>
-              <df name="pcl_msgs_generate_messages_nodejs.dir">
-              </df>
-              <df name="pcl_msgs_generate_messages_py.dir">
-              </df>
-              <df name="pcl_ros_gencfg.dir">
-              </df>
-              <df name="run_tests_costmap_2d.dir">
-              </df>
-              <df name="run_tests_costmap_2d_gtest.dir">
-              </df>
-              <df name="run_tests_costmap_2d_gtest_array_parser_test.dir">
-              </df>
-              <df name="run_tests_costmap_2d_rostest.dir">
-              </df>
-              <df name="run_tests_costmap_2d_rostest_test_footprint_tests.launch.dir">
-              </df>
-              <df name="run_tests_costmap_2d_rostest_test_inflation_tests.launch.dir">
-              </df>
-              <df name="run_tests_costmap_2d_rostest_test_obstacle_tests.launch.dir">
-              </df>
-              <df name="run_tests_costmap_2d_rostest_test_simple_driving_test.xml.dir">
-              </df>
-              <df name="run_tests_costmap_2d_rostest_test_static_tests.launch.dir">
-              </df>
-              <df name="static_tests.dir">
-                <df name="test">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="dwa_local_planner">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="dwa_local_planner">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-              <df name="dwa_local_planner.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="dwa_local_planner_gencfg.dir">
-              </df>
-            </df>
-          </df>
-          <df name="fake_localization">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="fake_localization">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-              <df name="fake_localization.dir">
-              </df>
-              <df name="nav_msgs_generate_messages_cpp.dir">
-              </df>
-              <df name="nav_msgs_generate_messages_eus.dir">
-              </df>
-              <df name="nav_msgs_generate_messages_lisp.dir">
-              </df>
-              <df name="nav_msgs_generate_messages_nodejs.dir">
-              </df>
-              <df name="nav_msgs_generate_messages_py.dir">
-              </df>
-            </df>
-          </df>
-          <df name="global_planner">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="global_planner">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-              <df name="global_planner.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="global_planner_gencfg.dir">
-              </df>
-              <df name="planner.dir">
-                <df name="src">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="map_server">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="map_server">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-              <df name="_run_tests_map_server.dir">
-              </df>
-              <df name="_run_tests_map_server_gtest.dir">
-              </df>
-              <df name="_run_tests_map_server_gtest_map_server_utest.dir">
-              </df>
-              <df name="_run_tests_map_server_rostest.dir">
-              </df>
-              <df name="_run_tests_map_server_rostest_test_rtest.xml.dir">
-              </df>
-              <df name="clean_test_results_map_server.dir">
-              </df>
-              <df name="map_server-map_saver.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="map_server.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="map_server_image_loader.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="map_server_utest.dir">
-                <df name="test">
-                </df>
-              </df>
-              <df name="rtest.dir">
-                <df name="test">
-                </df>
-              </df>
-              <df name="run_tests_map_server.dir">
-              </df>
-              <df name="run_tests_map_server_gtest.dir">
-              </df>
-              <df name="run_tests_map_server_gtest_map_server_utest.dir">
-              </df>
-              <df name="run_tests_map_server_rostest.dir">
-              </df>
-              <df name="run_tests_map_server_rostest_test_rtest.xml.dir">
-              </df>
-            </df>
-            <df name="test">
-            </df>
-          </df>
-          <df name="move_base">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="move_base">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-              <df name="move_base.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="move_base_gencfg.dir">
-              </df>
-              <df name="move_base_node.dir">
-                <df name="src">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="move_slow_and_clear">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="move_slow_and_clear">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-              <df name="move_slow_and_clear.dir">
-                <df name="src">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="nav_core">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="nav_core">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-            </df>
-          </df>
-          <df name="navfn">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="navfn">
-                </df>
-              </df>
-            </df>
-            <df name="cmake">
-            </df>
-            <df name="CMakeFiles">
-              <df name="_navfn_generate_messages_check_deps_MakeNavPlan.dir">
-              </df>
-              <df name="_navfn_generate_messages_check_deps_SetCostmap.dir">
-              </df>
-              <df name="navfn.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="navfn_gencpp.dir">
-              </df>
-              <df name="navfn_generate_messages.dir">
-              </df>
-              <df name="navfn_generate_messages_cpp.dir">
-              </df>
-              <df name="navfn_generate_messages_eus.dir">
-              </df>
-              <df name="navfn_generate_messages_lisp.dir">
-              </df>
-              <df name="navfn_generate_messages_nodejs.dir">
-              </df>
-              <df name="navfn_generate_messages_py.dir">
-              </df>
-              <df name="navfn_geneus.dir">
-              </df>
-              <df name="navfn_genlisp.dir">
-              </df>
-              <df name="navfn_gennodejs.dir">
-              </df>
-              <df name="navfn_genpy.dir">
-              </df>
-              <df name="navfn_node.dir">
-                <df name="src">
-                </df>
-              </df>
-            </df>
-            <df name="test">
-              <df name="CMakeFiles">
-                <df name="_run_tests_navfn.dir">
-                </df>
-                <df name="_run_tests_navfn_gtest.dir">
-                </df>
-                <df name="_run_tests_navfn_gtest_path_calc_test.dir">
-                </df>
-                <df name="clean_test_results_navfn.dir">
-                </df>
-                <df name="path_calc_test.dir">
-                  <df name="__">
-                    <df name="src">
-                    </df>
-                  </df>
-                </df>
-                <df name="run_tests_navfn.dir">
-                </df>
-                <df name="run_tests_navfn_gtest.dir">
-                </df>
-                <df name="run_tests_navfn_gtest_path_calc_test.dir">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="navigation">
-            <df name="catkin_generated">
-              <df name="stamps">
-                <df name="navigation">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-            </df>
-          </df>
-          <df name="robot_pose_ekf">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="robot_pose_ekf">
-                </df>
-              </df>
-            </df>
-            <df name="cmake">
-            </df>
-            <df name="CMakeFiles">
-              <df name="_robot_pose_ekf_generate_messages_check_deps_GetStatus.dir">
-              </df>
-              <df name="_run_tests_robot_pose_ekf.dir">
-              </df>
-              <df name="_run_tests_robot_pose_ekf_rostest.dir">
-              </df>
-              <df name="_run_tests_robot_pose_ekf_rostest_test_test_robot_pose_ekf.launch.dir">
-              </df>
-              <df name="_run_tests_robot_pose_ekf_rostest_test_test_robot_pose_ekf_zero_covariance.launch.dir">
-              </df>
-              <df name="clean_test_results_robot_pose_ekf.dir">
-              </df>
-              <df name="download_data_ekf_test2_indexed.bag.dir">
-              </df>
-              <df name="download_data_zero_covariance.bag.dir">
-              </df>
-              <df name="robot_pose_ekf.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="robot_pose_ekf_gencpp.dir">
-              </df>
-              <df name="robot_pose_ekf_generate_messages.dir">
-              </df>
-              <df name="robot_pose_ekf_generate_messages_cpp.dir">
-              </df>
-              <df name="robot_pose_ekf_generate_messages_eus.dir">
-              </df>
-              <df name="robot_pose_ekf_generate_messages_lisp.dir">
-              </df>
-              <df name="robot_pose_ekf_generate_messages_nodejs.dir">
-              </df>
-              <df name="robot_pose_ekf_generate_messages_py.dir">
-              </df>
-              <df name="robot_pose_ekf_geneus.dir">
-              </df>
-              <df name="robot_pose_ekf_genlisp.dir">
-              </df>
-              <df name="robot_pose_ekf_gennodejs.dir">
-              </df>
-              <df name="robot_pose_ekf_genpy.dir">
-              </df>
-              <df name="run_tests_robot_pose_ekf.dir">
-              </df>
-              <df name="run_tests_robot_pose_ekf_rostest.dir">
-              </df>
-              <df name="run_tests_robot_pose_ekf_rostest_test_test_robot_pose_ekf.launch.dir">
-              </df>
-              <df name="run_tests_robot_pose_ekf_rostest_test_test_robot_pose_ekf_zero_covariance.launch.dir">
-              </df>
-              <df name="test_robot_pose_ekf.dir">
-                <df name="test">
-                </df>
-              </df>
-              <df name="test_robot_pose_ekf_zero_covariance.dir">
-                <df name="test">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="rotate_recovery">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="rotate_recovery">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-              <df name="rotate_recovery.dir">
-                <df name="src">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="voxel_grid">
-            <df name="catkin_generated">
-              <df name="installspace">
-              </df>
-              <df name="stamps">
-                <df name="voxel_grid">
-                </df>
-              </df>
-            </df>
-            <df name="CMakeFiles">
-              <df name="_run_tests_voxel_grid.dir">
-              </df>
-              <df name="_run_tests_voxel_grid_gtest.dir">
-              </df>
-              <df name="_run_tests_voxel_grid_gtest_voxel_grid_tests.dir">
-              </df>
-              <df name="clean_test_results_voxel_grid.dir">
-              </df>
-              <df name="run_tests_voxel_grid.dir">
-              </df>
-              <df name="run_tests_voxel_grid_gtest.dir">
-              </df>
-              <df name="run_tests_voxel_grid_gtest_voxel_grid_tests.dir">
-              </df>
-              <df name="voxel_grid.dir">
-                <df name="src">
-                </df>
-              </df>
-              <df name="voxel_grid_tests.dir">
-                <df name="test">
-                </df>
-              </df>
-            </df>
-          </df>
-        </df>
-        <df name="test_results">
-        </df>
-      </df>
-      <df name="devel">
-        <df name="include">
-          <df name="base_local_planner">
-          </df>
-          <df name="costmap_2d">
-          </df>
-          <df name="driver_base">
-          </df>
-          <df name="frontier_exploration">
-          </df>
-          <df name="navfn">
-          </df>
-          <df name="robot_pose_ekf">
-          </df>
-        </df>
-        <df name="lib">
-          <df name="amcl">
-          </df>
-          <df name="base_local_planner">
-          </df>
-          <df name="clear_costmap_recovery">
-          </df>
-          <df name="costmap_2d">
-          </df>
-          <df name="fake_localization">
-          </df>
-          <df name="frontier_exploration">
-          </df>
-          <df name="global_planner">
-          </df>
-          <df name="hokuyo_node">
-          </df>
-          <df name="map_server">
-          </df>
-          <df name="masterTankNavigation">
-          </df>
-          <df name="move_base">
-          </df>
-          <df name="navfn">
-          </df>
-          <df name="pkgconfig">
-          </df>
-          <df name="python2.7">
-            <df name="dist-packages">
-              <df name="amcl">
-                <df name="cfg">
-                </df>
-              </df>
-              <df name="base_local_planner">
-                <df name="cfg">
-                </df>
-                <df name="msg">
-                </df>
-              </df>
-              <df name="costmap_2d">
-                <df name="cfg">
-                </df>
-                <df name="msg">
-                </df>
-              </df>
-              <df name="driver_base">
-                <df name="msg">
-                </df>
-              </df>
-              <df name="dwa_local_planner">
-                <df name="cfg">
-                </df>
-              </df>
-              <df name="frontier_exploration">
-                <df name="msg">
-                </df>
-                <df name="srv">
-                </df>
-              </df>
-              <df name="global_planner">
-                <df name="cfg">
-                </df>
-              </df>
-              <df name="hokuyo_node">
-                <df name="cfg">
-                </df>
-              </df>
-              <df name="local_planner_limits">
-              </df>
-              <df name="move_base">
-                <df name="cfg">
-                </df>
-              </df>
-              <df name="navfn">
-                <df name="srv">
-                </df>
-              </df>
-              <df name="robot_pose_ekf">
-                <df name="srv">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="robot_pose_ekf">
-          </df>
-          <df name="timestamp_tools">
-          </df>
-          <df name="voxel_grid">
-          </df>
-        </df>
-        <df name="share">
-          <df name="amcl">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="base_local_planner">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="carrot_planner">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="clear_costmap_recovery">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="common-lisp">
-            <df name="ros">
-              <df name="base_local_planner">
-                <df name="msg">
-                </df>
-              </df>
-              <df name="costmap_2d">
-                <df name="msg">
-                </df>
-              </df>
-              <df name="driver_base">
-                <df name="msg">
-                </df>
-              </df>
-              <df name="frontier_exploration">
-                <df name="msg">
-                </df>
-                <df name="srv">
-                </df>
-              </df>
-              <df name="navfn">
-                <df name="srv">
-                </df>
-              </df>
-              <df name="robot_pose_ekf">
-                <df name="srv">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="costmap_2d">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="driver_base">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="dwa_local_planner">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="fake_localization">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="frontier_exploration">
-            <df name="cmake">
-            </df>
-            <df name="msg">
-            </df>
-          </df>
-          <df name="gennodejs">
-            <df name="ros">
-              <df name="base_local_planner">
-                <df name="msg">
-                </df>
-              </df>
-              <df name="costmap_2d">
-                <df name="msg">
-                </df>
-              </df>
-              <df name="driver_base">
-                <df name="msg">
-                </df>
-              </df>
-              <df name="frontier_exploration">
-                <df name="msg">
-                </df>
-                <df name="srv">
-                </df>
-              </df>
-              <df name="navfn">
-                <df name="srv">
-                </df>
-              </df>
-              <df name="robot_pose_ekf">
-                <df name="srv">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="global_planner">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="hokuyo_node">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="map_server">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="masterTankNavigation">
-            <df name="msg">
-            </df>
-          </df>
-          <df name="move_base">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="move_slow_and_clear">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="my_robot_name_2dnav">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="nav_core">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="navfn">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="robot_pose_ekf">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="roseus">
-            <df name="ros">
-              <df name="base_local_planner">
-                <df name="msg">
-                </df>
-              </df>
-              <df name="costmap_2d">
-                <df name="msg">
-                </df>
-              </df>
-              <df name="driver_base">
-                <df name="msg">
-                </df>
-              </df>
-              <df name="frontier_exploration">
-                <df name="msg">
-                </df>
-                <df name="srv">
-                </df>
-              </df>
-              <df name="navfn">
-                <df name="srv">
-                </df>
-              </df>
-              <df name="robot_pose_ekf">
-                <df name="srv">
-                </df>
-              </df>
-            </df>
-          </df>
-          <df name="rotate_recovery">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="timestamp_tools">
-            <df name="cmake">
-            </df>
-          </df>
-          <df name="voxel_grid">
-            <df name="cmake">
-            </df>
+            <in>feature_tests.c</in>
           </df>
         </df>
       </df>
@@ -2385,6 +964,1066 @@
             <df name="test">
               <in>voxel_grid_tests.cpp</in>
             </df>
+          </df>
+        </df>
+        <df name="rtabmap">
+          <df name=".settings">
+          </df>
+          <df name="app">
+            <df name="android">
+              <df name=".settings">
+              </df>
+              <df name="jni">
+                <df name="tango-gl">
+                  <df name="include">
+                    <df name="tango-gl">
+                      <in>axis.h</in>
+                      <in>band.h</in>
+                      <in>bounding_box.h</in>
+                      <in>camera.h</in>
+                      <in>circle.h</in>
+                      <in>color.h</in>
+                      <in>conversions.h</in>
+                      <in>cube.h</in>
+                      <in>drawable_object.h</in>
+                      <in>frustum.h</in>
+                      <in>gesture_camera.h</in>
+                      <in>goal_marker.h</in>
+                      <in>grid.h</in>
+                      <in>line.h</in>
+                      <in>mesh.h</in>
+                      <in>obj_loader.h</in>
+                      <in>quad.h</in>
+                      <in>segment.h</in>
+                      <in>segment_drawable.h</in>
+                      <in>shaders.h</in>
+                      <in>texture.h</in>
+                      <in>trace.h</in>
+                      <in>transform.h</in>
+                      <in>triangle.h</in>
+                      <in>util.h</in>
+                      <in>video_overlay.h</in>
+                    </df>
+                  </df>
+                  <in>axis.cpp</in>
+                  <in>band.cpp</in>
+                  <in>bounding_box.cpp</in>
+                  <in>camera.cpp</in>
+                  <in>circle.cpp</in>
+                  <in>conversions.cpp</in>
+                  <in>cube.cpp</in>
+                  <in>drawable_object.cpp</in>
+                  <in>frustum.cpp</in>
+                  <in>gesture_camera.cpp</in>
+                  <in>goal_marker.cpp</in>
+                  <in>grid.cpp</in>
+                  <in>line.cpp</in>
+                  <in>mesh.cpp</in>
+                  <in>obj_loader.cpp</in>
+                  <in>quad.cpp</in>
+                  <in>segment_drawable.cpp</in>
+                  <in>shaders.cpp</in>
+                  <in>texture.cpp</in>
+                  <in>trace.cpp</in>
+                  <in>transform.cpp</in>
+                  <in>triangle.cpp</in>
+                  <in>util.cpp</in>
+                  <in>video_overlay.cpp</in>
+                </df>
+                <df name="third-party">
+                  <df name="include">
+                    <df name="glm">
+                      <df name="detail">
+                        <in>_features.hpp</in>
+                        <in>_fixes.hpp</in>
+                        <in>_literals.hpp</in>
+                        <in>_noise.hpp</in>
+                        <in>_swizzle.hpp</in>
+                        <in>_swizzle_func.hpp</in>
+                        <in>_vectorize.hpp</in>
+                        <in>dummy.cpp</in>
+                        <in>func_common.hpp</in>
+                        <in>func_exponential.hpp</in>
+                        <in>func_geometric.hpp</in>
+                        <in>func_integer.hpp</in>
+                        <in>func_matrix.hpp</in>
+                        <in>func_noise.hpp</in>
+                        <in>func_packing.hpp</in>
+                        <in>func_trigonometric.hpp</in>
+                        <in>func_vector_relational.hpp</in>
+                        <in>glm.cpp</in>
+                        <in>hint.hpp</in>
+                        <in>intrinsic_common.hpp</in>
+                        <in>intrinsic_exponential.hpp</in>
+                        <in>intrinsic_geometric.hpp</in>
+                        <in>intrinsic_integer.hpp</in>
+                        <in>intrinsic_matrix.hpp</in>
+                        <in>intrinsic_trigonometric.hpp</in>
+                        <in>intrinsic_vector_relational.hpp</in>
+                        <in>precision.hpp</in>
+                        <in>setup.hpp</in>
+                        <in>type_float.hpp</in>
+                        <in>type_gentype.hpp</in>
+                        <in>type_half.hpp</in>
+                        <in>type_int.hpp</in>
+                        <in>type_mat.hpp</in>
+                        <in>type_mat2x2.hpp</in>
+                        <in>type_mat2x3.hpp</in>
+                        <in>type_mat2x4.hpp</in>
+                        <in>type_mat3x2.hpp</in>
+                        <in>type_mat3x3.hpp</in>
+                        <in>type_mat3x4.hpp</in>
+                        <in>type_mat4x2.hpp</in>
+                        <in>type_mat4x3.hpp</in>
+                        <in>type_mat4x4.hpp</in>
+                        <in>type_vec.hpp</in>
+                        <in>type_vec1.hpp</in>
+                        <in>type_vec2.hpp</in>
+                        <in>type_vec3.hpp</in>
+                        <in>type_vec4.hpp</in>
+                      </df>
+                      <df name="gtc">
+                        <in>constants.hpp</in>
+                        <in>epsilon.hpp</in>
+                        <in>matrix_access.hpp</in>
+                        <in>matrix_integer.hpp</in>
+                        <in>matrix_inverse.hpp</in>
+                        <in>matrix_transform.hpp</in>
+                        <in>noise.hpp</in>
+                        <in>packing.hpp</in>
+                        <in>quaternion.hpp</in>
+                        <in>random.hpp</in>
+                        <in>reciprocal.hpp</in>
+                        <in>type_precision.hpp</in>
+                        <in>type_ptr.hpp</in>
+                        <in>ulp.hpp</in>
+                        <in>user_defined_type.hpp</in>
+                      </df>
+                      <df name="gtx">
+                        <in>associated_min_max.hpp</in>
+                        <in>bit.hpp</in>
+                        <in>closest_point.hpp</in>
+                        <in>color_space.hpp</in>
+                        <in>color_space_YCoCg.hpp</in>
+                        <in>common.hpp</in>
+                        <in>compatibility.hpp</in>
+                        <in>component_wise.hpp</in>
+                        <in>constants.hpp</in>
+                        <in>dual_quaternion.hpp</in>
+                        <in>epsilon.hpp</in>
+                        <in>euler_angles.hpp</in>
+                        <in>extend.hpp</in>
+                        <in>extented_min_max.hpp</in>
+                        <in>fast_exponential.hpp</in>
+                        <in>fast_square_root.hpp</in>
+                        <in>fast_trigonometry.hpp</in>
+                        <in>gradient_paint.hpp</in>
+                        <in>handed_coordinate_space.hpp</in>
+                        <in>inertia.hpp</in>
+                        <in>int_10_10_10_2.hpp</in>
+                        <in>integer.hpp</in>
+                        <in>intersect.hpp</in>
+                        <in>io.hpp</in>
+                        <in>log_base.hpp</in>
+                        <in>matrix_cross_product.hpp</in>
+                        <in>matrix_decompose.hpp</in>
+                        <in>matrix_interpolation.hpp</in>
+                        <in>matrix_major_storage.hpp</in>
+                        <in>matrix_operation.hpp</in>
+                        <in>matrix_query.hpp</in>
+                        <in>matrix_transform_2d.hpp</in>
+                        <in>mixed_product.hpp</in>
+                        <in>multiple.hpp</in>
+                        <in>noise.hpp</in>
+                        <in>norm.hpp</in>
+                        <in>normal.hpp</in>
+                        <in>normalize_dot.hpp</in>
+                        <in>number_precision.hpp</in>
+                        <in>optimum_pow.hpp</in>
+                        <in>orthonormalize.hpp</in>
+                        <in>perpendicular.hpp</in>
+                        <in>polar_coordinates.hpp</in>
+                        <in>projection.hpp</in>
+                        <in>quaternion.hpp</in>
+                        <in>random.hpp</in>
+                        <in>raw_data.hpp</in>
+                        <in>reciprocal.hpp</in>
+                        <in>rotate_normalized_axis.hpp</in>
+                        <in>rotate_vector.hpp</in>
+                        <in>scalar_relational.hpp</in>
+                        <in>simd_mat4.hpp</in>
+                        <in>simd_quat.hpp</in>
+                        <in>simd_vec4.hpp</in>
+                        <in>spline.hpp</in>
+                        <in>std_based_type.hpp</in>
+                        <in>string_cast.hpp</in>
+                        <in>transform.hpp</in>
+                        <in>transform2.hpp</in>
+                        <in>ulp.hpp</in>
+                        <in>unsigned_int.hpp</in>
+                        <in>vec1.hpp</in>
+                        <in>vector_angle.hpp</in>
+                        <in>vector_query.hpp</in>
+                        <in>wrap.hpp</in>
+                      </df>
+                      <in>common.hpp</in>
+                      <in>exponential.hpp</in>
+                      <in>ext.hpp</in>
+                      <in>fwd.hpp</in>
+                      <in>geometric.hpp</in>
+                      <in>glm.hpp</in>
+                      <in>integer.hpp</in>
+                      <in>mat2x2.hpp</in>
+                      <in>mat2x3.hpp</in>
+                      <in>mat2x4.hpp</in>
+                      <in>mat3x2.hpp</in>
+                      <in>mat3x3.hpp</in>
+                      <in>mat3x4.hpp</in>
+                      <in>mat4x2.hpp</in>
+                      <in>mat4x3.hpp</in>
+                      <in>mat4x4.hpp</in>
+                      <in>matrix.hpp</in>
+                      <in>packing.hpp</in>
+                      <in>trigonometric.hpp</in>
+                      <in>vec2.hpp</in>
+                      <in>vec3.hpp</in>
+                      <in>vec4.hpp</in>
+                      <in>vector_relational.hpp</in>
+                    </df>
+                  </df>
+                </df>
+                <in>CameraTango.cpp</in>
+                <in>CameraTango.h</in>
+                <in>RTABMapApp.cpp</in>
+                <in>RTABMapApp.h</in>
+                <in>graph_drawable.cpp</in>
+                <in>graph_drawable.h</in>
+                <in>jni_interface.cpp</in>
+                <in>point_cloud_drawable.cpp</in>
+                <in>point_cloud_drawable.h</in>
+                <in>scene.cpp</in>
+                <in>scene.h</in>
+                <in>util.h</in>
+              </df>
+              <df name="res">
+                <df name="drawable-hdpi">
+                </df>
+                <df name="drawable-mdpi">
+                </df>
+                <df name="drawable-xhdpi">
+                </df>
+                <df name="drawable-xxhdpi">
+                </df>
+                <df name="layout">
+                </df>
+                <df name="menu">
+                </df>
+                <df name="values">
+                </df>
+              </df>
+              <df name="src">
+                <df name="com">
+                  <df name="introlab">
+                    <df name="rtabmap">
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <in>ObjDeletionHandler.h</in>
+              <in>main.cpp</in>
+            </df>
+          </df>
+          <df name="bin">
+            <df name="data">
+              <df name="BoxImgs">
+              </df>
+              <df name="samples">
+              </df>
+            </df>
+          </df>
+          <df name="build">
+            <df name="app">
+              <df name="CMakeFiles">
+              </df>
+              <df name="src">
+                <df name="CMakeFiles">
+                  <df name="rtabmap.dir">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="CMakeFiles">
+              <df name="3.5.1">
+                <df name="CompilerIdC">
+                  <in>CMakeCCompilerId.c</in>
+                </df>
+                <df name="CompilerIdCXX">
+                  <in>CMakeCXXCompilerId.cpp</in>
+                </df>
+              </df>
+              <df name="CMakeTmp">
+              </df>
+              <df name="Progress">
+              </df>
+              <df name="uninstall.dir">
+              </df>
+              <in>feature_tests.c</in>
+              <in>feature_tests.cxx</in>
+            </df>
+            <df name="corelib">
+              <df name="CMakeFiles">
+              </df>
+              <df name="src">
+                <df name="CMakeFiles">
+                  <df name="rtabmap_core.dir">
+                    <df name="clams">
+                    </df>
+                    <df name="rtflann">
+                      <df name="ext">
+                      </df>
+                    </df>
+                    <df name="sqlite3">
+                    </df>
+                    <df name="toro3d">
+                    </df>
+                    <df name="vertigo">
+                      <df name="g2o">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <in>DatabaseSchema_sql.h</in>
+              </df>
+            </df>
+            <df name="examples">
+              <df name="BOWMapping">
+                <df name="CMakeFiles">
+                  <df name="bow_mapping.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="CMakeFiles">
+              </df>
+              <df name="NoEventsExample">
+                <df name="CMakeFiles">
+                  <df name="noEventsExample.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="RGBDMapping">
+                <df name="CMakeFiles">
+                  <df name="rgbd_mapping.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="WifiMapping">
+                <df name="CMakeFiles">
+                  <df name="wifi_mapping.dir">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="guilib">
+              <df name="CMakeFiles">
+              </df>
+              <df name="src">
+                <df name="__">
+                  <df name="include">
+                    <df name="rtabmap">
+                      <df name="gui">
+                      </df>
+                      <df name="utilite">
+                      </df>
+                    </df>
+                  </df>
+                </df>
+                <df name="CMakeFiles">
+                  <df name="rtabmap_gui.dir">
+                    <df name="__">
+                      <df name="include">
+                        <df name="rtabmap">
+                          <df name="gui">
+                          </df>
+                          <df name="utilite">
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                    <df name="utilite">
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="tools">
+              <df name="Calibration">
+                <df name="CMakeFiles">
+                  <df name="calibration.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="Camera">
+                <df name="CMakeFiles">
+                  <df name="camera.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="CameraRGBD">
+                <df name="CMakeFiles">
+                  <df name="rgbd_camera.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="CMakeFiles">
+              </df>
+              <df name="ConsoleApp">
+                <df name="CMakeFiles">
+                  <df name="consoleApp.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="DatabaseViewer">
+                <df name="CMakeFiles">
+                  <df name="databaseViewer.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="DataRecorder">
+                <df name="CMakeFiles">
+                  <df name="dataRecorder.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="EpipolarGeometry">
+                <df name="CMakeFiles">
+                  <df name="epipolar_geometry.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="ExtractObject">
+                <df name="CMakeFiles">
+                  <df name="extractObject.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="ImagesJoiner">
+                <df name="CMakeFiles">
+                  <df name="imagesJoiner.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="OdometryViewer">
+                <df name="CMakeFiles">
+                  <df name="odometryViewer.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="StereoEval">
+                <df name="CMakeFiles">
+                  <df name="stereoEval.dir">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="utilite">
+              <df name="CMakeFiles">
+              </df>
+              <df name="resource_generator">
+                <df name="CMakeFiles">
+                  <df name="res_tool.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="src">
+                <df name="CMakeFiles">
+                  <df name="rtabmap_utilite.dir">
+                  </df>
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="cmake_modules">
+          </df>
+          <df name="corelib">
+            <df name="include">
+              <df name="rtabmap">
+                <df name="core">
+                  <df name="clams">
+                    <in>discrete_depth_distortion_model.h</in>
+                    <in>frame_projector.h</in>
+                    <in>slam_calibrator.h</in>
+                  </df>
+                  <df name="impl">
+                    <in>OccupancyGrid.hpp</in>
+                    <in>util3d_mapping.hpp</in>
+                    <in>util3d_surface.hpp</in>
+                  </df>
+                  <in>BayesFilter.h</in>
+                  <in>Camera.h</in>
+                  <in>CameraEvent.h</in>
+                  <in>CameraInfo.h</in>
+                  <in>CameraModel.h</in>
+                  <in>CameraRGB.h</in>
+                  <in>CameraRGBD.h</in>
+                  <in>CameraStereo.h</in>
+                  <in>CameraThread.h</in>
+                  <in>Compression.h</in>
+                  <in>DBDriver.h</in>
+                  <in>DBReader.h</in>
+                  <in>EpipolarGeometry.h</in>
+                  <in>Features2d.h</in>
+                  <in>FlannIndex.h</in>
+                  <in>GainCompensator.h</in>
+                  <in>GeodeticCoords.h</in>
+                  <in>Graph.h</in>
+                  <in>Image.h</in>
+                  <in>LaserScanInfo.h</in>
+                  <in>Link.h</in>
+                  <in>Memory.h</in>
+                  <in>OccupancyGrid.h</in>
+                  <in>OctoMap.h</in>
+                  <in>Odometry.h</in>
+                  <in>OdometryEvent.h</in>
+                  <in>OdometryF2F.h</in>
+                  <in>OdometryF2M.h</in>
+                  <in>OdometryInfo.h</in>
+                  <in>OdometryMono.h</in>
+                  <in>OdometryThread.h</in>
+                  <in>Optimizer.h</in>
+                  <in>OptimizerCVSBA.h</in>
+                  <in>OptimizerG2O.h</in>
+                  <in>OptimizerGTSAM.h</in>
+                  <in>OptimizerTORO.h</in>
+                  <in>ParamEvent.h</in>
+                  <in>Parameters.h</in>
+                  <in>ParticleFilter.h</in>
+                  <in>Registration.h</in>
+                  <in>RegistrationIcp.h</in>
+                  <in>RegistrationInfo.h</in>
+                  <in>RegistrationVis.h</in>
+                  <in>Rtabmap.h</in>
+                  <in>RtabmapEvent.h</in>
+                  <in>RtabmapExp.h</in>
+                  <in>RtabmapThread.h</in>
+                  <in>SensorData.h</in>
+                  <in>Signature.h</in>
+                  <in>Statistics.h</in>
+                  <in>Stereo.h</in>
+                  <in>StereoCameraModel.h</in>
+                  <in>StereoDense.h</in>
+                  <in>Transform.h</in>
+                  <in>UserDataEvent.h</in>
+                  <in>VWDictionary.h</in>
+                  <in>Version.h</in>
+                  <in>VisualWord.h</in>
+                  <in>util2d.h</in>
+                  <in>util3d.h</in>
+                  <in>util3d_correspondences.h</in>
+                  <in>util3d_features.h</in>
+                  <in>util3d_filtering.h</in>
+                  <in>util3d_mapping.h</in>
+                  <in>util3d_motion_estimation.h</in>
+                  <in>util3d_registration.h</in>
+                  <in>util3d_surface.h</in>
+                  <in>util3d_transforms.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <df name="clams">
+                <df name="eigen_extensions">
+                  <in>eigen_extensions.h</in>
+                </df>
+                <in>discrete_depth_distortion_model.cpp</in>
+                <in>discrete_depth_distortion_model_helpers.cpp</in>
+                <in>frame_projector.cpp</in>
+                <in>slam_calibrator.cpp</in>
+              </df>
+              <df name="opencv">
+                <in>Orb.cpp</in>
+                <in>Orb.h</in>
+                <in>solvepnp.cpp</in>
+                <in>solvepnp.h</in>
+              </df>
+              <df name="pcl18">
+                <df name="surface">
+                  <df name="impl">
+                    <in>organized_fast_mesh.hpp</in>
+                  </df>
+                  <in>organized_fast_mesh.h</in>
+                </df>
+              </df>
+              <df name="resources">
+              </df>
+              <df name="rtflann">
+                <df name="algorithms">
+                  <in>all_indices.h</in>
+                  <in>autotuned_index.h</in>
+                  <in>center_chooser.h</in>
+                  <in>composite_index.h</in>
+                  <in>dist.h</in>
+                  <in>hierarchical_clustering_index.h</in>
+                  <in>kdtree_index.h</in>
+                  <in>kdtree_single_index.h</in>
+                  <in>kmeans_index.h</in>
+                  <in>linear_index.h</in>
+                  <in>lsh_index.h</in>
+                  <in>nn_index.h</in>
+                </df>
+                <df name="ext">
+                  <in>lz4.c</in>
+                  <in>lz4.h</in>
+                  <in>lz4hc.c</in>
+                  <in>lz4hc.h</in>
+                </df>
+                <df name="nn">
+                  <in>ground_truth.h</in>
+                  <in>index_testing.h</in>
+                  <in>simplex_downhill.h</in>
+                </df>
+                <df name="util">
+                  <in>allocator.h</in>
+                  <in>any.h</in>
+                  <in>dynamic_bitset.h</in>
+                  <in>heap.h</in>
+                  <in>logger.h</in>
+                  <in>lsh_table.h</in>
+                  <in>matrix.h</in>
+                  <in>object_factory.h</in>
+                  <in>params.h</in>
+                  <in>random.h</in>
+                  <in>result_set.h</in>
+                  <in>sampling.h</in>
+                  <in>saving.h</in>
+                  <in>serialization.h</in>
+                  <in>timer.h</in>
+                </df>
+                <in>config.h</in>
+                <in>defines.h</in>
+                <in>flann.hpp</in>
+                <in>general.h</in>
+              </df>
+              <df name="sqlite3">
+                <in>sqlite3.c</in>
+                <in>sqlite3.h</in>
+                <in>sqlite3ext.h</in>
+              </df>
+              <df name="toro3d">
+                <in>dmatrix.hxx</in>
+                <in>posegraph.hxx</in>
+                <in>posegraph2.cpp</in>
+                <in>posegraph3.cpp</in>
+                <in>transformation3.hxx</in>
+                <in>treeoptimizer2.cpp</in>
+                <in>treeoptimizer3.cpp</in>
+                <in>treeoptimizer3_iteration.cpp</in>
+              </df>
+              <df name="vertigo">
+                <df name="g2o">
+                  <in>edge_se2MaxMixture.cpp</in>
+                  <in>edge_se2MaxMixture.h</in>
+                  <in>edge_se2Switchable.cpp</in>
+                  <in>edge_se2Switchable.h</in>
+                  <in>edge_se3Switchable.cpp</in>
+                  <in>edge_se3Switchable.h</in>
+                  <in>edge_switchPrior.cpp</in>
+                  <in>edge_switchPrior.h</in>
+                  <in>types_g2o_robust.cpp</in>
+                  <in>vertex_switchLinear.cpp</in>
+                  <in>vertex_switchLinear.h</in>
+                </df>
+                <df name="gtsam">
+                  <in>betweenFactorMaxMix.h</in>
+                  <in>betweenFactorSwitchable.h</in>
+                  <in>switchVariableLinear.h</in>
+                  <in>switchVariableSigmoid.h</in>
+                </df>
+              </df>
+              <in>BayesFilter.cpp</in>
+              <in>Camera.cpp</in>
+              <in>CameraModel.cpp</in>
+              <in>CameraRGB.cpp</in>
+              <in>CameraRGBD.cpp</in>
+              <in>CameraStereo.cpp</in>
+              <in>CameraThread.cpp</in>
+              <in>Compression.cpp</in>
+              <in>ConvertUTF.c</in>
+              <in>ConvertUTF.h</in>
+              <in>DBDriver.cpp</in>
+              <in>DBDriverSqlite3.cpp</in>
+              <in>DBDriverSqlite3.h</in>
+              <in>DBReader.cpp</in>
+              <in>EpipolarGeometry.cpp</in>
+              <in>Features2d.cpp</in>
+              <in>FlannIndex.cpp</in>
+              <in>GainCompensator.cpp</in>
+              <in>GeodeticCoords.cpp</in>
+              <in>Graph.cpp</in>
+              <in>Link.cpp</in>
+              <in>Memory.cpp</in>
+              <in>OccupancyGrid.cpp</in>
+              <in>OctoMap.cpp</in>
+              <in>Odometry.cpp</in>
+              <in>OdometryF2F.cpp</in>
+              <in>OdometryF2M.cpp</in>
+              <in>OdometryMono.cpp</in>
+              <in>OdometryThread.cpp</in>
+              <in>Optimizer.cpp</in>
+              <in>OptimizerCVSBA.cpp</in>
+              <in>OptimizerG2O.cpp</in>
+              <in>OptimizerGTSAM.cpp</in>
+              <in>OptimizerTORO.cpp</in>
+              <in>Parameters.cpp</in>
+              <in>Registration.cpp</in>
+              <in>RegistrationIcp.cpp</in>
+              <in>RegistrationVis.cpp</in>
+              <in>Rtabmap.cpp</in>
+              <in>RtabmapThread.cpp</in>
+              <in>SensorData.cpp</in>
+              <in>Signature.cpp</in>
+              <in>SimpleIni.h</in>
+              <in>Statistics.cpp</in>
+              <in>Stereo.cpp</in>
+              <in>StereoCameraModel.cpp</in>
+              <in>StereoDense.cpp</in>
+              <in>Transform.cpp</in>
+              <in>VWDictionary.cpp</in>
+              <in>VisualWord.cpp</in>
+              <in>util2d.cpp</in>
+              <in>util3d.cpp</in>
+              <in>util3d_correspondences.cpp</in>
+              <in>util3d_features.cpp</in>
+              <in>util3d_filtering.cpp</in>
+              <in>util3d_mapping.cpp</in>
+              <in>util3d_motion_estimation.cpp</in>
+              <in>util3d_registration.cpp</in>
+              <in>util3d_surface.cpp</in>
+              <in>util3d_transforms.cpp</in>
+            </df>
+          </df>
+          <df name="examples">
+            <df name="BOWMapping">
+              <in>main.cpp</in>
+            </df>
+            <df name="NoEventsExample">
+              <in>MapBuilder.h</in>
+              <in>main.cpp</in>
+            </df>
+            <df name="RGBDMapping">
+              <in>MapBuilder.h</in>
+              <in>main.cpp</in>
+            </df>
+            <df name="WifiMapping">
+              <in>MapBuilder.h</in>
+              <in>MapBuilderWifi.h</in>
+              <in>WifiOSX.h</in>
+              <in>WifiOSX.mm</in>
+              <in>WifiThread.h</in>
+              <in>main.cpp</in>
+            </df>
+          </df>
+          <df name="guilib">
+            <df name="include">
+              <df name="rtabmap">
+                <df name="gui">
+                  <in>CalibrationDialog.h</in>
+                  <in>CameraViewer.h</in>
+                  <in>CloudViewer.h</in>
+                  <in>ConsoleWidget.h</in>
+                  <in>DataRecorder.h</in>
+                  <in>DatabaseViewer.h</in>
+                  <in>GraphViewer.h</in>
+                  <in>ImageView.h</in>
+                  <in>KeypointItem.h</in>
+                  <in>LoopClosureViewer.h</in>
+                  <in>MainWindow.h</in>
+                  <in>OdometryViewer.h</in>
+                  <in>PdfPlot.h</in>
+                  <in>PreferencesDialog.h</in>
+                  <in>ProgressDialog.h</in>
+                  <in>RtabmapGuiExp.h</in>
+                  <in>StatsToolBox.h</in>
+                </df>
+                <df name="utilite">
+                  <in>UCv2Qt.h</in>
+                  <in>UImageView.h</in>
+                  <in>UPlot.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="src">
+              <df name="images">
+              </df>
+              <df name="qss">
+              </df>
+              <df name="ui">
+              </df>
+              <df name="utilite">
+                <in>UPlot.cpp</in>
+              </df>
+              <in>AboutDialog.cpp</in>
+              <in>AboutDialog.h</in>
+              <in>CalibrationDialog.cpp</in>
+              <in>CameraViewer.cpp</in>
+              <in>CloudViewer.cpp</in>
+              <in>ConsoleWidget.cpp</in>
+              <in>CreateSimpleCalibrationDialog.cpp</in>
+              <in>CreateSimpleCalibrationDialog.h</in>
+              <in>DataRecorder.cpp</in>
+              <in>DatabaseViewer.cpp</in>
+              <in>DepthCalibrationDialog.cpp</in>
+              <in>DepthCalibrationDialog.h</in>
+              <in>ExportCloudsDialog.cpp</in>
+              <in>ExportCloudsDialog.h</in>
+              <in>ExportDialog.cpp</in>
+              <in>ExportDialog.h</in>
+              <in>ExportScansDialog.cpp</in>
+              <in>ExportScansDialog.h</in>
+              <in>GraphViewer.cpp</in>
+              <in>ImageView.cpp</in>
+              <in>KeypointItem.cpp</in>
+              <in>LoopClosureViewer.cpp</in>
+              <in>MainWindow.cpp</in>
+              <in>MapVisibilityWidget.cpp</in>
+              <in>MapVisibilityWidget.h</in>
+              <in>OdometryViewer.cpp</in>
+              <in>ParametersToolBox.cpp</in>
+              <in>ParametersToolBox.h</in>
+              <in>PdfPlot.cpp</in>
+              <in>PostProcessingDialog.cpp</in>
+              <in>PostProcessingDialog.h</in>
+              <in>PreferencesDialog.cpp</in>
+              <in>ProgressDialog.cpp</in>
+              <in>StatsToolBox.cpp</in>
+            </df>
+          </df>
+          <df name="Matlab">
+            <df name="ParticleFilter">
+              <in>pf_filter.m</in>
+              <in>pf_resample.m</in>
+              <in>test_kinect.m</in>
+              <in>test_kitti_datasets.m</in>
+              <in>test_odometry.m</in>
+              <in>test_pf_filter.m</in>
+            </df>
+            <df name="ShowLogs">
+              <in>getPrecisionRecall.m</in>
+              <in>importfile.m</in>
+              <in>showlogs.m</in>
+            </df>
+            <df name="Tests">
+              <in>TestAdjustLikelihood.m</in>
+              <in>TestBayesFilter.m</in>
+              <in>TestComputeLikelihood.m</in>
+              <in>TestUpdateCommonSignature.m</in>
+            </df>
+            <in>RecursiveBayes.m</in>
+            <in>adjustLikelihood.m</in>
+            <in>computeLikelihood.m</in>
+            <in>generatePrediction.m</in>
+            <in>updateCommonSignature.m</in>
+            <in>updateDictionary.m</in>
+          </df>
+          <df name="tools">
+            <df name="Calibration">
+              <in>main.cpp</in>
+            </df>
+            <df name="Camera">
+              <in>main.cpp</in>
+            </df>
+            <df name="CameraRGBD">
+              <in>main.cpp</in>
+            </df>
+            <df name="ConsoleApp">
+              <in>main.cpp</in>
+            </df>
+            <df name="DatabaseViewer">
+              <in>main.cpp</in>
+            </df>
+            <df name="DataRecorder">
+              <in>main.cpp</in>
+            </df>
+            <df name="EpipolarGeometry">
+              <in>main.cpp</in>
+            </df>
+            <df name="ExtractObject">
+              <in>main.cpp</in>
+            </df>
+            <df name="ImagesJoiner">
+              <in>main.cpp</in>
+            </df>
+            <df name="OdometryViewer">
+              <in>main.cpp</in>
+            </df>
+            <df name="StereoEval">
+              <in>io.h</in>
+              <in>main.cpp</in>
+            </df>
+            <df name="VocabularyComparison">
+              <in>main.cpp</in>
+            </df>
+          </df>
+          <df name="utilite">
+            <df name="include">
+              <df name="rtabmap">
+                <df name="utilite">
+                  <df name="Posix">
+                    <in>UThreadC.h</in>
+                  </df>
+                  <df name="Win32">
+                    <in>UThreadC.h</in>
+                    <in>UWin32.h</in>
+                  </df>
+                  <in>UConversion.h</in>
+                  <in>UDestroyer.h</in>
+                  <in>UDirectory.h</in>
+                  <in>UEvent.h</in>
+                  <in>UEventsHandler.h</in>
+                  <in>UEventsManager.h</in>
+                  <in>UEventsSender.h</in>
+                  <in>UException.h</in>
+                  <in>UFile.h</in>
+                  <in>ULogger.h</in>
+                  <in>UMath.h</in>
+                  <in>UMutex.h</in>
+                  <in>UObjDeletionThread.h</in>
+                  <in>UProcessInfo.h</in>
+                  <in>USemaphore.h</in>
+                  <in>UStl.h</in>
+                  <in>UThread.h</in>
+                  <in>UThreadC.h</in>
+                  <in>UThreadNode.h</in>
+                  <in>UTimer.h</in>
+                  <in>UVariant.h</in>
+                  <in>UtiLite.h</in>
+                  <in>UtiLiteExp.h</in>
+                </df>
+              </df>
+            </df>
+            <df name="resource_generator">
+              <in>main.cpp</in>
+            </df>
+            <df name="src">
+              <in>UConversion.cpp</in>
+              <in>UDirectory.cpp</in>
+              <in>UEventsHandler.cpp</in>
+              <in>UEventsManager.cpp</in>
+              <in>UEventsSender.cpp</in>
+              <in>UFile.cpp</in>
+              <in>ULogger.cpp</in>
+              <in>UProcessInfo.cpp</in>
+              <in>UThread.cpp</in>
+              <in>UTimer.cpp</in>
+              <in>UVariant.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="rtabmap_ros">
+          <df name="cfg">
+          </df>
+          <df name="eclipse-launch">
+          </df>
+          <df name="include">
+            <df name="rtabmap_ros">
+              <in>CommonDataSubscriber.h</in>
+              <in>CommonDataSubscriberDefines.h</in>
+              <in>CoreWrapper.h</in>
+              <in>GuiWrapper.h</in>
+              <in>MapsManager.h</in>
+              <in>MsgConversion.h</in>
+              <in>OdometryROS.h</in>
+              <in>PreferencesDialogROS.h</in>
+            </df>
+          </df>
+          <df name="launch">
+            <df name="azimut3">
+              <df name="config">
+              </df>
+            </df>
+            <df name="calibration">
+              <df name="kinect2">
+                <df name="506816242542">
+                </df>
+              </df>
+            </df>
+            <df name="config">
+            </df>
+            <df name="data">
+              <df name="books">
+              </df>
+              <df name="demo_appearance">
+              </df>
+            </df>
+            <df name="demo">
+            </df>
+            <df name="tests">
+            </df>
+          </df>
+          <df name="msg">
+          </df>
+          <df name="scripts">
+          </df>
+          <df name="src">
+            <df name="costmap_2d">
+              <in>static_layer.cpp</in>
+              <in>static_layer.h</in>
+            </df>
+            <df name="impl">
+              <in>CommonDataSubscriberDepth.cpp</in>
+              <in>CommonDataSubscriberRGBD.cpp</in>
+              <in>CommonDataSubscriberRGBD2.cpp</in>
+              <in>CommonDataSubscriberStereo.cpp</in>
+            </df>
+            <df name="nodelets">
+              <in>data_odom_sync.cpp</in>
+              <in>data_throttle.cpp</in>
+              <in>disparity_to_depth.cpp</in>
+              <in>icp_odometry.cpp</in>
+              <in>obstacles_detection.cpp</in>
+              <in>obstacles_detection_old.cpp</in>
+              <in>point_cloud_aggregator.cpp</in>
+              <in>point_cloud_xyz.cpp</in>
+              <in>point_cloud_xyzrgb.cpp</in>
+              <in>rgbd_odometry.cpp</in>
+              <in>rgbd_sync.cpp</in>
+              <in>rgbdicp_odometry.cpp</in>
+              <in>stereo_odometry.cpp</in>
+              <in>stereo_throttle.cpp</in>
+              <in>undistort_depth.cpp</in>
+            </df>
+            <df name="rviz">
+              <in>InfoDisplay.cpp</in>
+              <in>InfoDisplay.h</in>
+              <in>MapCloudDisplay.cpp</in>
+              <in>MapCloudDisplay.h</in>
+              <in>MapGraphDisplay.cpp</in>
+              <in>MapGraphDisplay.h</in>
+              <in>OrbitOrientedViewController.cpp</in>
+              <in>OrbitOrientedViewController.h</in>
+            </df>
+            <in>CameraNode.cpp</in>
+            <in>CommonDataSubscriber.cpp</in>
+            <in>CoreNode.cpp</in>
+            <in>CoreWrapper.cpp</in>
+            <in>DbPlayerNode.cpp</in>
+            <in>GuiNode.cpp</in>
+            <in>GuiWrapper.cpp</in>
+            <in>ICPOdometryNode.cpp</in>
+            <in>MapAssemblerNode.cpp</in>
+            <in>MapOptimizerNode.cpp</in>
+            <in>MapsManager.cpp</in>
+            <in>MsgConversion.cpp</in>
+            <in>OdomMsgToTFNode.cpp</in>
+            <in>OdometryROS.cpp</in>
+            <in>PreferencesDialogROS.cpp</in>
+            <in>RGBDICPOdometryNode.cpp</in>
+            <in>RGBDOdometryNode.cpp</in>
+            <in>StereoCameraNode.cpp</in>
+            <in>StereoOdometryNode.cpp</in>
+          </df>
+          <df name="srv">
           </df>
         </df>
       </df>

@@ -1,2 +1,2 @@
 #!/bin/bash
-catkin_make
+catkin_make_isolated
