@@ -2,7 +2,7 @@
 
 If you don't have rtabmap installed, please run the install_rtabMap.sh script
 ./install_rtabMap.sh
-Husk og exclude din rtabmap fra git :-)
+Remember to exclude your rtabmap from git :-)
 
 After this, run
 ./catkin_clean.sh
