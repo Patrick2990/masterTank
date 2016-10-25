@@ -10,10 +10,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtabmap_utilite.dir/UTimer.cpp.o"
   "CMakeFiles/rtabmap_utilite.dir/UProcessInfo.cpp.o"
   "CMakeFiles/rtabmap_utilite.dir/UVariant.cpp.o"
-  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_utilite.pdb"
-  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_utilite.so"
-  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_utilite.so.0.11.11"
-  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_utilite.so.0.11"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_utilite.pdb"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_utilite.so"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_utilite.so.0.11.11"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_utilite.so.0.11"
 )
 
 # Per-language clean rules from dependency scanning.

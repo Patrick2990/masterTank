@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DHAVE_NEW_YAMLCPP -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"map_server\"
 
-CXX_INCLUDES = -I/home/plinux/RosPacks/masterTank/src/navigation/map_server/include -I/opt/ros/kinetic/include 
+CXX_INCLUDES = -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/include -I/opt/ros/kinetic/include 
 

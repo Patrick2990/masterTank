@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/frontier_exploration
+CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration
+CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration
 
 # Utility rule file for roscpp_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 CMakeFiles/roscpp_generate_messages_lisp.dir/depend:
-	cd /home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/frontier_exploration /home/plinux/RosPacks/masterTank/src/frontier_exploration /home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration /home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration /home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 

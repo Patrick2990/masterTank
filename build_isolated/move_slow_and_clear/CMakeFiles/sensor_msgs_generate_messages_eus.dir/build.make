@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/move_slow_and_clear
+CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/move_slow_and_clear
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/move_slow_and_clear
+CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/move_slow_and_clear
 
 # Utility rule file for sensor_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend:
-	cd /home/plinux/RosPacks/masterTank/build_isolated/move_slow_and_clear && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/navigation/move_slow_and_clear /home/plinux/RosPacks/masterTank/src/navigation/move_slow_and_clear /home/plinux/RosPacks/masterTank/build_isolated/move_slow_and_clear /home/plinux/RosPacks/masterTank/build_isolated/move_slow_and_clear /home/plinux/RosPacks/masterTank/build_isolated/move_slow_and_clear/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/move_slow_and_clear && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/move_slow_and_clear /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/move_slow_and_clear /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/move_slow_and_clear /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/move_slow_and_clear /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/move_slow_and_clear/CMakeFiles/sensor_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_eus.dir/depend
 

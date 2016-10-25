@@ -12,16 +12,16 @@ try:
     from catkin.environment_cache import generate_environment_script
 except ImportError:
     # search for catkin package in all workspaces and prepend to path
-    for workspace in "/home/plinux/RosPacks/masterTank/devel_isolated/fake_localization;/home/plinux/RosPacks/masterTank/devel_isolated/driver_common;/home/plinux/RosPacks/masterTank/devel_isolated/driver_base;/opt/ros/kinetic".split(';'):
+    for workspace in "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/fake_localization;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/driver_common;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/driver_base;/opt/ros/kinetic".split(';'):
         python_path = os.path.join(workspace, 'lib/python2.7/dist-packages')
         if os.path.isdir(os.path.join(python_path, 'catkin')):
             sys.path.insert(0, python_path)
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/plinux/RosPacks/masterTank/devel_isolated/map_server/env.sh')
+code = generate_environment_script('/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/env.sh')
 
-output_filename = '/home/plinux/RosPacks/masterTank/build_isolated/map_server/catkin_generated/setup_cached.sh'
+output_filename = '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     #print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

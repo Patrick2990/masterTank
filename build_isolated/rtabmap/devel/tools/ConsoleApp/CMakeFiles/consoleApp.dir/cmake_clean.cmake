@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/consoleApp.dir/main.cpp.o"
-  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/rtabmap-console.pdb"
-  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/rtabmap-console"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/rtabmap-console.pdb"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/rtabmap-console"
 )
 
 # Per-language clean rules from dependency scanning.

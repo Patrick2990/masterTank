@@ -19,9 +19,9 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/plinux/RosPacks/masterTank/devel_isolated/driver_base/env.sh')
+code = generate_environment_script('/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/driver_base/env.sh')
 
-output_filename = '/home/plinux/RosPacks/masterTank/build_isolated/driver_base/catkin_generated/setup_cached.sh'
+output_filename = '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/driver_base/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:
     #print('Generate script for cached setup "%s"' % output_filename)
     f.write('\n'.join(code))

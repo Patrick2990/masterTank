@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;rospy".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "fake_localization"
-PROJECT_SPACE_DIR = "/home/plinux/RosPacks/masterTank/install_isolated"
+PROJECT_SPACE_DIR = "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated"
 PROJECT_VERSION = "1.14.0"

@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"robot_pose_ekf\"
 
-CXX_INCLUDES = -I/home/plinux/RosPacks/masterTank/devel_isolated/robot_pose_ekf/include -I/opt/ros/kinetic/include/bfl -I/home/plinux/RosPacks/masterTank/src/navigation/robot_pose_ekf/include -I/opt/ros/kinetic/include 
+CXX_INCLUDES = -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/robot_pose_ekf/include -I/opt/ros/kinetic/include/bfl -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/robot_pose_ekf/include -I/opt/ros/kinetic/include 
 

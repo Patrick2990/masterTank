@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/map_server
+CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/map_server
+CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rtest.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/rtest.dir/progress.make
 include CMakeFiles/rtest.dir/flags.make
 
 CMakeFiles/rtest.dir/test/rtest.cpp.o: CMakeFiles/rtest.dir/flags.make
-CMakeFiles/rtest.dir/test/rtest.cpp.o: /home/plinux/RosPacks/masterTank/src/navigation/map_server/test/rtest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/plinux/RosPacks/masterTank/build_isolated/map_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rtest.dir/test/rtest.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtest.dir/test/rtest.cpp.o -c /home/plinux/RosPacks/masterTank/src/navigation/map_server/test/rtest.cpp
+CMakeFiles/rtest.dir/test/rtest.cpp.o: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/rtest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/rtest.dir/test/rtest.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtest.dir/test/rtest.cpp.o -c /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/rtest.cpp
 
 CMakeFiles/rtest.dir/test/rtest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtest.dir/test/rtest.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/plinux/RosPacks/masterTank/src/navigation/map_server/test/rtest.cpp > CMakeFiles/rtest.dir/test/rtest.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/rtest.cpp > CMakeFiles/rtest.dir/test/rtest.cpp.i
 
 CMakeFiles/rtest.dir/test/rtest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtest.dir/test/rtest.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/plinux/RosPacks/masterTank/src/navigation/map_server/test/rtest.cpp -o CMakeFiles/rtest.dir/test/rtest.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/rtest.cpp -o CMakeFiles/rtest.dir/test/rtest.cpp.s
 
 CMakeFiles/rtest.dir/test/rtest.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/rtest.dir/test/rtest.cpp.o.provides.build: CMakeFiles/rtest.dir/test/
 
 
 CMakeFiles/rtest.dir/test/test_constants.cpp.o: CMakeFiles/rtest.dir/flags.make
-CMakeFiles/rtest.dir/test/test_constants.cpp.o: /home/plinux/RosPacks/masterTank/src/navigation/map_server/test/test_constants.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/plinux/RosPacks/masterTank/build_isolated/map_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rtest.dir/test/test_constants.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtest.dir/test/test_constants.cpp.o -c /home/plinux/RosPacks/masterTank/src/navigation/map_server/test/test_constants.cpp
+CMakeFiles/rtest.dir/test/test_constants.cpp.o: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/test_constants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/rtest.dir/test/test_constants.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rtest.dir/test/test_constants.cpp.o -c /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/test_constants.cpp
 
 CMakeFiles/rtest.dir/test/test_constants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rtest.dir/test/test_constants.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/plinux/RosPacks/masterTank/src/navigation/map_server/test/test_constants.cpp > CMakeFiles/rtest.dir/test/test_constants.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/test_constants.cpp > CMakeFiles/rtest.dir/test/test_constants.cpp.i
 
 CMakeFiles/rtest.dir/test/test_constants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rtest.dir/test/test_constants.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/plinux/RosPacks/masterTank/src/navigation/map_server/test/test_constants.cpp -o CMakeFiles/rtest.dir/test/test_constants.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/test_constants.cpp -o CMakeFiles/rtest.dir/test/test_constants.cpp.s
 
 CMakeFiles/rtest.dir/test/test_constants.cpp.o.requires:
 
@@ -113,40 +113,40 @@ rtest_OBJECTS = \
 # External object files for target rtest
 rtest_EXTERNAL_OBJECTS =
 
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: CMakeFiles/rtest.dir/test/rtest.cpp.o
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: CMakeFiles/rtest.dir/test/test_constants.cpp.o
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: CMakeFiles/rtest.dir/build.make
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: gtest/libgtest.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libtf.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libactionlib.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libroscpp.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libtf2.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/librosconsole.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/librostime.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libcpp_common.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest: CMakeFiles/rtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/plinux/RosPacks/masterTank/build_isolated/map_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest"
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: CMakeFiles/rtest.dir/test/rtest.cpp.o
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: CMakeFiles/rtest.dir/test/test_constants.cpp.o
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: CMakeFiles/rtest.dir/build.make
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: gtest/libgtest.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libtf.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libactionlib.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libroscpp.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libtf2.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/librosconsole.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/librostime.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /opt/ros/kinetic/lib/libcpp_common.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest: CMakeFiles/rtest.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/rtest.dir/build: /home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/rtest
+CMakeFiles/rtest.dir/build: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/rtest
 
 .PHONY : CMakeFiles/rtest.dir/build
 
@@ -160,6 +160,6 @@ CMakeFiles/rtest.dir/clean:
 .PHONY : CMakeFiles/rtest.dir/clean
 
 CMakeFiles/rtest.dir/depend:
-	cd /home/plinux/RosPacks/masterTank/build_isolated/map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/navigation/map_server /home/plinux/RosPacks/masterTank/src/navigation/map_server /home/plinux/RosPacks/masterTank/build_isolated/map_server /home/plinux/RosPacks/masterTank/build_isolated/map_server /home/plinux/RosPacks/masterTank/build_isolated/map_server/CMakeFiles/rtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server/CMakeFiles/rtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rtest.dir/depend
 

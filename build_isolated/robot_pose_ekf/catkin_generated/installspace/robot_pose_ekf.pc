@@ -1,8 +1,8 @@
-prefix=/home/plinux/RosPacks/masterTank/install_isolated
+prefix=/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated
 
 Name: robot_pose_ekf
 Description: Description of robot_pose_ekf
 Version: 1.14.0
-Cflags: -I/home/plinux/RosPacks/masterTank/install_isolated/include
-Libs: -L/home/plinux/RosPacks/masterTank/install_isolated/lib 
+Cflags: -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/include
+Libs: -L/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/lib 
 Requires: roscpp

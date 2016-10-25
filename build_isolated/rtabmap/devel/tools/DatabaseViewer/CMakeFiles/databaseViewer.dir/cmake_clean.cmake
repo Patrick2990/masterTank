@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/databaseViewer.dir/main.cpp.o"
-  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/rtabmap-databaseViewer.pdb"
-  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/rtabmap-databaseViewer"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/rtabmap-databaseViewer.pdb"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/rtabmap-databaseViewer"
 )
 
 # Per-language clean rules from dependency scanning.

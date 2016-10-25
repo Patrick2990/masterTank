@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/move_slow_and_clear
+CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/move_slow_and_clear
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/move_slow_and_clear
+CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/move_slow_and_clear
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/plinux/RosPacks/masterTank/build_isolated/move_slow_and_clear/CMakeFiles /home/plinux/RosPacks/masterTank/build_isolated/move_slow_and_clear/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/move_slow_and_clear/CMakeFiles /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/move_slow_and_clear/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/plinux/RosPacks/masterTank/build_isolated/move_slow_and_clear/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/move_slow_and_clear/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

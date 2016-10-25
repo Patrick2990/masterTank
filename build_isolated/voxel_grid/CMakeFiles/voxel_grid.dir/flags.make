@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"voxel_grid\" -Dvoxel_grid_EXPORTS
 
-CXX_INCLUDES = -I/home/plinux/RosPacks/masterTank/src/navigation/voxel_grid/include -I/opt/ros/kinetic/include 
+CXX_INCLUDES = -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/voxel_grid/include -I/opt/ros/kinetic/include 
 

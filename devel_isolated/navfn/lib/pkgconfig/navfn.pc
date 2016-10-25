@@ -1,8 +1,8 @@
-prefix=/home/plinux/RosPacks/masterTank/devel_isolated/navfn
+prefix=/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navfn
 
 Name: navfn
 Description: Description of navfn
 Version: 1.14.0
-Cflags: -I/home/plinux/RosPacks/masterTank/devel_isolated/navfn/include -I/home/plinux/RosPacks/masterTank/src/navigation/navfn/include
-Libs: -L/home/plinux/RosPacks/masterTank/devel_isolated/navfn/lib -lnavfn
+Cflags: -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navfn/include -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/navfn/include
+Libs: -L/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navfn/lib -lnavfn
 Requires: nav_core roscpp pluginlib

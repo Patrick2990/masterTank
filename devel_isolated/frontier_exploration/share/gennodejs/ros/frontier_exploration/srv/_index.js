@@ -1,10 +1,10 @@
 
 "use strict";
 
-let GetNextFrontier = require('./GetNextFrontier.js')
 let UpdateBoundaryPolygon = require('./UpdateBoundaryPolygon.js')
+let GetNextFrontier = require('./GetNextFrontier.js')
 
 module.exports = {
-  GetNextFrontier: GetNextFrontier,
   UpdateBoundaryPolygon: UpdateBoundaryPolygon,
+  GetNextFrontier: GetNextFrontier,
 };

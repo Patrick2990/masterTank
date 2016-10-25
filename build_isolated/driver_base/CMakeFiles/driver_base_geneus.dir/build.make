@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/driver_common/driver_base
+CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/driver_common/driver_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/driver_base
+CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/driver_base
 
 # Utility rule file for driver_base_geneus.
 
@@ -67,6 +67,6 @@ CMakeFiles/driver_base_geneus.dir/clean:
 .PHONY : CMakeFiles/driver_base_geneus.dir/clean
 
 CMakeFiles/driver_base_geneus.dir/depend:
-	cd /home/plinux/RosPacks/masterTank/build_isolated/driver_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/driver_common/driver_base /home/plinux/RosPacks/masterTank/src/driver_common/driver_base /home/plinux/RosPacks/masterTank/build_isolated/driver_base /home/plinux/RosPacks/masterTank/build_isolated/driver_base /home/plinux/RosPacks/masterTank/build_isolated/driver_base/CMakeFiles/driver_base_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/driver_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/driver_common/driver_base /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/driver_common/driver_base /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/driver_base /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/driver_base /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/driver_base/CMakeFiles/driver_base_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/driver_base_geneus.dir/depend
 

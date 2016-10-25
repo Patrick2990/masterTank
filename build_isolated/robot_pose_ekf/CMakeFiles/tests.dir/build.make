@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/robot_pose_ekf
+CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/robot_pose_ekf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/robot_pose_ekf
+CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/robot_pose_ekf
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/plinux/RosPacks/masterTank/build_isolated/robot_pose_ekf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/navigation/robot_pose_ekf /home/plinux/RosPacks/masterTank/src/navigation/robot_pose_ekf /home/plinux/RosPacks/masterTank/build_isolated/robot_pose_ekf /home/plinux/RosPacks/masterTank/build_isolated/robot_pose_ekf /home/plinux/RosPacks/masterTank/build_isolated/robot_pose_ekf/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/robot_pose_ekf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/robot_pose_ekf /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/robot_pose_ekf /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/robot_pose_ekf /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/robot_pose_ekf /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/robot_pose_ekf/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

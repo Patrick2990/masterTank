@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../src/rtabmap_ros/src/rviz/MapGraphDisplay.h"
+#include "../../../../src/rtabmap_ros/src/rtabmap_ros/src/rviz/MapGraphDisplay.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)

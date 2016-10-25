@@ -100,6 +100,20 @@
             <in>feature_tests.c</in>
           </df>
         </df>
+        <df name="smr_computer">
+          <df name="CMakeFiles">
+            <df name="3.5.1">
+              <df name="CompilerIdC">
+                <in>CMakeCCompilerId.c</in>
+              </df>
+              <df name="CompilerIdCXX">
+                <in>CMakeCXXCompilerId.cpp</in>
+              </df>
+            </df>
+            <in>feature_tests.c</in>
+            <in>feature_tests.cxx</in>
+          </df>
+        </df>
       </df>
       <df name="src">
         <df name="hokuyo_node">
@@ -320,6 +334,13 @@
             </df>
           </df>
         </df>
+        <df name="smr_computer">
+          <df name="src">
+            <in>pugixml.cpp</in>
+            <in>smr_laser_node.cpp</in>
+            <in>tst_subscriber.cpp</in>
+          </df>
+        </df>
       </df>
     </df>
     <logicalFolder name="usr" displayName="usr" projectFiles="true" root="/usr">
@@ -394,6 +415,11 @@
             ex="false"
             tool="0"
             flavor2="2">
+        <cTool>
+          <incDir>
+            <pElem>build_isolated/amcl/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
       </item>
       <item path="/usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp"
             ex="false"
@@ -405,6 +431,9 @@
             tool="0"
             flavor2="2">
         <cTool>
+          <incDir>
+            <pElem>build_isolated/smr_computer/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
           <preprocessorList>
             <Elem>CHECK_FUNCTION_EXISTS=pthread_create</Elem>
           </preprocessorList>
@@ -643,6 +672,36 @@
           </incDir>
         </cTool>
       </item>
+      <item path="build_isolated/smr_computer/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/smr_computer/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="build_isolated/smr_computer/CMakeFiles/feature_tests.c"
+            ex="false"
+            tool="0"
+            flavor2="10">
+        <cTool flags="3">
+          <incDir>
+            <pElem>build_isolated/smr_computer/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="build_isolated/smr_computer/CMakeFiles/feature_tests.cxx"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="2">
+          <incDir>
+            <pElem>build_isolated/smr_computer/CMakeFiles/CMakeTmp</pElem>
+          </incDir>
+        </ccTool>
+      </item>
       <folder path="0/src/master_tank_navigation">
         <ccTool>
           <incDir>
@@ -777,6 +836,18 @@
           </preprocessorList>
         </ccTool>
       </folder>
+      <folder path="0/src/smr_computer">
+        <ccTool>
+          <incDir>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build_isolated/smr_computer</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_PACKAGE_NAME="smr_computer"</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
       <folder path="usr">
         <cTool>
           <incDir>
@@ -787,7 +858,7 @@
       <folder path="usr/share">
         <ccTool>
           <incDir>
-            <pElem>build_isolated/driver_base/CMakeFiles/CMakeTmp</pElem>
+            <pElem>build_isolated/amcl/CMakeFiles/CMakeTmp</pElem>
           </incDir>
         </ccTool>
       </folder>
@@ -1471,6 +1542,18 @@
             ex="false"
             tool="1"
             flavor2="4">
+      </item>
+      <item path="src/smr_computer/src/pugixml.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/smr_computer/src/smr_laser_node.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="src/smr_computer/src/tst_subscriber.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
       </item>
     </conf>
   </confs>

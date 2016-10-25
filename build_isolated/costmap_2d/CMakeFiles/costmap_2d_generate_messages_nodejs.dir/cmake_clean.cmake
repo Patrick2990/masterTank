@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/costmap_2d_generate_messages_nodejs"
-  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/share/gennodejs/ros/costmap_2d/msg/VoxelGrid.js"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/share/gennodejs/ros/costmap_2d/msg/VoxelGrid.js"
 )
 
 # Per-language clean rules from dependency scanning.

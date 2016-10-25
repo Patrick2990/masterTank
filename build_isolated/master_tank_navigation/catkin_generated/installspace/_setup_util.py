@@ -262,7 +262,7 @@ if __name__ == '__main__':
             sys.exit(1)
 
         # environment at generation time
-        CMAKE_PREFIX_PATH = '/home/plinux/RosPacks/masterTank/devel_isolated/amcl;/home/plinux/RosPacks/masterTank/devel_isolated/map_server;/home/plinux/RosPacks/masterTank/devel_isolated/fake_localization;/home/plinux/RosPacks/masterTank/devel_isolated/driver_common;/home/plinux/RosPacks/masterTank/devel_isolated/driver_base;/opt/ros/kinetic'.split(';')
+        CMAKE_PREFIX_PATH = '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/amcl;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/fake_localization;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/driver_common;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/driver_base;/opt/ros/kinetic'.split(';')
         # prepend current workspace if not already part of CPP
         base_path = os.path.dirname(__file__)
         if base_path not in CMAKE_PREFIX_PATH:

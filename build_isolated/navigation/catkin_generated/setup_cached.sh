@@ -7,6 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/plinux/RosPacks/masterTank/devel_isolated/navigation:$CMAKE_PREFIX_PATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/plinux/RosPacks/masterTank/devel_isolated/navigation/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/plinux/RosPacks/masterTank/src/navigation/navigation:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navigation:$CMAKE_PREFIX_PATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navigation/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/navigation:$ROS_PACKAGE_PATH"

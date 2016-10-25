@@ -1,0 +1,14 @@
+<launch>
+
+
+  <!-- keyboard Teleop Node -->
+  <node pkg="smr_computer" type="keyboard.py" name="teleop_node" output="screen">
+    <param name="bonus" value="false" />
+  </node>
+  
+  <!-- rviz visualisation -->
+  <param name="robot_description" textfile="$(find smr_computer)/rviz/smr.urdf" />
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find smr_computer)/rviz/simple.rviz" required="true" />
+
+</launch>

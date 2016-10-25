@@ -1,4 +1,4 @@
-The system is: Linux - 4.4.0-38-generic - x86_64
+The system is: Linux - 4.4.0-45-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f4e07/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f4e07.dir/build.make CMakeFiles/cmTC_f4e07.dir/build
-make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f4e07.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_f4e07.dir/testCCompiler.c.o   -c /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_f4e07
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4e07.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_f4e07.dir/testCCompiler.c.o  -o cmTC_f4e07 -rdynamic 
-make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_94078/fast"
+/usr/bin/make -f CMakeFiles/cmTC_94078.dir/build.make CMakeFiles/cmTC_94078.dir/build
+make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_94078.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_94078.dir/testCCompiler.c.o   -c /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_94078
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94078.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_94078.dir/testCCompiler.c.o  -o cmTC_94078 -rdynamic 
+make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_35f90/fast"
-/usr/bin/make -f CMakeFiles/cmTC_35f90.dir/build.make CMakeFiles/cmTC_35f90.dir/build
-make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_35f90.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_35f90.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_35f90
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35f90.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_35f90.dir/CMakeCCompilerABI.c.o  -o cmTC_35f90 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_d20bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d20bd.dir/build.make CMakeFiles/cmTC_d20bd.dir/build
+make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d20bd.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d20bd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d20bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d20bd.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_d20bd.dir/CMakeCCompilerABI.c.o  -o cmTC_d20bd -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -59,23 +59,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35f90' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cchNkzfK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_35f90 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_35f90.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d20bd' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccelx1cT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d20bd /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d20bd.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_35f90/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_35f90.dir/build.make CMakeFiles/cmTC_35f90.dir/build]
-  ignore line: [make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_35f90.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_35f90.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_35f90]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35f90.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_35f90.dir/CMakeCCompilerABI.c.o  -o cmTC_35f90 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d20bd/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d20bd.dir/build.make CMakeFiles/cmTC_d20bd.dir/build]
+  ignore line: [make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d20bd.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_d20bd.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d20bd]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d20bd.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_d20bd.dir/CMakeCCompilerABI.c.o  -o cmTC_d20bd -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_35f90' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cchNkzfK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_35f90 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_35f90.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d20bd' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccelx1cT.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_d20bd /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_d20bd.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cchNkzfK.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccelx1cT.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_35f90] ==> ignore
+    arg [cmTC_d20bd] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_35f90.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_d20bd.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -153,17 +153,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2667e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2667e.dir/build.make CMakeFiles/cmTC_2667e.dir/build
-make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2667e.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_2667e.dir/feature_tests.c.o   -c /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/feature_tests.c
-Linking C executable cmTC_2667e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2667e.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_2667e.dir/feature_tests.c.o  -o cmTC_2667e -rdynamic 
-make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0b54b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b54b.dir/build.make CMakeFiles/cmTC_0b54b.dir/build
+make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b54b.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_0b54b.dir/feature_tests.c.o   -c /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0b54b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b54b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_0b54b.dir/feature_tests.c.o  -o cmTC_0b54b -rdynamic 
+make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_37f24/fast"
-/usr/bin/make -f CMakeFiles/cmTC_37f24.dir/build.make CMakeFiles/cmTC_37f24.dir/build
-make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_37f24.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_37f24.dir/feature_tests.c.o   -c /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/feature_tests.c
-Linking C executable cmTC_37f24
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37f24.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_37f24.dir/feature_tests.c.o  -o cmTC_37f24 -rdynamic 
-make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a902c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a902c.dir/build.make CMakeFiles/cmTC_a902c.dir/build
+make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a902c.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_a902c.dir/feature_tests.c.o   -c /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a902c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a902c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a902c.dir/feature_tests.c.o  -o cmTC_a902c -rdynamic 
+make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_399f4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_399f4.dir/build.make CMakeFiles/cmTC_399f4.dir/build
-make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_399f4.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_399f4.dir/feature_tests.c.o   -c /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/feature_tests.c
-Linking C executable cmTC_399f4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_399f4.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_399f4.dir/feature_tests.c.o  -o cmTC_399f4 -rdynamic 
-make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2b562/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b562.dir/build.make CMakeFiles/cmTC_2b562.dir/build
+make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b562.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_2b562.dir/feature_tests.c.o   -c /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2b562
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b562.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_2b562.dir/feature_tests.c.o  -o cmTC_2b562 -rdynamic 
+make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,30 +211,30 @@ make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b1376/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b1376.dir/build.make CMakeFiles/cmTC_b1376.dir/build
-make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b1376.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_b1376.dir/testCXXCompiler.cxx.o -c /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_b1376
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1376.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_b1376.dir/testCXXCompiler.cxx.o  -o cmTC_b1376 -rdynamic 
-make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4ef2a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ef2a.dir/build.make CMakeFiles/cmTC_4ef2a.dir/build
+make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4ef2a.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_4ef2a.dir/testCXXCompiler.cxx.o -c /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_4ef2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ef2a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_4ef2a.dir/testCXXCompiler.cxx.o  -o cmTC_4ef2a -rdynamic 
+make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b85f4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b85f4.dir/build.make CMakeFiles/cmTC_b85f4.dir/build
-make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b85f4.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_b85f4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b85f4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b85f4.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_b85f4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b85f4 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_31c05/fast"
+/usr/bin/make -f CMakeFiles/cmTC_31c05.dir/build.make CMakeFiles/cmTC_31c05.dir/build
+make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_31c05.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_31c05.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_31c05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31c05.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_31c05.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_31c05 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
@@ -244,23 +244,23 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.2) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b85f4' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfEJbpa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b85f4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b85f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_31c05' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccl3Y4g9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_31c05 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_31c05.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b85f4/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b85f4.dir/build.make CMakeFiles/cmTC_b85f4.dir/build]
-  ignore line: [make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b85f4.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_b85f4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b85f4]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b85f4.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_b85f4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b85f4 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_31c05/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_31c05.dir/build.make CMakeFiles/cmTC_31c05.dir/build]
+  ignore line: [make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_31c05.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_31c05.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_31c05]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31c05.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_31c05.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_31c05 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.2) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b85f4' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccfEJbpa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_b85f4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_b85f4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_31c05' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccl3Y4g9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_31c05 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_31c05.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccfEJbpa.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccl3Y4g9.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b85f4] ==> ignore
+    arg [cmTC_31c05] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_b85f4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_31c05.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -336,17 +336,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_72faf/fast"
-/usr/bin/make -f CMakeFiles/cmTC_72faf.dir/build.make CMakeFiles/cmTC_72faf.dir/build
-make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_72faf.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_72faf.dir/feature_tests.cxx.o -c /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_72faf
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72faf.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_72faf.dir/feature_tests.cxx.o  -o cmTC_72faf -rdynamic 
-make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_247b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_247b0.dir/build.make CMakeFiles/cmTC_247b0.dir/build
+make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_247b0.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_247b0.dir/feature_tests.cxx.o -c /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_247b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_247b0.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_247b0.dir/feature_tests.cxx.o  -o cmTC_247b0 -rdynamic 
+make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -409,17 +409,17 @@ make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8fd01/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8fd01.dir/build.make CMakeFiles/cmTC_8fd01.dir/build
-make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8fd01.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_8fd01.dir/feature_tests.cxx.o -c /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8fd01
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fd01.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_8fd01.dir/feature_tests.cxx.o  -o cmTC_8fd01 -rdynamic 
-make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9c6da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c6da.dir/build.make CMakeFiles/cmTC_9c6da.dir/build
+make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9c6da.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_9c6da.dir/feature_tests.cxx.o -c /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9c6da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c6da.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_9c6da.dir/feature_tests.cxx.o  -o cmTC_9c6da -rdynamic 
+make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -482,17 +482,17 @@ make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_42086/fast"
-/usr/bin/make -f CMakeFiles/cmTC_42086.dir/build.make CMakeFiles/cmTC_42086.dir/build
-make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_42086.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_42086.dir/feature_tests.cxx.o -c /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_42086
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42086.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_42086.dir/feature_tests.cxx.o  -o cmTC_42086 -rdynamic 
-make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_69d38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69d38.dir/build.make CMakeFiles/cmTC_69d38.dir/build
+make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_69d38.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_69d38.dir/feature_tests.cxx.o -c /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_69d38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69d38.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_69d38.dir/feature_tests.cxx.o  -o cmTC_69d38 -rdynamic 
+make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,30 +553,30 @@ make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70d15/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70d15.dir/build.make CMakeFiles/cmTC_70d15.dir/build
-make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_70d15.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_70d15.dir/CheckIncludeFile.c.o   -c /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_70d15
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70d15.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_70d15.dir/CheckIncludeFile.c.o  -o cmTC_70d15 -rdynamic 
-make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_eeb42/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eeb42.dir/build.make CMakeFiles/cmTC_eeb42.dir/build
+make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eeb42.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_eeb42.dir/CheckIncludeFile.c.o   -c /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eeb42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eeb42.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_eeb42.dir/CheckIncludeFile.c.o  -o cmTC_eeb42 -rdynamic 
+make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2e6bd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2e6bd.dir/build.make CMakeFiles/cmTC_2e6bd.dir/build
-make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2e6bd.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2e6bd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_2e6bd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e6bd.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2e6bd.dir/CheckFunctionExists.c.o  -o cmTC_2e6bd -rdynamic -lpthread 
-make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_328b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_328b1.dir/build.make CMakeFiles/cmTC_328b1.dir/build
+make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_328b1.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_328b1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_328b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_328b1.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_328b1.dir/CheckFunctionExists.c.o  -o cmTC_328b1 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/base_local_planner/CMakeFiles/CMakeTmp'
 
 

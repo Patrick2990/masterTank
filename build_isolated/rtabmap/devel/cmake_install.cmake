@@ -1,8 +1,8 @@
-# Install script for directory: /home/plinux/RosPacks/masterTank/src/rtabmap
+# Install script for directory: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/plinux/RosPacks/masterTank/devel_isolated/rtabmap")
+  set(CMAKE_INSTALL_PREFIX "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/rtabmap")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,23 +34,23 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rtabmap-0.11" TYPE FILE FILES
-    "/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/CMakeFiles/RTABMapConfig.cmake"
-    "/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/RTABMapConfigVersion.cmake"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/CMakeFiles/RTABMapConfig.cmake"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/RTABMapConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rtabmap" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/src/rtabmap/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rtabmap" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/utilite/cmake_install.cmake")
-  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/corelib/cmake_install.cmake")
-  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/guilib/cmake_install.cmake")
-  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/app/cmake_install.cmake")
-  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/tools/cmake_install.cmake")
-  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/examples/cmake_install.cmake")
+  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/utilite/cmake_install.cmake")
+  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/corelib/cmake_install.cmake")
+  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/guilib/cmake_install.cmake")
+  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/app/cmake_install.cmake")
+  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/tools/cmake_install.cmake")
+  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/examples/cmake_install.cmake")
 
 endif()
 
@@ -62,5 +62,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

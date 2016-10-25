@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/my_robot_name_2dnav
+CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/my_robot_name_2dnav
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/my_robot_name_2dnav
+CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/my_robot_name_2dnav
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/plinux/RosPacks/masterTank/build_isolated/my_robot_name_2dnav/CMakeFiles /home/plinux/RosPacks/masterTank/build_isolated/my_robot_name_2dnav/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/my_robot_name_2dnav/CMakeFiles /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/my_robot_name_2dnav/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/plinux/RosPacks/masterTank/build_isolated/my_robot_name_2dnav/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/my_robot_name_2dnav/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

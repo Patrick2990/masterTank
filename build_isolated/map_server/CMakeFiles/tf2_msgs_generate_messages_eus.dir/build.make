@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/map_server
+CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/map_server
+CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server
 
 # Utility rule file for tf2_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/tf2_msgs_generate_messages_eus.dir/depend:
-	cd /home/plinux/RosPacks/masterTank/build_isolated/map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/navigation/map_server /home/plinux/RosPacks/masterTank/src/navigation/map_server /home/plinux/RosPacks/masterTank/build_isolated/map_server /home/plinux/RosPacks/masterTank/build_isolated/map_server /home/plinux/RosPacks/masterTank/build_isolated/map_server/CMakeFiles/tf2_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server/CMakeFiles/tf2_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_eus.dir/depend
 

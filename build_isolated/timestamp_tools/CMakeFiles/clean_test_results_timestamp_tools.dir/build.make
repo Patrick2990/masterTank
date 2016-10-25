@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/driver_common/timestamp_tools
+CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/driver_common/timestamp_tools
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/timestamp_tools
+CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/timestamp_tools
 
 # Utility rule file for clean_test_results_timestamp_tools.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/timestamp_too
 include CMakeFiles/clean_test_results_timestamp_tools.dir/progress.make
 
 CMakeFiles/clean_test_results_timestamp_tools:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/plinux/RosPacks/masterTank/build_isolated/timestamp_tools/test_results/timestamp_tools
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/timestamp_tools/test_results/timestamp_tools
 
 clean_test_results_timestamp_tools: CMakeFiles/clean_test_results_timestamp_tools
 clean_test_results_timestamp_tools: CMakeFiles/clean_test_results_timestamp_tools.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_timestamp_tools.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_timestamp_tools.dir/clean
 
 CMakeFiles/clean_test_results_timestamp_tools.dir/depend:
-	cd /home/plinux/RosPacks/masterTank/build_isolated/timestamp_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/driver_common/timestamp_tools /home/plinux/RosPacks/masterTank/src/driver_common/timestamp_tools /home/plinux/RosPacks/masterTank/build_isolated/timestamp_tools /home/plinux/RosPacks/masterTank/build_isolated/timestamp_tools /home/plinux/RosPacks/masterTank/build_isolated/timestamp_tools/CMakeFiles/clean_test_results_timestamp_tools.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/timestamp_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/driver_common/timestamp_tools /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/driver_common/timestamp_tools /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/timestamp_tools /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/timestamp_tools /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/timestamp_tools/CMakeFiles/clean_test_results_timestamp_tools.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_timestamp_tools.dir/depend
 

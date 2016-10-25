@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/map_server-map_saver.dir/src/map_saver.cpp.o"
-  "/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/map_saver.pdb"
-  "/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/map_saver"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/map_saver.pdb"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/map_saver"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"timestamp_tools\"
 
-CXX_INCLUDES = -I/home/plinux/RosPacks/masterTank/src/driver_common/timestamp_tools/include 
+CXX_INCLUDES = -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/driver_common/timestamp_tools/include 
 

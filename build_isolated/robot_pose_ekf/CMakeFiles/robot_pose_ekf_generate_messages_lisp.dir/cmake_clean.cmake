@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/robot_pose_ekf_generate_messages_lisp"
-  "/home/plinux/RosPacks/masterTank/devel_isolated/robot_pose_ekf/share/common-lisp/ros/robot_pose_ekf/srv/GetStatus.lisp"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/robot_pose_ekf/share/common-lisp/ros/robot_pose_ekf/srv/GetStatus.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

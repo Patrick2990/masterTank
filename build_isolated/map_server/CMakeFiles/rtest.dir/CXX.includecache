@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/plinux/RosPacks/masterTank/src/navigation/map_server/test/rtest.cpp
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/rtest.cpp
 gtest/gtest.h
 -
 ros/service.h
@@ -20,13 +20,13 @@ nav_msgs/OccupancyGrid.h
 nav_msgs/MapMetaData.h
 -
 test_constants.h
-/home/plinux/RosPacks/masterTank/src/navigation/map_server/test/test_constants.h
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/test_constants.h
 
-/home/plinux/RosPacks/masterTank/src/navigation/map_server/test/test_constants.cpp
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/test_constants.cpp
 test_constants.h
-/home/plinux/RosPacks/masterTank/src/navigation/map_server/test/test_constants.h
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/test_constants.h
 
-/home/plinux/RosPacks/masterTank/src/navigation/map_server/test/test_constants.h
+/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/test/test_constants.h
 
 /opt/ros/kinetic/include/XmlRpcDecl.h
 ros/macros.h

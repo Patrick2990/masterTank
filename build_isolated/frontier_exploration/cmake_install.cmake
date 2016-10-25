@@ -1,8 +1,8 @@
-# Install script for directory: /home/plinux/RosPacks/masterTank/src/frontier_exploration
+# Install script for directory: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/plinux/RosPacks/masterTank/install_isolated")
+  set(CMAKE_INSTALL_PREFIX "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,148 +44,148 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/plinux/RosPacks/masterTank/install_isolated/_setup_util.py")
+   "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYPE PROGRAM FILES "/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated" TYPE PROGRAM FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/plinux/RosPacks/masterTank/install_isolated/env.sh")
+   "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYPE PROGRAM FILES "/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated" TYPE PROGRAM FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/plinux/RosPacks/masterTank/install_isolated/setup.bash")
+   "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/plinux/RosPacks/masterTank/install_isolated/setup.sh")
+   "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/plinux/RosPacks/masterTank/install_isolated/setup.zsh")
+   "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/plinux/RosPacks/masterTank/install_isolated/.rosinstall")
+   "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/msg" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/msg" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/srv" TYPE FILE FILES
-    "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv"
-    "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/action" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/src/frontier_exploration/action/ExploreTask.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/action" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/action/ExploreTask.action")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/msg" TYPE FILE FILES
-    "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg"
-    "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg"
-    "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg"
-    "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg"
-    "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg"
-    "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg"
-    "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/cmake" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/frontier_exploration-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/cmake" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/frontier_exploration-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/include/frontier_exploration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/include/frontier_exploration")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/roseus/ros/frontier_exploration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/roseus/ros/frontier_exploration")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/common-lisp/ros/frontier_exploration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/common-lisp/ros/frontier_exploration")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/gennodejs/ros/frontier_exploration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/gennodejs/ros/frontier_exploration")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/lib/python2.7/dist-packages/frontier_exploration")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/lib/python2.7/dist-packages/frontier_exploration")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/lib/python2.7/dist-packages/frontier_exploration")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/lib/python2.7/dist-packages/frontier_exploration")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/frontier_exploration.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/frontier_exploration.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/cmake" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/frontier_exploration-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/cmake" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/frontier_exploration-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/cmake" TYPE FILE FILES
-    "/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/frontier_explorationConfig.cmake"
-    "/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/frontier_explorationConfig-version.cmake"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/frontier_explorationConfig.cmake"
+    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/catkin_generated/installspace/frontier_explorationConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/src/frontier_exploration/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -195,12 +195,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration/explore_server"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration" TYPE EXECUTABLE FILES "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/lib/frontier_exploration/explore_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration" TYPE EXECUTABLE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/lib/frontier_exploration/explore_server")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration/explore_server" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration/explore_server")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration/explore_server"
-         OLD_RPATH "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib:/home/plinux/RosPacks/masterTank/devel_isolated/voxel_grid/lib:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:"
+         OLD_RPATH "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib:/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/voxel_grid/lib:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration/explore_server")
@@ -215,12 +215,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration/explore_client"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration" TYPE EXECUTABLE FILES "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/lib/frontier_exploration/explore_client")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration" TYPE EXECUTABLE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/lib/frontier_exploration/explore_client")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration/explore_client" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration/explore_client")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration/explore_client"
-         OLD_RPATH "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib:/home/plinux/RosPacks/masterTank/devel_isolated/voxel_grid/lib:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:"
+         OLD_RPATH "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib:/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/voxel_grid/lib:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/frontier_exploration/explore_client")
@@ -235,12 +235,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libexplore_costmap.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/lib/libexplore_costmap.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/lib/libexplore_costmap.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libexplore_costmap.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libexplore_costmap.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libexplore_costmap.so"
-         OLD_RPATH "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib:/home/plinux/RosPacks/masterTank/devel_isolated/voxel_grid/lib:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:"
+         OLD_RPATH "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib:/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/voxel_grid/lib:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libexplore_costmap.so")
@@ -249,20 +249,20 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/frontier_exploration" TYPE DIRECTORY FILES "/home/plinux/RosPacks/masterTank/src/frontier_exploration/include/frontier_exploration/" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/frontier_exploration" TYPE DIRECTORY FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/include/frontier_exploration/" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/launch" TYPE DIRECTORY FILES "/home/plinux/RosPacks/masterTank/src/frontier_exploration/launch/" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration/launch" TYPE DIRECTORY FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/launch/" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/src/frontier_exploration/costmap_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/frontier_exploration" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/costmap_plugins.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/gtest/cmake_install.cmake")
+  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/gtest/cmake_install.cmake")
 
 endif()
 
@@ -274,5 +274,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/plinux/RosPacks/masterTank/build_isolated/frontier_exploration/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/frontier_exploration/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

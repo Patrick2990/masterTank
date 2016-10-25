@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/array_parser_test.dir/test/array_parser_test.cpp.o"
-  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/array_parser_test.pdb"
-  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/array_parser_test"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/array_parser_test.pdb"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/array_parser_test"
 )
 
 # Per-language clean rules from dependency scanning.

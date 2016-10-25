@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/navfn
+CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/navfn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/navfn
+CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navfn
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/plinux/RosPacks/masterTank/build_isolated/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/navigation/navfn /home/plinux/RosPacks/masterTank/src/navigation/navfn /home/plinux/RosPacks/masterTank/build_isolated/navfn /home/plinux/RosPacks/masterTank/build_isolated/navfn /home/plinux/RosPacks/masterTank/build_isolated/navfn/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/navfn /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/navfn /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navfn /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navfn /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navfn/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/depend
 

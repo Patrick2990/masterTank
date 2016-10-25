@@ -67,14 +67,14 @@ set(frontier_exploration_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(frontier_exploration_SOURCE_PREFIX /home/plinux/RosPacks/masterTank/src/frontier_exploration)
-  set(frontier_exploration_DEVEL_PREFIX /home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration)
+  set(frontier_exploration_SOURCE_PREFIX /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration)
+  set(frontier_exploration_DEVEL_PREFIX /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration)
   set(frontier_exploration_INSTALL_PREFIX "")
   set(frontier_exploration_PREFIX ${frontier_exploration_DEVEL_PREFIX})
 else()
   set(frontier_exploration_SOURCE_PREFIX "")
   set(frontier_exploration_DEVEL_PREFIX "")
-  set(frontier_exploration_INSTALL_PREFIX /home/plinux/RosPacks/masterTank/install_isolated)
+  set(frontier_exploration_INSTALL_PREFIX /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated)
   set(frontier_exploration_PREFIX ${frontier_exploration_INSTALL_PREFIX})
 endif()
 
@@ -103,7 +103,7 @@ if(NOT "include;/usr/include/pcl-1.7;/usr/include/eigen3;/usr/include " STREQUAL
         message(FATAL_ERROR "Project 'frontier_exploration' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Paul Bovbel <paul@bovbel.com>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'frontier_exploration' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/plinux/RosPacks/masterTank/install_isolated/${idir}'.  Ask the maintainer 'Paul Bovbel <paul@bovbel.com>' to fix it.")
+      message(FATAL_ERROR "Project 'frontier_exploration' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/${idir}'.  Ask the maintainer 'Paul Bovbel <paul@bovbel.com>' to fix it.")
     endif()
     _list_append_unique(frontier_exploration_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/plinux/RosPacks/masterTank/install_isolated/lib;/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib;/home/plinux/RosPacks/masterTank/devel_isolated/voxel_grid/lib;/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/lib;/home/plinux/RosPacks/masterTank/devel_isolated/timestamp_tools/lib;/home/plinux/RosPacks/masterTank/devel_isolated/robot_pose_ekf/lib;/home/plinux/RosPacks/masterTank/devel_isolated/navigation/lib;/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/lib;/home/plinux/RosPacks/masterTank/devel_isolated/amcl/lib;/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib;/home/plinux/RosPacks/masterTank/devel_isolated/fake_localization/lib;/home/plinux/RosPacks/masterTank/devel_isolated/driver_common/lib;/home/plinux/RosPacks/masterTank/devel_isolated/driver_base/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/voxel_grid/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/timestamp_tools/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/smr_computer/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/robot_pose_ekf/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navigation/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/master_tank_navigation/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/amcl/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/fake_localization/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/driver_common/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/driver_base/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -208,14 +208,16 @@ public:
     QCheckBox *checkBox_map_incremental;
     QGroupBox *groupBox_octomap;
     QGridLayout *gridLayout_72;
-    QSpinBox *spinBox_octomap_treeDepth;
     QLabel *label_octomap_treeDepth;
+    QSpinBox *spinBox_octomap_treeDepth;
     QCheckBox *checkBox_octomap_2dgrid;
     QLabel *label_octomap_treeDepth_2;
     QLabel *label_octomap_treeDepth_3;
     QCheckBox *checkBox_octomap_show3dMap;
     QLabel *label_octomap_treeDepth_4;
     QDoubleSpinBox *doubleSpinBox_octomap_occupancyThr;
+    QLabel *label_octomap_treeDepth_5;
+    QCheckBox *checkBox_octomap_cubeRendering;
     QSpacerItem *verticalSpacer_56;
     QWidget *page_8;
     QVBoxLayout *verticalLayout_43;
@@ -1378,7 +1380,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QStringLiteral("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setGeometry(QRect(0, -450, 673, 2496));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 678, 2417));
         verticalLayout_16 = new QVBoxLayout(scrollAreaWidgetContents);
         verticalLayout_16->setSpacing(0);
         verticalLayout_16->setContentsMargins(0, 0, 0, 0);
@@ -2351,33 +2353,33 @@ public:
         groupBox_octomap->setCheckable(true);
         gridLayout_72 = new QGridLayout(groupBox_octomap);
         gridLayout_72->setObjectName(QStringLiteral("gridLayout_72"));
+        label_octomap_treeDepth = new QLabel(groupBox_octomap);
+        label_octomap_treeDepth->setObjectName(QStringLiteral("label_octomap_treeDepth"));
+        label_octomap_treeDepth->setWordWrap(true);
+        label_octomap_treeDepth->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse);
+
+        gridLayout_72->addWidget(label_octomap_treeDepth, 2, 1, 1, 1);
+
         spinBox_octomap_treeDepth = new QSpinBox(groupBox_octomap);
         spinBox_octomap_treeDepth->setObjectName(QStringLiteral("spinBox_octomap_treeDepth"));
         spinBox_octomap_treeDepth->setMinimum(1);
         spinBox_octomap_treeDepth->setMaximum(16);
         spinBox_octomap_treeDepth->setValue(16);
 
-        gridLayout_72->addWidget(spinBox_octomap_treeDepth, 1, 0, 1, 1);
-
-        label_octomap_treeDepth = new QLabel(groupBox_octomap);
-        label_octomap_treeDepth->setObjectName(QStringLiteral("label_octomap_treeDepth"));
-        label_octomap_treeDepth->setWordWrap(true);
-        label_octomap_treeDepth->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse);
-
-        gridLayout_72->addWidget(label_octomap_treeDepth, 1, 1, 1, 1);
+        gridLayout_72->addWidget(spinBox_octomap_treeDepth, 2, 0, 1, 1);
 
         checkBox_octomap_2dgrid = new QCheckBox(groupBox_octomap);
         checkBox_octomap_2dgrid->setObjectName(QStringLiteral("checkBox_octomap_2dgrid"));
         checkBox_octomap_2dgrid->setChecked(false);
 
-        gridLayout_72->addWidget(checkBox_octomap_2dgrid, 2, 0, 1, 1);
+        gridLayout_72->addWidget(checkBox_octomap_2dgrid, 3, 0, 1, 1);
 
         label_octomap_treeDepth_2 = new QLabel(groupBox_octomap);
         label_octomap_treeDepth_2->setObjectName(QStringLiteral("label_octomap_treeDepth_2"));
         label_octomap_treeDepth_2->setWordWrap(true);
         label_octomap_treeDepth_2->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse);
 
-        gridLayout_72->addWidget(label_octomap_treeDepth_2, 2, 1, 1, 1);
+        gridLayout_72->addWidget(label_octomap_treeDepth_2, 3, 1, 1, 1);
 
         label_octomap_treeDepth_3 = new QLabel(groupBox_octomap);
         label_octomap_treeDepth_3->setObjectName(QStringLiteral("label_octomap_treeDepth_3"));
@@ -2397,14 +2399,27 @@ public:
         label_octomap_treeDepth_4->setWordWrap(true);
         label_octomap_treeDepth_4->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse);
 
-        gridLayout_72->addWidget(label_octomap_treeDepth_4, 3, 1, 1, 1);
+        gridLayout_72->addWidget(label_octomap_treeDepth_4, 4, 1, 1, 1);
 
         doubleSpinBox_octomap_occupancyThr = new QDoubleSpinBox(groupBox_octomap);
         doubleSpinBox_octomap_occupancyThr->setObjectName(QStringLiteral("doubleSpinBox_octomap_occupancyThr"));
         doubleSpinBox_octomap_occupancyThr->setMaximum(1);
         doubleSpinBox_octomap_occupancyThr->setValue(0.5);
 
-        gridLayout_72->addWidget(doubleSpinBox_octomap_occupancyThr, 3, 0, 1, 1);
+        gridLayout_72->addWidget(doubleSpinBox_octomap_occupancyThr, 4, 0, 1, 1);
+
+        label_octomap_treeDepth_5 = new QLabel(groupBox_octomap);
+        label_octomap_treeDepth_5->setObjectName(QStringLiteral("label_octomap_treeDepth_5"));
+        label_octomap_treeDepth_5->setWordWrap(true);
+        label_octomap_treeDepth_5->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse);
+
+        gridLayout_72->addWidget(label_octomap_treeDepth_5, 1, 1, 1, 1);
+
+        checkBox_octomap_cubeRendering = new QCheckBox(groupBox_octomap);
+        checkBox_octomap_cubeRendering->setObjectName(QStringLiteral("checkBox_octomap_cubeRendering"));
+        checkBox_octomap_cubeRendering->setChecked(false);
+
+        gridLayout_72->addWidget(checkBox_octomap_cubeRendering, 1, 0, 1, 1);
 
         gridLayout_72->setColumnStretch(1, 1);
 
@@ -8939,7 +8954,7 @@ public:
 
         retranslateUi(preferencesDialog);
 
-        stackedWidget->setCurrentIndex(5);
+        stackedWidget->setCurrentIndex(3);
         comboBox_loggerLevel->setCurrentIndex(2);
         comboBox_loggerEventLevel->setCurrentIndex(3);
         comboBox_loggerPauseLevel->setCurrentIndex(3);
@@ -9084,6 +9099,8 @@ public:
         label_octomap_treeDepth_3->setText(QApplication::translate("preferencesDialog", "Show in 3D map view.", 0));
         checkBox_octomap_show3dMap->setText(QString());
         label_octomap_treeDepth_4->setText(QApplication::translate("preferencesDialog", "Occupancy threshold.", 0));
+        label_octomap_treeDepth_5->setText(QApplication::translate("preferencesDialog", "Cube rendering. Disable to show as a point cloud (a lot less GPU power required).", 0));
+        checkBox_octomap_cubeRendering->setText(QString());
         groupBox_logging1->setTitle(QApplication::translate("preferencesDialog", "Logging", 0));
         comboBox_loggerLevel->clear();
         comboBox_loggerLevel->insertItems(0, QStringList()

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/rotate_recovery
+CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/rotate_recovery
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/rotate_recovery
+CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rotate_recovery
 
 # Utility rule file for costmap_2d_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/costmap_2d_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/costmap_2d_generate_messages_eus.dir/clean
 
 CMakeFiles/costmap_2d_generate_messages_eus.dir/depend:
-	cd /home/plinux/RosPacks/masterTank/build_isolated/rotate_recovery && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/navigation/rotate_recovery /home/plinux/RosPacks/masterTank/src/navigation/rotate_recovery /home/plinux/RosPacks/masterTank/build_isolated/rotate_recovery /home/plinux/RosPacks/masterTank/build_isolated/rotate_recovery /home/plinux/RosPacks/masterTank/build_isolated/rotate_recovery/CMakeFiles/costmap_2d_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rotate_recovery && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/rotate_recovery /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/rotate_recovery /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rotate_recovery /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rotate_recovery /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rotate_recovery/CMakeFiles/costmap_2d_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/costmap_2d_generate_messages_eus.dir/depend
 

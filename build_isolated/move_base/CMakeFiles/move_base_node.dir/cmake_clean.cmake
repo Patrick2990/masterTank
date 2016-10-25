@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/move_base_node.dir/src/move_base_node.cpp.o"
-  "/home/plinux/RosPacks/masterTank/devel_isolated/move_base/lib/move_base/move_base.pdb"
-  "/home/plinux/RosPacks/masterTank/devel_isolated/move_base/lib/move_base/move_base"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/move_base/lib/move_base/move_base.pdb"
+  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/move_base/lib/move_base/move_base"
 )
 
 # Per-language clean rules from dependency scanning.

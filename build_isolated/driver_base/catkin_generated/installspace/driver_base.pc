@@ -1,8 +1,8 @@
-prefix=/home/plinux/RosPacks/masterTank/install_isolated
+prefix=/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated
 
 Name: driver_base
 Description: Description of driver_base
 Version: 1.6.8
-Cflags: -I/home/plinux/RosPacks/masterTank/install_isolated/include -I/usr/include
-Libs: -L/home/plinux/RosPacks/masterTank/install_isolated/lib 
+Cflags: -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/include -I/usr/include
+Libs: -L/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/lib 
 Requires: message_runtime std_msgs
