@@ -1,8 +1,8 @@
-# Install script for directory: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/tools
+# Install script for directory: /home/plinux/RosPacks/masterTank/src/rtabmap/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/rtabmap")
+  set(CMAKE_INSTALL_PREFIX "/home/plinux/RosPacks/masterTank/devel_isolated/rtabmap")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,17 +34,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/tools/ConsoleApp/cmake_install.cmake")
-  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/tools/ImagesJoiner/cmake_install.cmake")
-  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/tools/ExtractObject/cmake_install.cmake")
-  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/tools/Camera/cmake_install.cmake")
-  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/tools/CameraRGBD/cmake_install.cmake")
-  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/tools/StereoEval/cmake_install.cmake")
-  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/tools/DatabaseViewer/cmake_install.cmake")
-  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/tools/EpipolarGeometry/cmake_install.cmake")
-  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/tools/OdometryViewer/cmake_install.cmake")
-  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/tools/DataRecorder/cmake_install.cmake")
-  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/tools/Calibration/cmake_install.cmake")
+  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/tools/ConsoleApp/cmake_install.cmake")
+  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/tools/ImagesJoiner/cmake_install.cmake")
+  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/tools/ExtractObject/cmake_install.cmake")
+  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/tools/Camera/cmake_install.cmake")
+  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/tools/CameraRGBD/cmake_install.cmake")
+  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/tools/StereoEval/cmake_install.cmake")
+  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/tools/DatabaseViewer/cmake_install.cmake")
+  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/tools/EpipolarGeometry/cmake_install.cmake")
+  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/tools/OdometryViewer/cmake_install.cmake")
+  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/tools/DataRecorder/cmake_install.cmake")
+  include("/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/tools/Calibration/cmake_install.cmake")
 
 endif()
 

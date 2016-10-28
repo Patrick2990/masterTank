@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/navfn
+CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/navfn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navfn
+CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/navfn
 
 # Utility rule file for _run_tests_navfn_gtest.
 
@@ -63,10 +63,10 @@ test/CMakeFiles/_run_tests_navfn_gtest.dir/build: _run_tests_navfn_gtest
 .PHONY : test/CMakeFiles/_run_tests_navfn_gtest.dir/build
 
 test/CMakeFiles/_run_tests_navfn_gtest.dir/clean:
-	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_navfn_gtest.dir/cmake_clean.cmake
+	cd /home/plinux/RosPacks/masterTank/build_isolated/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_navfn_gtest.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/_run_tests_navfn_gtest.dir/clean
 
 test/CMakeFiles/_run_tests_navfn_gtest.dir/depend:
-	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/navfn /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/navfn/test /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navfn /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navfn/test /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navfn/test/CMakeFiles/_run_tests_navfn_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/plinux/RosPacks/masterTank/build_isolated/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/navigation/navfn /home/plinux/RosPacks/masterTank/src/navigation/navfn/test /home/plinux/RosPacks/masterTank/build_isolated/navfn /home/plinux/RosPacks/masterTank/build_isolated/navfn/test /home/plinux/RosPacks/masterTank/build_isolated/navfn/test/CMakeFiles/_run_tests_navfn_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/_run_tests_navfn_gtest.dir/depend
 

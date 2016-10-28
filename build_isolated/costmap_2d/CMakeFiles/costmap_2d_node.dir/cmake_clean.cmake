@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/costmap_2d_node.dir/src/costmap_2d_node.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/costmap_2d_node.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/costmap_2d_node"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/costmap_2d_node.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/costmap_2d_node"
 )
 
 # Per-language clean rules from dependency scanning.

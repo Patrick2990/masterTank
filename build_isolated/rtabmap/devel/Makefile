@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap
+CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/rtabmap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel
+CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/CPackSourceConfig.cmake
+	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -146,9 +146,9 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/CMakeFiles /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/CMakeFiles /home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

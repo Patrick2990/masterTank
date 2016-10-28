@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/map_server_utest.dir/test/utest.cpp.o"
   "CMakeFiles/map_server_utest.dir/test/test_constants.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/map_server_utest.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/map_server/map_server_utest"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/map_server_utest.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/map_server/map_server_utest"
 )
 
 # Per-language clean rules from dependency scanning.

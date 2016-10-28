@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/layers.dir/plugins/static_layer.cpp.o"
   "CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o"
   "CMakeFiles/layers.dir/src/observation_buffer.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib/liblayers.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib/liblayers.so"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib/liblayers.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib/liblayers.so"
 )
 
 # Per-language clean rules from dependency scanning.

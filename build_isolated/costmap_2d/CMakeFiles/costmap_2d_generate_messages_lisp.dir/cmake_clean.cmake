@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/costmap_2d_generate_messages_lisp"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/share/common-lisp/ros/costmap_2d/msg/VoxelGrid.lisp"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/share/common-lisp/ros/costmap_2d/msg/VoxelGrid.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

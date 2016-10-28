@@ -4,8 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/wifi_mapping.dir/main.cpp.o"
   "CMakeFiles/wifi_mapping.dir/moc_MapBuilder.cpp.o"
   "CMakeFiles/wifi_mapping.dir/moc_MapBuilderWifi.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/rtabmap-wifi_mapping.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/rtabmap-wifi_mapping"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/rtabmap-wifi_mapping.pdb"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/rtabmap-wifi_mapping"
 )
 
 # Per-language clean rules from dependency scanning.

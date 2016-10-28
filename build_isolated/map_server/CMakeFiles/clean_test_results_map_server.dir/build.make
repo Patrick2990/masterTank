@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server
+CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/map_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server
+CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/map_server
 
 # Utility rule file for clean_test_results_map_server.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/ma
 include CMakeFiles/clean_test_results_map_server.dir/progress.make
 
 CMakeFiles/clean_test_results_map_server:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server/test_results/map_server
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/plinux/RosPacks/masterTank/build_isolated/map_server/test_results/map_server
 
 clean_test_results_map_server: CMakeFiles/clean_test_results_map_server
 clean_test_results_map_server: CMakeFiles/clean_test_results_map_server.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_map_server.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_map_server.dir/clean
 
 CMakeFiles/clean_test_results_map_server.dir/depend:
-	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server/CMakeFiles/clean_test_results_map_server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/plinux/RosPacks/masterTank/build_isolated/map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/navigation/map_server /home/plinux/RosPacks/masterTank/src/navigation/map_server /home/plinux/RosPacks/masterTank/build_isolated/map_server /home/plinux/RosPacks/masterTank/build_isolated/map_server /home/plinux/RosPacks/masterTank/build_isolated/map_server/CMakeFiles/clean_test_results_map_server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_map_server.dir/depend
 

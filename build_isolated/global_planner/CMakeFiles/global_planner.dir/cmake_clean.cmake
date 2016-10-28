@@ -6,8 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/global_planner.dir/src/gradient_path.cpp.o"
   "CMakeFiles/global_planner.dir/src/orientation_filter.cpp.o"
   "CMakeFiles/global_planner.dir/src/planner_core.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/global_planner/lib/libglobal_planner.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/global_planner/lib/libglobal_planner.so"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/global_planner/lib/libglobal_planner.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/global_planner/lib/libglobal_planner.so"
 )
 
 # Per-language clean rules from dependency scanning.

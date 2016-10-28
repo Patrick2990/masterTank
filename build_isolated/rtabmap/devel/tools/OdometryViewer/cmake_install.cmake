@@ -1,8 +1,8 @@
-# Install script for directory: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/tools/OdometryViewer
+# Install script for directory: /home/plinux/RosPacks/masterTank/src/rtabmap/tools/OdometryViewer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/rtabmap")
+  set(CMAKE_INSTALL_PREFIX "/home/plinux/RosPacks/masterTank/devel_isolated/rtabmap")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,12 +39,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "runtime
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rtabmap-odometryViewer"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/rtabmap-odometryViewer")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/rtabmap-odometryViewer")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rtabmap-odometryViewer" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rtabmap-odometryViewer")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rtabmap-odometryViewer"
-         OLD_RPATH "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/openmpi/lib:/usr/lib/openmpi/lib:"
+         OLD_RPATH "/home/plinux/RosPacks/masterTank/src/rtabmap/bin:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/openmpi/lib:/usr/lib/openmpi/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/rtabmap-odometryViewer")

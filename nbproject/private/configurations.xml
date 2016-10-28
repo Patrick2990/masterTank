@@ -27,292 +27,6 @@
                 <in>CMakeCXXCompilerId.cpp</in>
               </df>
             </df>
-            <in>feature_tests.c</in>
-            <in>feature_tests.cxx</in>
-          </df>
-          <df name="cmakefiles">
-            <df name="_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_set_initial_pose.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_small_loop_prf.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir">
-            </df>
-            <df name="actionlib_generate_messages_cpp.dir">
-            </df>
-            <df name="actionlib_generate_messages_eus.dir">
-            </df>
-            <df name="actionlib_generate_messages_lisp.dir">
-            </df>
-            <df name="actionlib_generate_messages_nodejs.dir">
-            </df>
-            <df name="actionlib_generate_messages_py.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_py.dir">
-            </df>
-            <df name="amcl.dir">
-            </df>
-            <df name="amcl_basic_localization_stage_indexed.bag.dir">
-            </df>
-            <df name="amcl_gencfg.dir">
-            </df>
-            <df name="amcl_global_localization_stage_indexed.bag.dir">
-            </df>
-            <df name="amcl_map.dir">
-            </df>
-            <df name="amcl_pf.dir">
-            </df>
-            <df name="amcl_rosie_localization_stage.bag.dir">
-            </df>
-            <df name="amcl_sensors.dir">
-            </df>
-            <df name="amcl_small_loop_crazy_driving_prg_indexed.bag.dir">
-            </df>
-            <df name="amcl_small_loop_prf_indexed.bag.dir">
-            </df>
-            <df name="amcl_texas_greenroom_loop_indexed.bag.dir">
-            </df>
-            <df name="amcl_texas_willow_hallway_loop_indexed.bag.dir">
-            </df>
-            <df name="amcl_willow-full-0.05.pgm.dir">
-            </df>
-            <df name="amcl_willow-full.pgm.dir">
-            </df>
-            <df name="clean_test_results.dir">
-            </df>
-            <df name="clean_test_results_amcl.dir">
-            </df>
-            <df name="download_extra_data.dir">
-            </df>
-            <df name="doxygen.dir">
-            </df>
-            <df name="dynamic_reconfigure_gencfg.dir">
-            </df>
-            <df name="dynamic_reconfigure_generate_messages_cpp.dir">
-            </df>
-            <df name="dynamic_reconfigure_generate_messages_eus.dir">
-            </df>
-            <df name="dynamic_reconfigure_generate_messages_lisp.dir">
-            </df>
-            <df name="dynamic_reconfigure_generate_messages_nodejs.dir">
-            </df>
-            <df name="dynamic_reconfigure_generate_messages_py.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_py.dir">
-            </df>
-            <df name="nav_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="nav_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="nav_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="nav_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="nav_msgs_generate_messages_py.dir">
-            </df>
-            <df name="roscpp_generate_messages_cpp.dir">
-            </df>
-            <df name="roscpp_generate_messages_eus.dir">
-            </df>
-            <df name="roscpp_generate_messages_lisp.dir">
-            </df>
-            <df name="roscpp_generate_messages_nodejs.dir">
-            </df>
-            <df name="roscpp_generate_messages_py.dir">
-            </df>
-            <df name="rosgraph_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="rosgraph_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="rosgraph_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="rosgraph_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="rosgraph_msgs_generate_messages_py.dir">
-            </df>
-            <df name="run_tests.dir">
-            </df>
-            <df name="run_tests_amcl.dir">
-            </df>
-            <df name="run_tests_amcl_rostest.dir">
-            </df>
-            <df name="run_tests_amcl_rostest_test_basic_localization_stage.xml.dir">
-            </df>
-            <df name="run_tests_amcl_rostest_test_rosie_multilaser.xml.dir">
-            </df>
-            <df name="run_tests_amcl_rostest_test_set_initial_pose.xml.dir">
-            </df>
-            <df name="run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir">
-            </df>
-            <df name="run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir">
-            </df>
-            <df name="run_tests_amcl_rostest_test_small_loop_prf.xml.dir">
-            </df>
-            <df name="run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir">
-            </df>
-            <df name="run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_py.dir">
-            </df>
-            <df name="std_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="std_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="std_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="std_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="std_msgs_generate_messages_py.dir">
-            </df>
-            <df name="tests.dir">
-            </df>
-            <df name="tf2_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="tf2_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="tf2_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="tf2_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="tf2_msgs_generate_messages_py.dir">
-            </df>
-            <df name="tf_generate_messages_cpp.dir">
-            </df>
-          </df>
-          <df name="cmakefiles (case conflict)">
-            <df name="3.5.1">
-            </df>
-            <df name="_run_tests_amcl.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_basic_localization_stage.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_set_initial_pose.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_set_initial_pose_delayed.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_small_loop_prf.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir">
-            </df>
-            <df name="_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir">
-            </df>
-            <df name="actionlib_generate_messages_cpp.dir">
-            </df>
-            <df name="actionlib_generate_messages_eus.dir">
-            </df>
-            <df name="actionlib_generate_messages_lisp.dir">
-            </df>
-            <df name="actionlib_generate_messages_nodejs.dir">
-            </df>
-            <df name="actionlib_generate_messages_py.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="actionlib_msgs_generate_messages_py.dir">
-            </df>
-            <df name="amcl.dir">
-            </df>
-            <df name="amcl_basic_localization_stage_indexed.bag.dir">
-            </df>
-            <df name="amcl_gencfg.dir">
-            </df>
-            <df name="amcl_global_localization_stage_indexed.bag.dir">
-            </df>
-            <df name="amcl_map.dir">
-            </df>
-            <df name="amcl_pf.dir">
-            </df>
-            <df name="amcl_rosie_localization_stage.bag.dir">
-            </df>
-            <df name="amcl_sensors.dir">
-            </df>
-            <df name="amcl_small_loop_crazy_driving_prg_indexed.bag.dir">
-            </df>
-            <df name="amcl_small_loop_prf_indexed.bag.dir">
-            </df>
-            <df name="amcl_texas_greenroom_loop_indexed.bag.dir">
-            </df>
-            <df name="amcl_texas_willow_hallway_loop_indexed.bag.dir">
-            </df>
-            <df name="amcl_willow-full-0.05.pgm.dir">
-            </df>
-            <df name="amcl_willow-full.pgm.dir">
-            </df>
-            <df name="clean_test_results.dir">
-            </df>
-            <df name="clean_test_results_amcl.dir">
-            </df>
-            <df name="download_extra_data.dir">
-            </df>
-            <df name="doxygen.dir">
-            </df>
-            <df name="dynamic_reconfigure_gencfg.dir">
-            </df>
-            <df name="dynamic_reconfigure_generate_messages_cpp.dir">
-            </df>
-            <df name="dynamic_reconfigure_generate_messages_eus.dir">
-            </df>
-          </df>
-          <df name="cmakefiles (case conflict) (Case Conflict)">
-            <df name="3.5.1">
-              <df name="CompilerIdC">
-                <in>CMakeCCompilerId (1).c</in>
-                <in>CMakeCCompilerId (2).c</in>
-                <in>CMakeCCompilerId (3).c</in>
-                <in>CMakeCCompilerId (4).c</in>
-                <in>CMakeCCompilerId.c</in>
-              </df>
-              <df name="CompilerIdCXX">
-                <in>CMakeCXXCompilerId (1).cpp</in>
-                <in>CMakeCXXCompilerId (2).cpp</in>
-                <in>CMakeCXXCompilerId (3).cpp</in>
-                <in>CMakeCXXCompilerId (4).cpp</in>
-                <in>CMakeCXXCompilerId.cpp</in>
-              </df>
-            </df>
             <df name="_run_tests_amcl.dir">
             </df>
             <df name="_run_tests_amcl_rostest.dir">
@@ -443,8 +157,6 @@
             </df>
             <df name="nav_msgs_generate_messages_py.dir">
             </df>
-            <df name="Progress">
-            </df>
             <df name="roscpp_generate_messages_cpp.dir">
             </df>
             <df name="roscpp_generate_messages_eus.dir">
@@ -539,14 +251,6 @@
             </df>
             <df name="topic_tools_generate_messages_py.dir">
             </df>
-            <in>feature_tests (1).c</in>
-            <in>feature_tests (1).cxx</in>
-            <in>feature_tests (2).c</in>
-            <in>feature_tests (2).cxx</in>
-            <in>feature_tests (3).c</in>
-            <in>feature_tests (3).cxx</in>
-            <in>feature_tests (4).c</in>
-            <in>feature_tests (4).cxx</in>
             <in>feature_tests.c</in>
             <in>feature_tests.cxx</in>
           </df>
@@ -5012,6 +4716,10 @@
                     </df>
                     <df name="toro3d">
                     </df>
+                    <df name="vertigo">
+                      <df name="g2o">
+                      </df>
+                    </df>
                   </df>
                 </df>
                 <in>DatabaseSchema_sql.h</in>
@@ -8072,6 +7780,10 @@
                     </df>
                     <df name="toro3d">
                     </df>
+                    <df name="vertigo">
+                      <df name="g2o">
+                      </df>
+                    </df>
                   </df>
                 </df>
                 <in>DatabaseSchema_sql.h</in>
@@ -8745,113 +8457,109 @@
           </df>
         </df>
         <df name="rtabmap_ros">
-          <df name="src">
+          <df name="cfg">
+          </df>
+          <df name="eclipse-launch">
+          </df>
+          <df name="include">
             <df name="rtabmap_ros">
-              <df name="cfg">
-              </df>
-              <df name="eclipse-launch">
-              </df>
-              <df name="include">
-                <df name="rtabmap_ros">
-                  <in>CommonDataSubscriber.h</in>
-                  <in>CommonDataSubscriberDefines.h</in>
-                  <in>CoreWrapper.h</in>
-                  <in>GuiWrapper.h</in>
-                  <in>MapsManager.h</in>
-                  <in>MsgConversion.h</in>
-                  <in>OdometryROS.h</in>
-                  <in>PreferencesDialogROS.h</in>
-                </df>
-              </df>
-              <df name="launch">
-                <df name="azimut3">
-                  <df name="config">
-                  </df>
-                </df>
-                <df name="calibration">
-                  <df name="kinect2">
-                    <df name="506816242542">
-                    </df>
-                  </df>
-                </df>
-                <df name="config">
-                </df>
-                <df name="data">
-                  <df name="books">
-                  </df>
-                  <df name="demo_appearance">
-                  </df>
-                </df>
-                <df name="demo">
-                </df>
-                <df name="tests">
-                </df>
-              </df>
-              <df name="msg">
-              </df>
-              <df name="scripts">
-              </df>
-              <df name="src">
-                <df name="costmap_2d">
-                  <in>static_layer.cpp</in>
-                  <in>static_layer.h</in>
-                </df>
-                <df name="impl">
-                  <in>CommonDataSubscriberDepth.cpp</in>
-                  <in>CommonDataSubscriberRGBD.cpp</in>
-                  <in>CommonDataSubscriberRGBD2.cpp</in>
-                  <in>CommonDataSubscriberStereo.cpp</in>
-                </df>
-                <df name="nodelets">
-                  <in>data_odom_sync.cpp</in>
-                  <in>data_throttle.cpp</in>
-                  <in>disparity_to_depth.cpp</in>
-                  <in>icp_odometry.cpp</in>
-                  <in>obstacles_detection.cpp</in>
-                  <in>obstacles_detection_old.cpp</in>
-                  <in>point_cloud_aggregator.cpp</in>
-                  <in>point_cloud_xyz.cpp</in>
-                  <in>point_cloud_xyzrgb.cpp</in>
-                  <in>rgbd_odometry.cpp</in>
-                  <in>rgbd_sync.cpp</in>
-                  <in>rgbdicp_odometry.cpp</in>
-                  <in>stereo_odometry.cpp</in>
-                  <in>stereo_throttle.cpp</in>
-                  <in>undistort_depth.cpp</in>
-                </df>
-                <df name="rviz">
-                  <in>InfoDisplay.cpp</in>
-                  <in>InfoDisplay.h</in>
-                  <in>MapCloudDisplay.cpp</in>
-                  <in>MapCloudDisplay.h</in>
-                  <in>MapGraphDisplay.cpp</in>
-                  <in>MapGraphDisplay.h</in>
-                  <in>OrbitOrientedViewController.cpp</in>
-                  <in>OrbitOrientedViewController.h</in>
-                </df>
-                <in>CameraNode.cpp</in>
-                <in>CommonDataSubscriber.cpp</in>
-                <in>CoreNode.cpp</in>
-                <in>CoreWrapper.cpp</in>
-                <in>DbPlayerNode.cpp</in>
-                <in>GuiNode.cpp</in>
-                <in>GuiWrapper.cpp</in>
-                <in>ICPOdometryNode.cpp</in>
-                <in>MapAssemblerNode.cpp</in>
-                <in>MapOptimizerNode.cpp</in>
-                <in>MapsManager.cpp</in>
-                <in>MsgConversion.cpp</in>
-                <in>OdomMsgToTFNode.cpp</in>
-                <in>OdometryROS.cpp</in>
-                <in>PreferencesDialogROS.cpp</in>
-                <in>RGBDICPOdometryNode.cpp</in>
-                <in>RGBDOdometryNode.cpp</in>
-                <in>StereoCameraNode.cpp</in>
-                <in>StereoOdometryNode.cpp</in>
-              </df>
-              <df name="srv">
+              <in>CommonDataSubscriber.h</in>
+              <in>CommonDataSubscriberDefines.h</in>
+              <in>CoreWrapper.h</in>
+              <in>GuiWrapper.h</in>
+              <in>MapsManager.h</in>
+              <in>MsgConversion.h</in>
+              <in>OdometryROS.h</in>
+              <in>PreferencesDialogROS.h</in>
+            </df>
+          </df>
+          <df name="launch">
+            <df name="azimut3">
+              <df name="config">
               </df>
             </df>
+            <df name="calibration">
+              <df name="kinect2">
+                <df name="506816242542">
+                </df>
+              </df>
+            </df>
+            <df name="config">
+            </df>
+            <df name="data">
+              <df name="books">
+              </df>
+              <df name="demo_appearance">
+              </df>
+            </df>
+            <df name="demo">
+            </df>
+            <df name="tests">
+            </df>
+          </df>
+          <df name="msg">
+          </df>
+          <df name="scripts">
+          </df>
+          <df name="src">
+            <df name="costmap_2d">
+              <in>static_layer.cpp</in>
+              <in>static_layer.h</in>
+            </df>
+            <df name="impl">
+              <in>CommonDataSubscriberDepth.cpp</in>
+              <in>CommonDataSubscriberRGBD.cpp</in>
+              <in>CommonDataSubscriberRGBD2.cpp</in>
+              <in>CommonDataSubscriberStereo.cpp</in>
+            </df>
+            <df name="nodelets">
+              <in>data_odom_sync.cpp</in>
+              <in>data_throttle.cpp</in>
+              <in>disparity_to_depth.cpp</in>
+              <in>icp_odometry.cpp</in>
+              <in>obstacles_detection.cpp</in>
+              <in>obstacles_detection_old.cpp</in>
+              <in>point_cloud_aggregator.cpp</in>
+              <in>point_cloud_xyz.cpp</in>
+              <in>point_cloud_xyzrgb.cpp</in>
+              <in>rgbd_odometry.cpp</in>
+              <in>rgbd_sync.cpp</in>
+              <in>rgbdicp_odometry.cpp</in>
+              <in>stereo_odometry.cpp</in>
+              <in>stereo_throttle.cpp</in>
+              <in>undistort_depth.cpp</in>
+            </df>
+            <df name="rviz">
+              <in>InfoDisplay.cpp</in>
+              <in>InfoDisplay.h</in>
+              <in>MapCloudDisplay.cpp</in>
+              <in>MapCloudDisplay.h</in>
+              <in>MapGraphDisplay.cpp</in>
+              <in>MapGraphDisplay.h</in>
+              <in>OrbitOrientedViewController.cpp</in>
+              <in>OrbitOrientedViewController.h</in>
+            </df>
+            <in>CameraNode.cpp</in>
+            <in>CommonDataSubscriber.cpp</in>
+            <in>CoreNode.cpp</in>
+            <in>CoreWrapper.cpp</in>
+            <in>DbPlayerNode.cpp</in>
+            <in>GuiNode.cpp</in>
+            <in>GuiWrapper.cpp</in>
+            <in>ICPOdometryNode.cpp</in>
+            <in>MapAssemblerNode.cpp</in>
+            <in>MapOptimizerNode.cpp</in>
+            <in>MapsManager.cpp</in>
+            <in>MsgConversion.cpp</in>
+            <in>OdomMsgToTFNode.cpp</in>
+            <in>OdometryROS.cpp</in>
+            <in>PreferencesDialogROS.cpp</in>
+            <in>RGBDICPOdometryNode.cpp</in>
+            <in>RGBDOdometryNode.cpp</in>
+            <in>StereoCameraNode.cpp</in>
+            <in>StereoOdometryNode.cpp</in>
+          </df>
+          <df name="srv">
           </df>
         </df>
         <df name="smr_computer">

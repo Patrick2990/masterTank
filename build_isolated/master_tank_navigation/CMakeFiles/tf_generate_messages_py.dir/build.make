@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/master_tank_navigation
+CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/master_tank_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/master_tank_navigation
+CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation
 
 # Utility rule file for tf_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/tf_generate_messages_py.dir/clean
 
 CMakeFiles/tf_generate_messages_py.dir/depend:
-	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/master_tank_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/master_tank_navigation /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/master_tank_navigation /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/master_tank_navigation /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/master_tank_navigation /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/master_tank_navigation/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/master_tank_navigation /home/plinux/RosPacks/masterTank/src/master_tank_navigation /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation /home/plinux/RosPacks/masterTank/build_isolated/master_tank_navigation/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf_generate_messages_py.dir/depend
 

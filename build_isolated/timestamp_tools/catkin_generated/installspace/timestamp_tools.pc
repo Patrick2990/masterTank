@@ -1,8 +1,8 @@
-prefix=/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated
+prefix=/home/plinux/RosPacks/masterTank/install_isolated
 
 Name: timestamp_tools
 Description: Description of timestamp_tools
 Version: 1.6.8
-Cflags: -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/include
-Libs: -L/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/lib 
+Cflags: -I/home/plinux/RosPacks/masterTank/install_isolated/include
+Libs: -L/home/plinux/RosPacks/masterTank/install_isolated/lib 
 Requires: roslib roscpp

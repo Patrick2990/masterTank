@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/voxel_grid/lib/libvoxel_grid.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/voxel_grid/lib/libvoxel_grid.so"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/voxel_grid/lib/libvoxel_grid.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/voxel_grid/lib/libvoxel_grid.so"
 )
 
 # Per-language clean rules from dependency scanning.

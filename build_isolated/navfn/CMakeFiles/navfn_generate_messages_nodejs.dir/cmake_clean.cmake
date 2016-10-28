@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/navfn_generate_messages_nodejs"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navfn/share/gennodejs/ros/navfn/srv/SetCostmap.js"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navfn/share/gennodejs/ros/navfn/srv/MakeNavPlan.js"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/navfn/share/gennodejs/ros/navfn/srv/SetCostmap.js"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/navfn/share/gennodejs/ros/navfn/srv/MakeNavPlan.js"
 )
 
 # Per-language clean rules from dependency scanning.

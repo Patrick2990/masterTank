@@ -92,10 +92,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtabmap_gui.dir/moc_ParametersToolBox.cpp.o"
   "CMakeFiles/rtabmap_gui.dir/moc_DepthCalibrationDialog.cpp.o"
   "CMakeFiles/rtabmap_gui.dir/qrc_GuiLib.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_gui.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_gui.so"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_gui.so.0.11.11"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_gui.so.0.11"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_gui.pdb"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_gui.so"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_gui.so.0.11.11"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_gui.so.0.11"
 )
 
 # Per-language clean rules from dependency scanning.

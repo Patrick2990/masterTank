@@ -1,8 +1,8 @@
-# Install script for directory: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/hokuyo_node
+# Install script for directory: /home/plinux/RosPacks/masterTank/src/hokuyo_node
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated")
+  set(CMAKE_INSTALL_PREFIX "/home/plinux/RosPacks/masterTank/install_isolated")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,105 +44,105 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/_setup_util.py")
+   "/home/plinux/RosPacks/masterTank/install_isolated/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated" TYPE PROGRAM FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYPE PROGRAM FILES "/home/plinux/RosPacks/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/env.sh")
+   "/home/plinux/RosPacks/masterTank/install_isolated/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated" TYPE PROGRAM FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYPE PROGRAM FILES "/home/plinux/RosPacks/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/setup.bash")
+   "/home/plinux/RosPacks/masterTank/install_isolated/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/setup.sh")
+   "/home/plinux/RosPacks/masterTank/install_isolated/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/setup.zsh")
+   "/home/plinux/RosPacks/masterTank/install_isolated/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated/.rosinstall")
+   "/home/plinux/RosPacks/masterTank/install_isolated/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/plinux/RosPacks/masterTank/install_isolated" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hokuyo_node" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/include/hokuyo_node/HokuyoConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hokuyo_node" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/include/hokuyo_node/HokuyoConfig.h")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/hokuyo_node" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/lib/python2.7/dist-packages/hokuyo_node/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/hokuyo_node" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/lib/python2.7/dist-packages/hokuyo_node/__init__.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/lib/python2.7/dist-packages/hokuyo_node/cfg")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/lib/python2.7/dist-packages/hokuyo_node/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/hokuyo_node" TYPE DIRECTORY FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/lib/python2.7/dist-packages/hokuyo_node/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/hokuyo_node" TYPE DIRECTORY FILES "/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/lib/python2.7/dist-packages/hokuyo_node/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/hokuyo_node.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/hokuyo_node.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hokuyo_node/cmake" TYPE FILE FILES
-    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/hokuyo_nodeConfig.cmake"
-    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/hokuyo_nodeConfig-version.cmake"
+    "/home/plinux/RosPacks/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/hokuyo_nodeConfig.cmake"
+    "/home/plinux/RosPacks/masterTank/build_isolated/hokuyo_node/catkin_generated/installspace/hokuyo_nodeConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hokuyo_node" TYPE FILE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/hokuyo_node/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hokuyo_node" TYPE FILE FILES "/home/plinux/RosPacks/masterTank/src/hokuyo_node/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -152,7 +152,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblibhokuyo.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/lib/liblibhokuyo.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/lib/liblibhokuyo.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblibhokuyo.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblibhokuyo.so")
     file(RPATH_CHANGE
@@ -166,7 +166,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hokuyo_node" TYPE DIRECTORY FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/hokuyo_node/include/hokuyo_node/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hokuyo_node" TYPE DIRECTORY FILES "/home/plinux/RosPacks/masterTank/src/hokuyo_node/include/hokuyo_node/")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -176,12 +176,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/hokuyo_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node" TYPE EXECUTABLE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/lib/hokuyo_node/hokuyo_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node" TYPE EXECUTABLE FILES "/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/lib/hokuyo_node/hokuyo_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/hokuyo_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/hokuyo_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/hokuyo_node"
-         OLD_RPATH "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/hokuyo_node")
@@ -196,12 +196,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getID"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node" TYPE EXECUTABLE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/lib/hokuyo_node/getID")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node" TYPE EXECUTABLE FILES "/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/lib/hokuyo_node/getID")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getID" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getID")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getID"
-         OLD_RPATH "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getID")
@@ -216,12 +216,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getFirmwareVersion"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node" TYPE EXECUTABLE FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/lib/hokuyo_node/getFirmwareVersion")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node" TYPE EXECUTABLE FILES "/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/lib/hokuyo_node/getFirmwareVersion")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getFirmwareVersion" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getFirmwareVersion")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getFirmwareVersion"
-         OLD_RPATH "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getFirmwareVersion")
@@ -231,18 +231,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hokuyo_node" TYPE FILE FILES
-    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/hokuyo_node/test/TODO"
-    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/hokuyo_node/test/unplug_test.launch"
-    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/hokuyo_node/COPYING.lib"
-    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/hokuyo_node/hokuyo_test.launch"
-    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/hokuyo_node/hokuyo_test.vcg"
-    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/hokuyo_node/hokuyo_test_intensity.launch"
+    "/home/plinux/RosPacks/masterTank/src/hokuyo_node/test/TODO"
+    "/home/plinux/RosPacks/masterTank/src/hokuyo_node/test/unplug_test.launch"
+    "/home/plinux/RosPacks/masterTank/src/hokuyo_node/COPYING.lib"
+    "/home/plinux/RosPacks/masterTank/src/hokuyo_node/hokuyo_test.launch"
+    "/home/plinux/RosPacks/masterTank/src/hokuyo_node/hokuyo_test.vcg"
+    "/home/plinux/RosPacks/masterTank/src/hokuyo_node/hokuyo_test_intensity.launch"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/hokuyo_node/gtest/cmake_install.cmake")
+  include("/home/plinux/RosPacks/masterTank/build_isolated/hokuyo_node/gtest/cmake_install.cmake")
 
 endif()
 
@@ -254,5 +254,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/hokuyo_node/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/plinux/RosPacks/masterTank/build_isolated/hokuyo_node/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

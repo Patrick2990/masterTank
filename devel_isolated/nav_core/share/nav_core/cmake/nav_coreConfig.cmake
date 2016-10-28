@@ -67,14 +67,14 @@ set(nav_core_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(nav_core_SOURCE_PREFIX /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/nav_core)
-  set(nav_core_DEVEL_PREFIX /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/nav_core)
+  set(nav_core_SOURCE_PREFIX /home/plinux/RosPacks/masterTank/src/navigation/nav_core)
+  set(nav_core_DEVEL_PREFIX /home/plinux/RosPacks/masterTank/devel_isolated/nav_core)
   set(nav_core_INSTALL_PREFIX "")
   set(nav_core_PREFIX ${nav_core_DEVEL_PREFIX})
 else()
   set(nav_core_SOURCE_PREFIX "")
   set(nav_core_DEVEL_PREFIX "")
-  set(nav_core_INSTALL_PREFIX /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated)
+  set(nav_core_INSTALL_PREFIX /home/plinux/RosPacks/masterTank/install_isolated)
   set(nav_core_PREFIX ${nav_core_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(nav_core_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/nav_core/include " STREQUAL " ")
+if(NOT "/home/plinux/RosPacks/masterTank/src/navigation/nav_core/include " STREQUAL " ")
   set(nav_core_INCLUDE_DIRS "")
-  set(_include_dirs "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/nav_core/include")
+  set(_include_dirs "/home/plinux/RosPacks/masterTank/src/navigation/nav_core/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -103,7 +103,7 @@ if(NOT "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/nav_core/incl
         message(FATAL_ERROR "Project 'nav_core' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'David V. Lu!! <davidvlu@gmail.com>, Michael Ferguson <mferguson@fetchrobotics.com>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'nav_core' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/nav_core/${idir}'.  Ask the maintainer 'David V. Lu!! <davidvlu@gmail.com>, Michael Ferguson <mferguson@fetchrobotics.com>' to fix it.")
+      message(FATAL_ERROR "Project 'nav_core' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/plinux/RosPacks/masterTank/src/navigation/nav_core/${idir}'.  Ask the maintainer 'David V. Lu!! <davidvlu@gmail.com>, Michael Ferguson <mferguson@fetchrobotics.com>' to fix it.")
     endif()
     _list_append_unique(nav_core_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/nav_core/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/voxel_grid/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/timestamp_tools/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/smr_computer/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/robot_pose_ekf/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navigation/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/master_tank_navigation/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/amcl/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/fake_localization/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/driver_common/lib;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/driver_base/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/plinux/RosPacks/masterTank/devel_isolated/nav_core/lib;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/lib;/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib;/home/plinux/RosPacks/masterTank/devel_isolated/voxel_grid/lib;/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/lib;/home/plinux/RosPacks/masterTank/devel_isolated/timestamp_tools/lib;/home/plinux/RosPacks/masterTank/devel_isolated/smr_computer/lib;/home/plinux/RosPacks/masterTank/devel_isolated/robot_pose_ekf/lib;/home/plinux/RosPacks/masterTank/devel_isolated/navigation/lib;/home/plinux/RosPacks/masterTank/devel_isolated/master_tank_navigation/lib;/home/plinux/RosPacks/masterTank/devel_isolated/amcl/lib;/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib;/home/plinux/RosPacks/masterTank/devel_isolated/fake_localization/lib;/home/plinux/RosPacks/masterTank/devel_isolated/driver_common/lib;/home/plinux/RosPacks/masterTank/devel_isolated/driver_base/lib;/home/plinux/RosPacks/urg_node/devel/lib;/home/plinux/RosPacks/ork/devel/lib;/home/plinux/RosPacks/moveit/devel/lib;/home/plinux/RosPacks/usb_cam/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

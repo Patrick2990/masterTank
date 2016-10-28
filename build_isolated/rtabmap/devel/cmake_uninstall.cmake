@@ -2,11 +2,11 @@
 # File that provides "make uninstall" target
 #  We use the file 'install_manifest.txt'
 # -----------------------------------------------
-IF(NOT EXISTS "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/install_manifest.txt")
-  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/install_manifest.txt\"")
-ENDIF(NOT EXISTS "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/install_manifest.txt")
+IF(NOT EXISTS "/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/install_manifest.txt")
+  MESSAGE(FATAL_ERROR "Cannot find install manifest: \"/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/install_manifest.txt\"")
+ENDIF(NOT EXISTS "/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/install_manifest.txt")
 
-FILE(READ "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/install_manifest.txt" files)
+FILE(READ "/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/install_manifest.txt" files)
 STRING(REGEX REPLACE "\n" ";" files "${files}")
 FOREACH(file ${files})
   MESSAGE(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

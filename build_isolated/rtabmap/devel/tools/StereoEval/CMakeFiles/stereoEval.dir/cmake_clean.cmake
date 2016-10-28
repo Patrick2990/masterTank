@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/stereoEval.dir/main.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/rtabmap-stereoEval.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/rtabmap-stereoEval"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/rtabmap-stereoEval.pdb"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/rtabmap-stereoEval"
 )
 
 # Per-language clean rules from dependency scanning.

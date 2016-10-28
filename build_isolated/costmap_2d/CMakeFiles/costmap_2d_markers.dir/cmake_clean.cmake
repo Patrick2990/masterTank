@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/costmap_2d_markers.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/costmap_2d_markers"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/costmap_2d_markers.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/costmap_2d_markers"
 )
 
 # Per-language clean rules from dependency scanning.

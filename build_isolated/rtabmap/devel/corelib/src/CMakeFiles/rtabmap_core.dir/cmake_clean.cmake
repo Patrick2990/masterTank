@@ -67,11 +67,16 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtabmap_core.dir/toro3d/treeoptimizer3.cpp.o"
   "CMakeFiles/rtabmap_core.dir/toro3d/posegraph2.cpp.o"
   "CMakeFiles/rtabmap_core.dir/toro3d/treeoptimizer2.cpp.o"
+  "CMakeFiles/rtabmap_core.dir/vertigo/g2o/edge_se2Switchable.cpp.o"
+  "CMakeFiles/rtabmap_core.dir/vertigo/g2o/edge_se3Switchable.cpp.o"
+  "CMakeFiles/rtabmap_core.dir/vertigo/g2o/edge_switchPrior.cpp.o"
+  "CMakeFiles/rtabmap_core.dir/vertigo/g2o/types_g2o_robust.cpp.o"
+  "CMakeFiles/rtabmap_core.dir/vertigo/g2o/vertex_switchLinear.cpp.o"
   "CMakeFiles/rtabmap_core.dir/OctoMap.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_core.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_core.so"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_core.so.0.11.11"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_core.so.0.11"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_core.pdb"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_core.so"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_core.so.0.11.11"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_core.so.0.11"
 )
 
 # Per-language clean rules from dependency scanning.

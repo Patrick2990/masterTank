@@ -9,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.o"
   "CMakeFiles/costmap_2d.dir/src/footprint.cpp.o"
   "CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib/libcostmap_2d.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib/libcostmap_2d.so"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib/libcostmap_2d.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib/libcostmap_2d.so"
 )
 
 # Per-language clean rules from dependency scanning.

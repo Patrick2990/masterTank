@@ -1,8 +1,8 @@
-# Install script for directory: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/navfn/test
+# Install script for directory: /home/plinux/RosPacks/masterTank/src/navigation/navfn/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/install_isolated")
+  set(CMAKE_INSTALL_PREFIX "/home/plinux/RosPacks/masterTank/install_isolated")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

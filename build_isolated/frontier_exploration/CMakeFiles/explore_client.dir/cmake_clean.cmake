@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/explore_client.dir/src/explore_client.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/lib/frontier_exploration/explore_client.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/lib/frontier_exploration/explore_client"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/lib/frontier_exploration/explore_client.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/lib/frontier_exploration/explore_client"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++0x  -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"hokuyo_node\" -Dlibhokuyo_EXPORTS
 
-CXX_INCLUDES = -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/hokuyo_node/include -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/hokuyo_node/include -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/driver_base/include -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/driver_common/driver_base/include -I/opt/ros/kinetic/include 
+CXX_INCLUDES = -I/home/plinux/RosPacks/masterTank/devel_isolated/hokuyo_node/include -I/home/plinux/RosPacks/masterTank/src/hokuyo_node/include -I/home/plinux/RosPacks/masterTank/devel_isolated/driver_base/include -I/home/plinux/RosPacks/masterTank/src/driver_common/driver_base/include -I/opt/ros/kinetic/include 
 

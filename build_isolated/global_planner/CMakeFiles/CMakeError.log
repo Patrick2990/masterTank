@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1c519/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1c519.dir/build.make CMakeFiles/cmTC_1c519.dir/build
-make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1c519.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_1c519.dir/CheckSymbolExists.c.o   -c /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_1c519
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c519.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_1c519.dir/CheckSymbolExists.c.o  -o cmTC_1c519 -rdynamic 
-CMakeFiles/cmTC_1c519.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_dba48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dba48.dir/build.make CMakeFiles/cmTC_dba48.dir/build
+make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dba48.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_dba48.dir/CheckSymbolExists.c.o   -c /home/plinux/RosPacks/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dba48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dba48.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dba48.dir/CheckSymbolExists.c.o  -o cmTC_dba48 -rdynamic 
+CMakeFiles/cmTC_dba48.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_1c519.dir/build.make:97: recipe for target 'cmTC_1c519' failed
-make[1]: *** [cmTC_1c519] Error 1
-make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_1c519/fast' failed
-make: *** [cmTC_1c519/fast] Error 2
+CMakeFiles/cmTC_dba48.dir/build.make:97: recipe for target 'cmTC_dba48' failed
+make[1]: *** [cmTC_dba48] Error 1
+make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_dba48/fast' failed
+make: *** [cmTC_dba48/fast] Error 2
 
-File /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/plinux/RosPacks/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp
+Change Dir: /home/plinux/RosPacks/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bdc63/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bdc63.dir/build.make CMakeFiles/cmTC_bdc63.dir/build
-make[1]: Entering directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bdc63.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bdc63.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bdc63
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdc63.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_bdc63.dir/CheckFunctionExists.c.o  -o cmTC_bdc63 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_7697e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7697e.dir/build.make CMakeFiles/cmTC_7697e.dir/build
+make[1]: Entering directory '/home/plinux/RosPacks/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7697e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7697e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7697e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7697e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7697e.dir/CheckFunctionExists.c.o  -o cmTC_7697e -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_bdc63.dir/build.make:97: recipe for target 'cmTC_bdc63' failed
-make[1]: *** [cmTC_bdc63] Error 1
-make[1]: Leaving directory '/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_bdc63/fast' failed
-make: *** [cmTC_bdc63/fast] Error 2
+CMakeFiles/cmTC_7697e.dir/build.make:97: recipe for target 'cmTC_7697e' failed
+make[1]: *** [cmTC_7697e] Error 1
+make[1]: Leaving directory '/home/plinux/RosPacks/masterTank/build_isolated/global_planner/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7697e/fast' failed
+make: *** [cmTC_7697e/fast] Error 2
 
 

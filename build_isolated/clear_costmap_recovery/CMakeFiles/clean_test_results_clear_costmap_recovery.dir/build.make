@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/clear_costmap_recovery
+CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/clear_costmap_recovery
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/clear_costmap_recovery
+CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/clear_costmap_recovery
 
 # Utility rule file for clean_test_results_clear_costmap_recovery.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/cl
 include CMakeFiles/clean_test_results_clear_costmap_recovery.dir/progress.make
 
 CMakeFiles/clean_test_results_clear_costmap_recovery:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/clear_costmap_recovery/test_results/clear_costmap_recovery
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/plinux/RosPacks/masterTank/build_isolated/clear_costmap_recovery/test_results/clear_costmap_recovery
 
 clean_test_results_clear_costmap_recovery: CMakeFiles/clean_test_results_clear_costmap_recovery
 clean_test_results_clear_costmap_recovery: CMakeFiles/clean_test_results_clear_costmap_recovery.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_clear_costmap_recovery.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_clear_costmap_recovery.dir/clean
 
 CMakeFiles/clean_test_results_clear_costmap_recovery.dir/depend:
-	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/clear_costmap_recovery && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/clear_costmap_recovery /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/clear_costmap_recovery /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/clear_costmap_recovery /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/clear_costmap_recovery /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/clear_costmap_recovery/CMakeFiles/clean_test_results_clear_costmap_recovery.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/plinux/RosPacks/masterTank/build_isolated/clear_costmap_recovery && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/navigation/clear_costmap_recovery /home/plinux/RosPacks/masterTank/src/navigation/clear_costmap_recovery /home/plinux/RosPacks/masterTank/build_isolated/clear_costmap_recovery /home/plinux/RosPacks/masterTank/build_isolated/clear_costmap_recovery /home/plinux/RosPacks/masterTank/build_isolated/clear_costmap_recovery/CMakeFiles/clean_test_results_clear_costmap_recovery.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_clear_costmap_recovery.dir/depend
 

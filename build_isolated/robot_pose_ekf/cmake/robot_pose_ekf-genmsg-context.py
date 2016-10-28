@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/robot_pose_ekf/srv/GetStatus.srv"
+services_str = "/home/plinux/RosPacks/masterTank/src/navigation/robot_pose_ekf/srv/GetStatus.srv"
 pkg_name = "robot_pose_ekf"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

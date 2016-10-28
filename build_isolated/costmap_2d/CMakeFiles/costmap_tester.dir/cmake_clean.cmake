@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/costmap_tester.dir/test/costmap_tester.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/costmap_tester.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/costmap_tester"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/costmap_tester.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/costmap_2d/lib/costmap_2d/costmap_tester"
 )
 
 # Per-language clean rules from dependency scanning.

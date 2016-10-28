@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/map_server_image_loader.dir/src/image_loader.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/libmap_server_image_loader.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/map_server/lib/libmap_server_image_loader.so"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/libmap_server_image_loader.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/map_server/lib/libmap_server_image_loader.so"
 )
 
 # Per-language clean rules from dependency scanning.

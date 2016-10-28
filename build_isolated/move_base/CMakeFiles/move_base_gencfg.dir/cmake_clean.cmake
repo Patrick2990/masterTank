@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/move_base_gencfg"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/move_base/include/move_base/MoveBaseConfig.h"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/move_base/share/move_base/docs/MoveBaseConfig.dox"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/move_base/share/move_base/docs/MoveBaseConfig-usage.dox"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/move_base/lib/python2.7/dist-packages/move_base/cfg/MoveBaseConfig.py"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/move_base/share/move_base/docs/MoveBaseConfig.wikidoc"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/move_base/include/move_base/MoveBaseConfig.h"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/move_base/share/move_base/docs/MoveBaseConfig.dox"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/move_base/share/move_base/docs/MoveBaseConfig-usage.dox"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/move_base/lib/python2.7/dist-packages/move_base/cfg/MoveBaseConfig.py"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/move_base/share/move_base/docs/MoveBaseConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/navigation
+CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navigation
+CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/navigation
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/navigation /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/navigation /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navigation /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navigation /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/navigation/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/plinux/RosPacks/masterTank/build_isolated/navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/navigation/navigation /home/plinux/RosPacks/masterTank/src/navigation/navigation /home/plinux/RosPacks/masterTank/build_isolated/navigation /home/plinux/RosPacks/masterTank/build_isolated/navigation /home/plinux/RosPacks/masterTank/build_isolated/navigation/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/src/map_saver.cpp" "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/map_server/CMakeFiles/map_server-map_saver.dir/src/map_saver.cpp.o"
+  "/home/plinux/RosPacks/masterTank/src/navigation/map_server/src/map_saver.cpp" "/home/plinux/RosPacks/masterTank/build_isolated/map_server/CMakeFiles/map_server-map_saver.dir/src/map_saver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/map_server/include"
+  "/home/plinux/RosPacks/masterTank/src/navigation/map_server/include"
   "/opt/ros/kinetic/include"
   )
 

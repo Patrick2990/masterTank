@@ -1,16 +1,16 @@
 -I/usr/include/vtk-6.2
+-I/usr/include/python2.7
 -I/usr/include
 -I/usr/include/x86_64-linux-gnu
 -I/usr/include/freetype2
 -I/usr/include/x86_64-linux-gnu/freetype2
--I/usr/include/jsoncpp
--I/usr/include/hdf5/openmpi
 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent
 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include
 -I/usr/lib/openmpi/include
 -I/usr/lib/openmpi/include/openmpi
+-I/usr/include/hdf5/openmpi
+-I/usr/include/jsoncpp
 -I/usr/include/libxml2
--I/usr/include/python2.7
 -I/usr/include/tcl
 -DDISABLE_PCAP
 -DDISABLE_PNG
@@ -26,5 +26,5 @@
 -DvtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)
 -DPCL_OMP
 -o
-/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/rtabmap/devel/guilib/src/__/include/rtabmap/gui/moc_StatsToolBox.cpp
-/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/guilib/include/rtabmap/gui/StatsToolBox.h
+/home/plinux/RosPacks/masterTank/build_isolated/rtabmap/devel/guilib/src/__/include/rtabmap/gui/moc_StatsToolBox.cpp
+/home/plinux/RosPacks/masterTank/src/rtabmap/guilib/include/rtabmap/gui/StatsToolBox.h

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/my_robot_name_2dnav
+CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/my_robot_name_2dnav
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/my_robot_name_2dnav
+CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/my_robot_name_2dnav
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/my_robot_name_2dnav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/my_robot_name_2dnav /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/my_robot_name_2dnav /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/my_robot_name_2dnav /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/my_robot_name_2dnav /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/my_robot_name_2dnav/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/plinux/RosPacks/masterTank/build_isolated/my_robot_name_2dnav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/my_robot_name_2dnav /home/plinux/RosPacks/masterTank/src/my_robot_name_2dnav /home/plinux/RosPacks/masterTank/build_isolated/my_robot_name_2dnav /home/plinux/RosPacks/masterTank/build_isolated/my_robot_name_2dnav /home/plinux/RosPacks/masterTank/build_isolated/my_robot_name_2dnav/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

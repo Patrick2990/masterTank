@@ -1,8 +1,8 @@
-prefix=/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/nav_core
+prefix=/home/plinux/RosPacks/masterTank/devel_isolated/nav_core
 
 Name: nav_core
 Description: Description of nav_core
 Version: 1.14.0
-Cflags: -I/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/nav_core/include
-Libs: -L/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/nav_core/lib 
+Cflags: -I/home/plinux/RosPacks/masterTank/src/navigation/nav_core/include
+Libs: -L/home/plinux/RosPacks/masterTank/devel_isolated/nav_core/lib 
 Requires: std_msgs geometry_msgs tf costmap_2d

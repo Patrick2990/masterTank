@@ -157,7 +157,6 @@ public:
 	bool isCloudsShown(int index) const;      // 0=map, 1=odom
 	bool isOctomapUpdated() const;
 	bool isOctomapShown() const;
-	bool isOctomapCubeRendering() const;
 	bool isOctomap2dGrid() const;
 	int getOctomapTreeDepth() const;
 	bool isOctomapGroundAnObstacle() const;

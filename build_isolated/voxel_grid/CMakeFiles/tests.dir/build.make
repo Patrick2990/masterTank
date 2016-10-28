@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/voxel_grid
+CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/voxel_grid
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/voxel_grid
+CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/voxel_grid
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/voxel_grid && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/voxel_grid /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/voxel_grid /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/voxel_grid /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/voxel_grid /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/voxel_grid/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/plinux/RosPacks/masterTank/build_isolated/voxel_grid && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/navigation/voxel_grid /home/plinux/RosPacks/masterTank/src/navigation/voxel_grid /home/plinux/RosPacks/masterTank/build_isolated/voxel_grid /home/plinux/RosPacks/masterTank/build_isolated/voxel_grid /home/plinux/RosPacks/masterTank/build_isolated/voxel_grid/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

@@ -65,7 +65,7 @@ endif(ON)
 if(false)
    find_package(VTK COMPONENTS vtkGUISupportQt NO_MODULE) # to define vtkGUISupportQt target
 endif(false)
-set(RTABMap_LIBRARIES ${RTABMap_LIBRARIES} /usr/lib/x86_64-linux-gnu/libz.so;/usr/lib/libOpenNI2.so;/usr/lib/x86_64-linux-gnu/libdc1394.so;/opt/ros/kinetic/lib/liboctomap.so;/opt/ros/kinetic/lib/liboctomath.so)
+set(RTABMap_LIBRARIES ${RTABMap_LIBRARIES} /usr/lib/x86_64-linux-gnu/libz.so;/opt/ros/kinetic/lib/libg2o_core.so;/opt/ros/kinetic/lib/libg2o_types_slam2d.so;/opt/ros/kinetic/lib/libg2o_types_slam3d.so;/opt/ros/kinetic/lib/libg2o_types_sba.so;/opt/ros/kinetic/lib/libg2o_stuff.so;/opt/ros/kinetic/lib/libg2o_solver_csparse.so;/opt/ros/kinetic/lib/libg2o_csparse_extension.so;/usr/lib/x86_64-linux-gnu/libcxsparse.so;/opt/ros/kinetic/lib/libg2o_solver_cholmod.so;/usr/lib/x86_64-linux-gnu/libcholmod.so;/opt/ros/kinetic/lib/libfreenect.so;/opt/ros/kinetic/lib/libfreenect_sync.so;/usr/lib/libOpenNI2.so;/usr/lib/x86_64-linux-gnu/libdc1394.so;/opt/ros/kinetic/lib/liboctomap.so;/opt/ros/kinetic/lib/liboctomath.so)
 
 #backward compatibilities
 set(RTABMAP_CORE ${RTABMap_CORE})

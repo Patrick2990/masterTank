@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/calibration.dir/main.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/rtabmap-calibration.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/rtabmap-calibration"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/rtabmap-calibration.pdb"
+  "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/rtabmap-calibration"
 )
 
 # Per-language clean rules from dependency scanning.

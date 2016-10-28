@@ -2,7 +2,7 @@
 
 message(STATUS "frontier_exploration: 8 messages, 2 services")
 
-set(MSG_I_FLAGS "-Ifrontier_exploration:/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg;-Ifrontier_exploration:/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg;-Imove_base_msgs:/opt/ros/kinetic/share/move_base_msgs/cmake/../msg;-Ivisualization_msgs:/opt/ros/kinetic/share/visualization_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ifrontier_exploration:/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg;-Ifrontier_exploration:/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg;-Imove_base_msgs:/opt/ros/kinetic/share/move_base_msgs/cmake/../msg;-Ivisualization_msgs:/opt/ros/kinetic/share/visualization_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,54 +17,54 @@ add_custom_target(frontier_exploration_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg" NAME_WE)
 add_custom_target(_frontier_exploration_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg" "geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" NAME_WE)
 add_custom_target(_frontier_exploration_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" "frontier_exploration/ExploreTaskFeedback:actionlib_msgs/GoalID:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Pose:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" "frontier_exploration/ExploreTaskResult:actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" NAME_WE)
 add_custom_target(_frontier_exploration_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" "geometry_msgs/Quaternion:geometry_msgs/PoseStamped:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" "geometry_msgs/Quaternion:geometry_msgs/PoseStamped:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" NAME_WE)
 add_custom_target(_frontier_exploration_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" "frontier_exploration/ExploreTaskResult:actionlib_msgs/GoalID:std_msgs/Header:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" "geometry_msgs/PolygonStamped:geometry_msgs/Point32:std_msgs/Header:geometry_msgs/Polygon"
 )
 
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" NAME_WE)
 add_custom_target(_frontier_exploration_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg" "geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" "std_msgs/Header:geometry_msgs/Point32:geometry_msgs/Point:geometry_msgs/PolygonStamped:geometry_msgs/Polygon:geometry_msgs/PointStamped"
 )
 
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" NAME_WE)
 add_custom_target(_frontier_exploration_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" "std_msgs/Header:geometry_msgs/Point32:geometry_msgs/Point:geometry_msgs/PolygonStamped:geometry_msgs/Polygon:geometry_msgs/PointStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" "actionlib_msgs/GoalID:std_msgs/Header:frontier_exploration/ExploreTaskFeedback:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/PoseStamped:geometry_msgs/Pose:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" NAME_WE)
 add_custom_target(_frontier_exploration_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" "geometry_msgs/Quaternion:geometry_msgs/PoseStamped:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" "geometry_msgs/Quaternion:geometry_msgs/PoseStamped:geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" NAME_WE)
 add_custom_target(_frontier_exploration_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" "frontier_exploration/ExploreTaskFeedback:frontier_exploration/ExploreTaskActionFeedback:geometry_msgs/PoseStamped:std_msgs/Header:frontier_exploration/ExploreTaskActionResult:frontier_exploration/ExploreTaskGoal:geometry_msgs/Point32:geometry_msgs/Point:geometry_msgs/PointStamped:geometry_msgs/PolygonStamped:geometry_msgs/Pose:geometry_msgs/Polygon:geometry_msgs/Quaternion:frontier_exploration/ExploreTaskResult:actionlib_msgs/GoalID:frontier_exploration/ExploreTaskActionGoal:actionlib_msgs/GoalStatus"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" ""
 )
 
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" NAME_WE)
 add_custom_target(_frontier_exploration_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" "geometry_msgs/PolygonStamped:geometry_msgs/Point32:std_msgs/Header:geometry_msgs/Polygon"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" "frontier_exploration/ExploreTaskFeedback:frontier_exploration/ExploreTaskActionFeedback:geometry_msgs/PoseStamped:std_msgs/Header:frontier_exploration/ExploreTaskGoal:geometry_msgs/Quaternion:geometry_msgs/Point32:frontier_exploration/ExploreTaskActionResult:geometry_msgs/Point:geometry_msgs/PolygonStamped:frontier_exploration/ExploreTaskResult:geometry_msgs/Pose:geometry_msgs/Polygon:frontier_exploration/ExploreTaskActionGoal:actionlib_msgs/GoalID:geometry_msgs/PointStamped:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" NAME_WE)
 add_custom_target(_frontier_exploration_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" "std_msgs/Header:frontier_exploration/ExploreTaskGoal:geometry_msgs/Point32:geometry_msgs/Point:geometry_msgs/PolygonStamped:geometry_msgs/Polygon:actionlib_msgs/GoalID:geometry_msgs/PointStamped"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "frontier_exploration" "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" "std_msgs/Header:frontier_exploration/ExploreTaskGoal:geometry_msgs/Point32:geometry_msgs/Point:geometry_msgs/PolygonStamped:geometry_msgs/Polygon:actionlib_msgs/GoalID:geometry_msgs/PointStamped"
 )
 
 #
@@ -74,63 +74,63 @@ add_custom_target(_frontier_exploration_generate_messages_check_deps_${_filename
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_cpp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_cpp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_cpp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_cpp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_cpp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_cpp(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_cpp(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_cpp(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_cpp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_cpp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_cpp(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
 )
 
 ### Generating Services
 _generate_srv_cpp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
 )
 _generate_srv_cpp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/frontier_exploration
@@ -148,25 +148,25 @@ add_custom_target(frontier_exploration_generate_messages_cpp
 add_dependencies(frontier_exploration_generate_messages frontier_exploration_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_cpp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_cpp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_cpp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_cpp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_cpp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_cpp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_cpp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_cpp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_cpp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_cpp _frontier_exploration_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -179,63 +179,63 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS frontier_exploration_generate_messa
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_eus(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_eus(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_eus(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_eus(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_eus(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_eus(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_eus(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_eus(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_eus(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_eus(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_eus(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
 )
 
 ### Generating Services
 _generate_srv_eus(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
 )
 _generate_srv_eus(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/frontier_exploration
@@ -253,25 +253,25 @@ add_custom_target(frontier_exploration_generate_messages_eus
 add_dependencies(frontier_exploration_generate_messages frontier_exploration_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_eus _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_eus _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_eus _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_eus _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_eus _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_eus _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_eus _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_eus _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_eus _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_eus _frontier_exploration_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -284,63 +284,63 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS frontier_exploration_generate_messa
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_lisp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_lisp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_lisp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_lisp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_lisp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_lisp(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_lisp(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_lisp(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_lisp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_lisp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_lisp(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
 )
 
 ### Generating Services
 _generate_srv_lisp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
 )
 _generate_srv_lisp(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/frontier_exploration
@@ -358,25 +358,25 @@ add_custom_target(frontier_exploration_generate_messages_lisp
 add_dependencies(frontier_exploration_generate_messages frontier_exploration_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_lisp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_lisp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_lisp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_lisp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_lisp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_lisp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_lisp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_lisp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_lisp _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_lisp _frontier_exploration_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -389,63 +389,63 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS frontier_exploration_generate_messa
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_nodejs(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_nodejs(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_nodejs(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_nodejs(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_nodejs(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_nodejs(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_nodejs(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_nodejs(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_nodejs(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_nodejs(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_nodejs(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
 )
 
 ### Generating Services
 _generate_srv_nodejs(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
 )
 _generate_srv_nodejs(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/frontier_exploration
@@ -463,25 +463,25 @@ add_custom_target(frontier_exploration_generate_messages_nodejs
 add_dependencies(frontier_exploration_generate_messages frontier_exploration_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_nodejs _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_nodejs _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_nodejs _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_nodejs _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_nodejs _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_nodejs _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_nodejs _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_nodejs _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_nodejs _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_nodejs _frontier_exploration_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -494,63 +494,63 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS frontier_exploration_generate_messa
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_py(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_py(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_py(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg"
-  "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
-)
-_generate_msg_py(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_py(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg"
+  "${MSG_I_FLAGS}"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_py(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_py(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_py(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_py(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg"
   "${MSG_I_FLAGS}"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
 )
 _generate_msg_py(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalStatus.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
+)
+_generate_msg_py(frontier_exploration
+  "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg/GoalID.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PointStamped.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
 )
 
 ### Generating Services
 _generate_srv_py(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PolygonStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
 )
 _generate_srv_py(frontier_exploration
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv"
+  "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/PoseStamped.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/frontier_exploration
@@ -568,25 +568,25 @@ add_custom_target(frontier_exploration_generate_messages_py
 add_dependencies(frontier_exploration_generate_messages frontier_exploration_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/msg/Frontier.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_py _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_py _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_py _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionResult.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_py _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/msg/Frontier.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_py _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionFeedback.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_py _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/GetNextFrontier.srv" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskFeedback.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_py _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskResult.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_py _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/frontier_exploration/srv/UpdateBoundaryPolygon.srv" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskAction.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_py _frontier_exploration_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" NAME_WE)
+get_filename_component(_filename "/home/plinux/RosPacks/masterTank/devel_isolated/frontier_exploration/share/frontier_exploration/msg/ExploreTaskActionGoal.msg" NAME_WE)
 add_dependencies(frontier_exploration_generate_messages_py _frontier_exploration_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

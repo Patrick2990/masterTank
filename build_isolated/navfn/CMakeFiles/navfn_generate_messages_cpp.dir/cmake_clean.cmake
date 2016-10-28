@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/navfn_generate_messages_cpp"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navfn/include/navfn/SetCostmap.h"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navfn/include/navfn/MakeNavPlan.h"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/navfn/include/navfn/SetCostmap.h"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/navfn/include/navfn/MakeNavPlan.h"
 )
 
 # Per-language clean rules from dependency scanning.

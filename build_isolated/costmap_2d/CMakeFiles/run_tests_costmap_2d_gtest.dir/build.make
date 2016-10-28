@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/costmap_2d
+CMAKE_SOURCE_DIR = /home/plinux/RosPacks/masterTank/src/navigation/costmap_2d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/costmap_2d
+CMAKE_BINARY_DIR = /home/plinux/RosPacks/masterTank/build_isolated/costmap_2d
 
 # Utility rule file for run_tests_costmap_2d_gtest.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests_costmap_2d_gtest.dir/clean:
 .PHONY : CMakeFiles/run_tests_costmap_2d_gtest.dir/clean
 
 CMakeFiles/run_tests_costmap_2d_gtest.dir/depend:
-	cd /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/costmap_2d && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/costmap_2d /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/navigation/costmap_2d /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/costmap_2d /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/costmap_2d /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/build_isolated/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/plinux/RosPacks/masterTank/build_isolated/costmap_2d && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/plinux/RosPacks/masterTank/src/navigation/costmap_2d /home/plinux/RosPacks/masterTank/src/navigation/costmap_2d /home/plinux/RosPacks/masterTank/build_isolated/costmap_2d /home/plinux/RosPacks/masterTank/build_isolated/costmap_2d /home/plinux/RosPacks/masterTank/build_isolated/costmap_2d/CMakeFiles/run_tests_costmap_2d_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests_costmap_2d_gtest.dir/depend
 

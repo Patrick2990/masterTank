@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_trigger_matcher.dir/test/test_trigger_matcher.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/timestamp_tools/lib/timestamp_tools/test_trigger_matcher.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/timestamp_tools/lib/timestamp_tools/test_trigger_matcher"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/timestamp_tools/lib/timestamp_tools/test_trigger_matcher.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/timestamp_tools/lib/timestamp_tools/test_trigger_matcher"
 )
 
 # Per-language clean rules from dependency scanning.

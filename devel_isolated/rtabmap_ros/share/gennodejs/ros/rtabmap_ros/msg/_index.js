@@ -1,30 +1,30 @@
 
 "use strict";
 
+let NodeData = require('./NodeData.js');
+let Point3f = require('./Point3f.js');
 let UserData = require('./UserData.js');
+let Goal = require('./Goal.js');
 let OdomInfo = require('./OdomInfo.js');
-let Info = require('./Info.js');
+let MapGraph = require('./MapGraph.js');
+let KeyPoint = require('./KeyPoint.js');
 let Link = require('./Link.js');
-let Point2f = require('./Point2f.js');
+let Info = require('./Info.js');
 let RGBDImage = require('./RGBDImage.js');
 let MapData = require('./MapData.js');
-let Goal = require('./Goal.js');
-let NodeData = require('./NodeData.js');
-let KeyPoint = require('./KeyPoint.js');
-let Point3f = require('./Point3f.js');
-let MapGraph = require('./MapGraph.js');
+let Point2f = require('./Point2f.js');
 
 module.exports = {
+  NodeData: NodeData,
+  Point3f: Point3f,
   UserData: UserData,
+  Goal: Goal,
   OdomInfo: OdomInfo,
-  Info: Info,
+  MapGraph: MapGraph,
+  KeyPoint: KeyPoint,
   Link: Link,
-  Point2f: Point2f,
+  Info: Info,
   RGBDImage: RGBDImage,
   MapData: MapData,
-  Goal: Goal,
-  NodeData: NodeData,
-  KeyPoint: KeyPoint,
-  Point3f: Point3f,
-  MapGraph: MapGraph,
+  Point2f: Point2f,
 };

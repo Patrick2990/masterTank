@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o"
   "CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navfn/lib/navfn/path_calc_test.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navfn/lib/navfn/path_calc_test"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/navfn/lib/navfn/path_calc_test.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/navfn/lib/navfn/path_calc_test"
 )
 
 # Per-language clean rules from dependency scanning.

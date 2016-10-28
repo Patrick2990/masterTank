@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/clear_costmap_recovery.dir/src/clear_costmap_recovery.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/clear_costmap_recovery/lib/libclear_costmap_recovery.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/clear_costmap_recovery/lib/libclear_costmap_recovery.so"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/clear_costmap_recovery/lib/libclear_costmap_recovery.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/clear_costmap_recovery/lib/libclear_costmap_recovery.so"
 )
 
 # Per-language clean rules from dependency scanning.

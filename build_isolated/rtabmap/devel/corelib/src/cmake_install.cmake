@@ -1,8 +1,8 @@
-# Install script for directory: /home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/corelib/src
+# Install script for directory: /home/plinux/RosPacks/masterTank/src/rtabmap/corelib/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/rtabmap")
+  set(CMAKE_INSTALL_PREFIX "/home/plinux/RosPacks/masterTank/devel_isolated/rtabmap")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -46,9 +46,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_core.so.0.11.11"
-    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_core.so.0.11"
-    "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin/librtabmap_core.so"
+    "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_core.so.0.11.11"
+    "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_core.so.0.11"
+    "/home/plinux/RosPacks/masterTank/src/rtabmap/bin/librtabmap_core.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/librtabmap_core.so.0.11.11"
@@ -59,7 +59,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/bin:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:/usr/lib/x86_64-linux-gnu/hdf5/openmpi/lib:/usr/lib/openmpi/lib:"
+           OLD_RPATH "/home/plinux/RosPacks/masterTank/src/rtabmap/bin:/opt/ros/kinetic/lib:/usr/lib/x86_64-linux-gnu/hdf5/serial/lib:/usr/lib/x86_64-linux-gnu/hdf5/openmpi/lib:/usr/lib/openmpi/lib:"
            NEW_RPATH "")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
@@ -69,6 +69,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/rtabmap-0.11" TYPE DIRECTORY FILES "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/src/rtabmap/corelib/src/../include/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/rtabmap-0.11" TYPE DIRECTORY FILES "/home/plinux/RosPacks/masterTank/src/rtabmap/corelib/src/../include/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 

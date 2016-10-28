@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/navfn_node.dir/src/navfn_node.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navfn/lib/navfn/navfn_node.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/navfn/lib/navfn/navfn_node"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/navfn/lib/navfn/navfn_node.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/navfn/lib/navfn/navfn_node"
 )
 
 # Per-language clean rules from dependency scanning.

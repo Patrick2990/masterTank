@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rtabmapviz.dir/src/GuiNode.cpp.o"
   "CMakeFiles/rtabmapviz.dir/src/GuiWrapper.cpp.o"
   "CMakeFiles/rtabmapviz.dir/src/PreferencesDialogROS.cpp.o"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/rtabmap_ros/lib/rtabmap_ros/rtabmapviz.pdb"
-  "/home/thor/Dropbox/DTU_5_sem/Ros/masterTank/devel_isolated/rtabmap_ros/lib/rtabmap_ros/rtabmapviz"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/rtabmap_ros/lib/rtabmap_ros/rtabmapviz.pdb"
+  "/home/plinux/RosPacks/masterTank/devel_isolated/rtabmap_ros/lib/rtabmap_ros/rtabmapviz"
 )
 
 # Per-language clean rules from dependency scanning.

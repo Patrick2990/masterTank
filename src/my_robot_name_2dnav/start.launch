@@ -17,8 +17,6 @@
 
 <!--SEMI-OLD STUFF!!!-->
 
-
-
  <launch>
 
      <node name="tf" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 1 base_footprint camera_link 10">
