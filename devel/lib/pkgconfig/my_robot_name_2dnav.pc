@@ -1,8 +1,0 @@
-prefix=/home/plinux/RosPacks/masterTank/devel
-
-Name: my_robot_name_2dnav
-Description: Description of my_robot_name_2dnav
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/plinux/RosPacks/masterTank/devel/lib 
-Requires: 
