@@ -1,8 +1,0 @@
-prefix=/home/plinux/RosPacks/masterTank/install_isolated
-
-Name: move_base
-Description: Description of move_base
-Version: 1.14.0
-Cflags: -I/home/plinux/RosPacks/masterTank/install_isolated/include
-Libs: -L/home/plinux/RosPacks/masterTank/install_isolated/lib 
-Requires: roscpp dynamic_reconfigure

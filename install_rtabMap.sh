@@ -6,7 +6,6 @@
 #    exit $?
 #fi
 
-cd src/
 git clone https://github.com/introlab/rtabmap.git
 cd rtabmap/build
 cmake ..

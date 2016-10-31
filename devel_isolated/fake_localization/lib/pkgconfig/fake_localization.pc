@@ -1,8 +1,0 @@
-prefix=/home/plinux/RosPacks/masterTank/devel_isolated/fake_localization
-
-Name: fake_localization
-Description: Description of fake_localization
-Version: 1.14.0
-Cflags: 
-Libs: -L/home/plinux/RosPacks/masterTank/devel_isolated/fake_localization/lib 
-Requires: roscpp rospy
