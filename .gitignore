@@ -1,6 +1,6 @@
-/build_isolated/
-/devel_isolated/
-/rtabmap/
-/nbproject/
-/build/
-/devel/
+build_isolated/
+devel_isolated/
+rtabmap/
+nbproject/
+build/
+devel/
