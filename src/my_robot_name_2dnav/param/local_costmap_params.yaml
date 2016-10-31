@@ -3,8 +3,8 @@ local_costmap:
    robot_base_frame: base_footprint
    static_map: false
    rolling_window: true
-   width: 4.0
-   height: 4.0
+   width: 5.0
+   height: 5.0
 #   origin_x: -2.0
 #   origin_y: -2.0
    transform_tolerance: 0.5

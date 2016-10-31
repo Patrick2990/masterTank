@@ -16,7 +16,7 @@ masterStates_e masterTankState = INITALISING;
 
 masterStates_e init() {
     if (tankExplorePtr->readyToGo() && tankMoverPtr->readyToGo()) {
-        tankExplorePtr->setSimpleExploreSquare(30.0);
+        tankExplorePtr->setSimpleExploreSquare(3.0);
         tankExplorePtr->goExplore();
         return EXPLORING;
     }
@@ -44,6 +44,7 @@ void stateMachineGunFire() {
 }
 
 void heartbeat(const ros::TimerEvent &event) {
+//    cout << "heartbeat!!!" << endl;
     stateMachineGunFire();
 }
 
@@ -74,6 +75,8 @@ int main(int argc, char **argv) {
     tankObjectPlotterPtr = &tankObjectPlotterInst;
 
     signal(SIGINT, shutdownSignal);
+    
+    
     //    boost::thread kepressThread(&kepressThread);
     ros::Timer timer = nh.createTimer(ros::Duration(0.5), &heartbeat);
     cout << "All is up! Start spinning... " << endl;

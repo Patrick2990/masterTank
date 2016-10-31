@@ -11,6 +11,7 @@ footprint: [[-0.19, 0.14], [0.19, 0.14],[0.19,-0.14], [-0.19 , -0.14]]
 #footprint: [[0.0, 0.14], [0.38, 0.14],[0.38,-0.14],[0.0 , -0.14]]
 # footprint: [[x0, y0], [x1, y1], ... [xn, yn]]  # if the robot is not circular
 
+
 map_type: voxel
 
 obstacle_layer:
@@ -49,6 +50,6 @@ inflation_layer:
   inflation_radius:     0.75  # max. distance from an obstacle at which costs are incurred for planning paths.
 
 static_layer:
-  enabled:              true
+  enabled:              false
   
 

@@ -1,30 +1,23 @@
-<!-- <launch>
+<launch>
+    <!-- This transform place the ODOMETRY of the robot. Move the odom 15 cm backward from the middle -->
+    <node 
+        name="tf1" pkg="tf" type="static_transform_publisher" args="0.15 0 0 0 0 0 smr_odom base_footprint 10">
+    </node> 
+    
+    <!-- This transform place the LASER of the robot. Move the lasers 19 cm forward from the middle -->
+    <node 
+        name="tf2" pkg="tf" type="static_transform_publisher" args="0.19 0 0 0 0 0 base_footprint scantf 10">
+    </node> 
+    
+    <node 
+        name="tf3" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 base_footprint camera_link 10">
+    </node> 
 
-     <node name="tf" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 1 base_footprint camera_link 10">
-     </node> 
-     <include file="$(find openni_launch)/launch/openni.launch"/>
-     <include file="$(find my_robot_name_2dnav)/oldNav/move_base.launch"/> 
-     <include file="$(find my_robot_name_2dnav)/oldNav/ko2l.launch"/> 
-     <include file="$(find my_robot_name_2dnav)/my_robot_configuration.launch"/>
-     <include file="$(find frontier_exploration)/launch/no_global_map.launch"/>
-     
-
-
-</launch>
-
--->
-
-
-<!--SEMI-OLD STUFF!!!-->
-
- <launch>
-
-     <node name="tf" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 1 base_footprint camera_link 10">
-     </node> 
-
-  <include file="$(find my_robot_name_2dnav)/my_robot_configuration.launch"/>
-  <include file="$(find openni_launch)/launch/openni.launch"/>
-  <include file="$(find my_robot_name_2dnav)/demo_turtlebot_mapping.launch"/> 
+    <include file="$(find my_robot_name_2dnav)/my_robot_configuration.launch"/>
+    <include file="$(find openni_launch)/launch/openni.launch"/>
+    <include file="$(find my_robot_name_2dnav)/demo_turtlebot_mapping.launch"/> 
+    
+    <include file="$(find frontier_exploration)/launch/no_global_map.launch"/>
 
 </launch>
 
