@@ -1,0 +1,8 @@
+prefix=/home/plinux/RosPacks/masterTank/devel
+
+Name: smr_computer
+Description: Description of smr_computer
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/plinux/RosPacks/masterTank/devel/lib 
+Requires: 
