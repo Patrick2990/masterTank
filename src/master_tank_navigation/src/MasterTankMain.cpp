@@ -16,7 +16,7 @@ masterStates_e masterTankState = INITALISING;
 
 masterStates_e init() {
     if (tankExplorePtr->readyToGo() && tankMoverPtr->readyToGo()) {
-        tankExplorePtr->setSimpleExploreSquare(3.0);
+        tankExplorePtr->setSimpleExploreSquare(5.0);
         tankExplorePtr->goExplore();
         return EXPLORING;
     }
