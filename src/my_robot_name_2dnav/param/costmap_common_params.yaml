@@ -19,6 +19,7 @@ footprint: [[-0.19, 0.14], [0.19, 0.14],[0.19,-0.14], [-0.19 , -0.14]]
 #footprint: [[-0.38, 0.14], [0.0, 0.14],[0.0,-0.14],[-0.38, -0.14]]
 #footprint_padding: -1.0
 
+
 map_type: voxel
 
 obstacle_layer:
@@ -58,6 +59,6 @@ inflation_layer:
   inflation_radius:     0.75  # max. distance from an obstacle at which costs are incurred for planning paths.
 
 static_layer:
-  enabled:              true
+  enabled:              false
   
 

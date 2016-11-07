@@ -66,7 +66,7 @@
 	  <param name="Vis/InlierDistance"           type="string" value="0.1"/>    <!-- 3D visual words correspondence distance -->
 	  <param name="RGBD/AngularUpdate"           type="string" value="0.1"/>    <!-- Update map only if the robot is moving -->
 	  <param name="RGBD/LinearUpdate"            type="string" value="0.1"/>    <!-- Update map only if the robot is moving -->
-	  <!--<param name="Rtabmap/DetectionRate" type="string" value="1"/>  1000 ms -->
+	  <param name="Rtabmap/DetectionRate"        type="string" value="1"/>             <!-- RTabpMap speed: default 1 Hz -->
           <param name="Rtabmap/TimeThr"              type="string" value="700"/>
 	  <param name="Mem/RehearsalSimilarity"      type="string" value="0.30"/>
 	  <param name="Optimizer/Slam2D"             type="string" value="true"/>
