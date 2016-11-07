@@ -1,6 +1,6 @@
 <launch>
     <!-- Set to your sensor's range -->
-    <arg name="sensor_range" default="1.0"/>
+    <arg name="sensor_range" default="2.5"/>
 
     <node pkg="frontier_exploration" type="explore_client" name="explore_client" output="screen"/>
 
@@ -23,7 +23,7 @@
             robot_base_frame: base_footprint
             resolution: 0.05
 
-            rolling_window: false
+            rolling_window: true
             track_unknown_space: true
 
             plugins:
@@ -34,7 +34,7 @@
 
             explore_boundary:
                 resize_to_boundary: true
-                frontier_travel_point: closest
+                frontier_travel_point: middle
 
             sensor:
                 observation_sources: laser
