@@ -40,8 +40,6 @@
           </df>
           <df name="doxygen.dir">
           </df>
-          <df name="Progress">
-          </df>
           <df name="run_tests.dir">
           </df>
           <df name="tests.dir">
@@ -1246,172 +1244,180 @@
           </df>
         </df>
         <df name="rtabmap_ros">
-          <df name="catkin_generated">
-            <df name="installspace">
-            </df>
-            <df name="stamps">
-              <df name="rtabmap_ros">
-              </df>
-            </df>
-          </df>
-          <df name="cmake">
-          </df>
-          <df name="CMakeFiles">
-            <df name="_rtabmap_ros_generate_messages_check_deps_GetMap.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_Goal.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_Info.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_KeyPoint.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_Link.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_ListLabels.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_MapData.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_MapGraph.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_NodeData.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_OdomInfo.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_Point2f.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_Point3f.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_PublishMap.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_ResetPose.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_RGBDImage.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_SetGoal.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_SetLabel.dir">
-            </df>
-            <df name="_rtabmap_ros_generate_messages_check_deps_UserData.dir">
-            </df>
-            <df name="camera.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="data_player.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="icp_odometry.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="map_assembler.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="map_optimizer.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="octomap_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="octomap_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="octomap_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="octomap_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="octomap_msgs_generate_messages_py.dir">
-            </df>
-            <df name="odom_msg_to_tf.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="rgbd_odometry.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="rgbdicp_odometry.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="rtabmap.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="rtabmap_ros.dir">
-              <df name="src">
-                <df name="costmap_2d">
-                </df>
-                <df name="impl">
-                </df>
-                <df name="nodelets">
-                </df>
-                <df name="rviz">
-                </df>
-              </df>
-            </df>
-            <df name="rtabmap_ros_gencfg.dir">
-            </df>
-            <df name="rtabmap_ros_gencpp.dir">
-            </df>
-            <df name="rtabmap_ros_generate_messages.dir">
-            </df>
-            <df name="rtabmap_ros_generate_messages_cpp.dir">
-            </df>
-            <df name="rtabmap_ros_generate_messages_eus.dir">
-            </df>
-            <df name="rtabmap_ros_generate_messages_lisp.dir">
-            </df>
-            <df name="rtabmap_ros_generate_messages_nodejs.dir">
-            </df>
-            <df name="rtabmap_ros_generate_messages_py.dir">
-            </df>
-            <df name="rtabmap_ros_geneus.dir">
-            </df>
-            <df name="rtabmap_ros_genlisp.dir">
-            </df>
-            <df name="rtabmap_ros_gennodejs.dir">
-            </df>
-            <df name="rtabmap_ros_genpy.dir">
-            </df>
-            <df name="rtabmapviz.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="std_srvs_generate_messages_cpp.dir">
-            </df>
-            <df name="std_srvs_generate_messages_eus.dir">
-            </df>
-            <df name="std_srvs_generate_messages_lisp.dir">
-            </df>
-            <df name="std_srvs_generate_messages_nodejs.dir">
-            </df>
-            <df name="std_srvs_generate_messages_py.dir">
-            </df>
-            <df name="stereo_camera.dir">
-              <df name="src">
-              </df>
-            </df>
-            <df name="stereo_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="stereo_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="stereo_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="stereo_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="stereo_msgs_generate_messages_py.dir">
-            </df>
-            <df name="stereo_odometry.dir">
-              <df name="src">
-              </df>
-            </df>
-          </df>
-          <df name="docs">
-          </df>
           <df name="src">
-            <df name="rviz">
+            <df name="rtabmap_ros">
+              <df name="catkin_generated">
+                <df name="installspace">
+                </df>
+                <df name="stamps">
+                  <df name="rtabmap_ros">
+                  </df>
+                </df>
+              </df>
+              <df name="cmake">
+              </df>
+              <df name="CMakeFiles">
+                <df name="_rtabmap_ros_generate_messages_check_deps_GetMap.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_Goal.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_Info.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_KeyPoint.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_Link.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_ListLabels.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_MapData.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_MapGraph.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_NodeData.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_OdomInfo.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_Point2f.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_Point3f.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_PublishMap.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_ResetPose.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_RGBDImage.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_SetGoal.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_SetLabel.dir">
+                </df>
+                <df name="_rtabmap_ros_generate_messages_check_deps_UserData.dir">
+                </df>
+                <df name="camera.dir">
+                  <df name="src">
+                  </df>
+                </df>
+                <df name="data_player.dir">
+                  <df name="src">
+                  </df>
+                </df>
+                <df name="icp_odometry.dir">
+                  <df name="src">
+                  </df>
+                </df>
+                <df name="map_assembler.dir">
+                  <df name="src">
+                  </df>
+                </df>
+                <df name="map_optimizer.dir">
+                  <df name="src">
+                  </df>
+                </df>
+                <df name="octomap_msgs_generate_messages_cpp.dir">
+                </df>
+                <df name="octomap_msgs_generate_messages_eus.dir">
+                </df>
+                <df name="octomap_msgs_generate_messages_lisp.dir">
+                </df>
+                <df name="octomap_msgs_generate_messages_nodejs.dir">
+                </df>
+                <df name="octomap_msgs_generate_messages_py.dir">
+                </df>
+                <df name="odom_msg_to_tf.dir">
+                  <df name="src">
+                  </df>
+                </df>
+                <df name="rgbd_odometry.dir">
+                  <df name="src">
+                  </df>
+                </df>
+                <df name="rgbdicp_odometry.dir">
+                  <df name="src">
+                  </df>
+                </df>
+                <df name="rtabmap.dir">
+                  <df name="src">
+                  </df>
+                </df>
+                <df name="rtabmap_ros.dir">
+                  <df name="src">
+                    <df name="costmap_2d">
+                    </df>
+                    <df name="impl">
+                    </df>
+                    <df name="nodelets">
+                    </df>
+                    <df name="rviz">
+                    </df>
+                  </df>
+                </df>
+                <df name="rtabmap_ros_gencfg.dir">
+                </df>
+                <df name="rtabmap_ros_gencpp.dir">
+                </df>
+                <df name="rtabmap_ros_generate_messages.dir">
+                </df>
+                <df name="rtabmap_ros_generate_messages_cpp.dir">
+                </df>
+                <df name="rtabmap_ros_generate_messages_eus.dir">
+                </df>
+                <df name="rtabmap_ros_generate_messages_lisp.dir">
+                </df>
+                <df name="rtabmap_ros_generate_messages_nodejs.dir">
+                </df>
+                <df name="rtabmap_ros_generate_messages_py.dir">
+                </df>
+                <df name="rtabmap_ros_geneus.dir">
+                </df>
+                <df name="rtabmap_ros_genlisp.dir">
+                </df>
+                <df name="rtabmap_ros_gennodejs.dir">
+                </df>
+                <df name="rtabmap_ros_genpy.dir">
+                </df>
+                <df name="rtabmapviz.dir">
+                  <df name="src">
+                  </df>
+                </df>
+                <df name="std_srvs_generate_messages_cpp.dir">
+                </df>
+                <df name="std_srvs_generate_messages_eus.dir">
+                </df>
+                <df name="std_srvs_generate_messages_lisp.dir">
+                </df>
+                <df name="std_srvs_generate_messages_nodejs.dir">
+                </df>
+                <df name="std_srvs_generate_messages_py.dir">
+                </df>
+                <df name="stereo_camera.dir">
+                  <df name="src">
+                  </df>
+                </df>
+                <df name="stereo_msgs_generate_messages_cpp.dir">
+                </df>
+                <df name="stereo_msgs_generate_messages_eus.dir">
+                </df>
+                <df name="stereo_msgs_generate_messages_lisp.dir">
+                </df>
+                <df name="stereo_msgs_generate_messages_nodejs.dir">
+                </df>
+                <df name="stereo_msgs_generate_messages_py.dir">
+                </df>
+                <df name="stereo_odometry.dir">
+                  <df name="src">
+                  </df>
+                </df>
+              </df>
+              <df name="docs">
+              </df>
+              <df name="src">
+                <df name="rviz">
+                  <in>moc_InfoDisplay.cpp</in>
+                  <in>moc_MapCloudDisplay.cpp</in>
+                  <in>moc_MapGraphDisplay.cpp</in>
+                  <in>moc_OrbitOrientedViewController.cpp</in>
+                </df>
+              </df>
             </df>
           </df>
         </df>
@@ -2182,10 +2188,6 @@
                   <df name="sqlite3">
                   </df>
                   <df name="toro3d">
-                  </df>
-                  <df name="vertigo">
-                    <df name="g2o">
-                    </df>
                   </df>
                 </df>
               </df>
@@ -3727,109 +3729,113 @@
           </df>
         </df>
         <df name="rtabmap_ros">
-          <df name="cfg">
-          </df>
-          <df name="eclipse-launch">
-          </df>
-          <df name="include">
+          <df name="src">
             <df name="rtabmap_ros">
-              <in>CommonDataSubscriber.h</in>
-              <in>CommonDataSubscriberDefines.h</in>
-              <in>CoreWrapper.h</in>
-              <in>GuiWrapper.h</in>
-              <in>MapsManager.h</in>
-              <in>MsgConversion.h</in>
-              <in>OdometryROS.h</in>
-              <in>PreferencesDialogROS.h</in>
-            </df>
-          </df>
-          <df name="launch">
-            <df name="azimut3">
-              <df name="config">
+              <df name="cfg">
               </df>
-            </df>
-            <df name="calibration">
-              <df name="kinect2">
-                <df name="506816242542">
+              <df name="eclipse-launch">
+              </df>
+              <df name="include">
+                <df name="rtabmap_ros">
+                  <in>CommonDataSubscriber.h</in>
+                  <in>CommonDataSubscriberDefines.h</in>
+                  <in>CoreWrapper.h</in>
+                  <in>GuiWrapper.h</in>
+                  <in>MapsManager.h</in>
+                  <in>MsgConversion.h</in>
+                  <in>OdometryROS.h</in>
+                  <in>PreferencesDialogROS.h</in>
                 </df>
               </df>
-            </df>
-            <df name="config">
-            </df>
-            <df name="data">
-              <df name="books">
+              <df name="launch">
+                <df name="azimut3">
+                  <df name="config">
+                  </df>
+                </df>
+                <df name="calibration">
+                  <df name="kinect2">
+                    <df name="506816242542">
+                    </df>
+                  </df>
+                </df>
+                <df name="config">
+                </df>
+                <df name="data">
+                  <df name="books">
+                  </df>
+                  <df name="demo_appearance">
+                  </df>
+                </df>
+                <df name="demo">
+                </df>
+                <df name="tests">
+                </df>
               </df>
-              <df name="demo_appearance">
+              <df name="msg">
+              </df>
+              <df name="scripts">
+              </df>
+              <df name="src">
+                <df name="costmap_2d">
+                  <in>static_layer.cpp</in>
+                  <in>static_layer.h</in>
+                </df>
+                <df name="impl">
+                  <in>CommonDataSubscriberDepth.cpp</in>
+                  <in>CommonDataSubscriberRGBD.cpp</in>
+                  <in>CommonDataSubscriberRGBD2.cpp</in>
+                  <in>CommonDataSubscriberStereo.cpp</in>
+                </df>
+                <df name="nodelets">
+                  <in>data_odom_sync.cpp</in>
+                  <in>data_throttle.cpp</in>
+                  <in>disparity_to_depth.cpp</in>
+                  <in>icp_odometry.cpp</in>
+                  <in>obstacles_detection.cpp</in>
+                  <in>obstacles_detection_old.cpp</in>
+                  <in>point_cloud_aggregator.cpp</in>
+                  <in>point_cloud_xyz.cpp</in>
+                  <in>point_cloud_xyzrgb.cpp</in>
+                  <in>rgbd_odometry.cpp</in>
+                  <in>rgbd_sync.cpp</in>
+                  <in>rgbdicp_odometry.cpp</in>
+                  <in>stereo_odometry.cpp</in>
+                  <in>stereo_throttle.cpp</in>
+                  <in>undistort_depth.cpp</in>
+                </df>
+                <df name="rviz">
+                  <in>InfoDisplay.cpp</in>
+                  <in>InfoDisplay.h</in>
+                  <in>MapCloudDisplay.cpp</in>
+                  <in>MapCloudDisplay.h</in>
+                  <in>MapGraphDisplay.cpp</in>
+                  <in>MapGraphDisplay.h</in>
+                  <in>OrbitOrientedViewController.cpp</in>
+                  <in>OrbitOrientedViewController.h</in>
+                </df>
+                <in>CameraNode.cpp</in>
+                <in>CommonDataSubscriber.cpp</in>
+                <in>CoreNode.cpp</in>
+                <in>CoreWrapper.cpp</in>
+                <in>DbPlayerNode.cpp</in>
+                <in>GuiNode.cpp</in>
+                <in>GuiWrapper.cpp</in>
+                <in>ICPOdometryNode.cpp</in>
+                <in>MapAssemblerNode.cpp</in>
+                <in>MapOptimizerNode.cpp</in>
+                <in>MapsManager.cpp</in>
+                <in>MsgConversion.cpp</in>
+                <in>OdomMsgToTFNode.cpp</in>
+                <in>OdometryROS.cpp</in>
+                <in>PreferencesDialogROS.cpp</in>
+                <in>RGBDICPOdometryNode.cpp</in>
+                <in>RGBDOdometryNode.cpp</in>
+                <in>StereoCameraNode.cpp</in>
+                <in>StereoOdometryNode.cpp</in>
+              </df>
+              <df name="srv">
               </df>
             </df>
-            <df name="demo">
-            </df>
-            <df name="tests">
-            </df>
-          </df>
-          <df name="msg">
-          </df>
-          <df name="scripts">
-          </df>
-          <df name="src">
-            <df name="costmap_2d">
-              <in>static_layer.cpp</in>
-              <in>static_layer.h</in>
-            </df>
-            <df name="impl">
-              <in>CommonDataSubscriberDepth.cpp</in>
-              <in>CommonDataSubscriberRGBD.cpp</in>
-              <in>CommonDataSubscriberRGBD2.cpp</in>
-              <in>CommonDataSubscriberStereo.cpp</in>
-            </df>
-            <df name="nodelets">
-              <in>data_odom_sync.cpp</in>
-              <in>data_throttle.cpp</in>
-              <in>disparity_to_depth.cpp</in>
-              <in>icp_odometry.cpp</in>
-              <in>obstacles_detection.cpp</in>
-              <in>obstacles_detection_old.cpp</in>
-              <in>point_cloud_aggregator.cpp</in>
-              <in>point_cloud_xyz.cpp</in>
-              <in>point_cloud_xyzrgb.cpp</in>
-              <in>rgbd_odometry.cpp</in>
-              <in>rgbd_sync.cpp</in>
-              <in>rgbdicp_odometry.cpp</in>
-              <in>stereo_odometry.cpp</in>
-              <in>stereo_throttle.cpp</in>
-              <in>undistort_depth.cpp</in>
-            </df>
-            <df name="rviz">
-              <in>InfoDisplay.cpp</in>
-              <in>InfoDisplay.h</in>
-              <in>MapCloudDisplay.cpp</in>
-              <in>MapCloudDisplay.h</in>
-              <in>MapGraphDisplay.cpp</in>
-              <in>MapGraphDisplay.h</in>
-              <in>OrbitOrientedViewController.cpp</in>
-              <in>OrbitOrientedViewController.h</in>
-            </df>
-            <in>CameraNode.cpp</in>
-            <in>CommonDataSubscriber.cpp</in>
-            <in>CoreNode.cpp</in>
-            <in>CoreWrapper.cpp</in>
-            <in>DbPlayerNode.cpp</in>
-            <in>GuiNode.cpp</in>
-            <in>GuiWrapper.cpp</in>
-            <in>ICPOdometryNode.cpp</in>
-            <in>MapAssemblerNode.cpp</in>
-            <in>MapOptimizerNode.cpp</in>
-            <in>MapsManager.cpp</in>
-            <in>MsgConversion.cpp</in>
-            <in>OdomMsgToTFNode.cpp</in>
-            <in>OdometryROS.cpp</in>
-            <in>PreferencesDialogROS.cpp</in>
-            <in>RGBDICPOdometryNode.cpp</in>
-            <in>RGBDOdometryNode.cpp</in>
-            <in>StereoCameraNode.cpp</in>
-            <in>StereoOdometryNode.cpp</in>
-          </df>
-          <df name="srv">
           </df>
         </df>
         <df name="smr_computer">
