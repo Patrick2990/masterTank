@@ -3,10 +3,10 @@ local_costmap:
    robot_base_frame: base_footprint
    static_map: false
    rolling_window: true
-   width: 5.0
-   height: 5.0
-   origin_x: -2.5
-   origin_y: -2.5
+   width: 10.0
+   height: 10.0
+   origin_x: -5
+   origin_y: -5
    transform_tolerance: 0.5
    plugins:
     - {name: obstacle_layer,      type: "costmap_2d::VoxelLayer"}

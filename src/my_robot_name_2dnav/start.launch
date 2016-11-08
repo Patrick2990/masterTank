@@ -1,6 +1,6 @@
 <launch>
     
-<!--  <machine name="local" address="192.168.0.101" env-loader="/home/local/sh/mobotware/ros_link/catkin_ws/env.sh" user="local" password=" "/>
+    <!--  <machine name="local" address="192.168.0.101" env-loader="/home/local/sh/mobotware/ros_link/catkin_ws/env.sh" user="local" password=" "/>
   <node machine="local" name="smr" pkg="smr" type="smr.launch"/>
     -->
     <!-- This transform place the ODOMETRY of the robot. Move the odom 15 cm backward from the middle -->

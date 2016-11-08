@@ -34,7 +34,10 @@
   -->
   
   <!-- Navigation stuff (move_base) -->
+  <!--<include file="$(find my_robot_name_2dnav)/oldNav/move_base.launch"/>-->  
   <include file="$(find my_robot_name_2dnav)/move_base.launch.xml"/>
+
+
   
   <!-- Mapping -->
   <group ns="rtabmap">
