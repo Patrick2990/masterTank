@@ -5,8 +5,8 @@ local_costmap:
    rolling_window: true
    width: 5.0
    height: 5.0
-   origin_x: -2.5
-   origin_y: -2.5
+#   origin_x: -2.0
+#   origin_y: -2.0
    transform_tolerance: 0.5
    plugins:
     - {name: obstacle_layer,      type: "costmap_2d::VoxelLayer"}
