@@ -1,6 +1,6 @@
 <launch>
     <!-- Set to your sensor's range -->
-    <arg name="sensor_range" default="5.5"/>
+    <arg name="sensor_range" default="2.5"/>
 
     <node pkg="frontier_exploration" type="explore_client" name="explore_client" output="screen"/>
 
@@ -34,7 +34,7 @@
 
             explore_boundary:
                 resize_to_boundary: true
-                frontier_travel_point: closest
+                frontier_travel_point: middle
 
             sensor:
                 observation_sources: laser
