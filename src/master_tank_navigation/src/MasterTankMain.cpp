@@ -16,7 +16,8 @@ masterStates_e masterTankState = INITALISING;
 
 masterStates_e init() {
     if (tankExplorePtr->readyToGo() && tankMoverPtr->readyToGo()) {
-        tankExplorePtr->setSimpleExploreSquare(10.0);
+        cout << "Ready to go" << endl;
+        tankExplorePtr->setSimpleExploreSquare(20.31240);
         tankExplorePtr->goExplore();
         return EXPLORING;
     }
@@ -63,7 +64,7 @@ void shutdownSignal(int sig) {
 
 int main(int argc, char **argv) {
 
-    std::cout << "Starrting node  .." << std::endl;
+    std::cout << "Starting node  .." << std::endl;
     ros::init(argc, argv, "MasterTankMain");
     ros::NodeHandle nh;
     MasterTankExplore tankExploreInst;

@@ -101,13 +101,13 @@ void MasterTankExplore::setSimpleExploreSquare(geometry_msgs::Point32 topRight, 
 
     p[1].x = topRight.x;
     p[1].y = butLeft.y;
-    p[1].z = .0;
+    p[1].z = 0.00247192;
 
     p[2] = butLeft;
 
     p[3].x = butLeft.x;
     p[3].y = topRight.y;
-    p[3].z = .0;
+    p[3].z = 0.00247192;
 
     squareBoundary.polygon.points.reserve(4);
     squareBoundary.header.seq = 0;
@@ -120,7 +120,7 @@ void MasterTankExplore::setSimpleExploreSquare(geometry_msgs::Point32 topRight, 
     }
 
     geometry_msgs::PointStamped start_point;
-    start_point.point.x = start_point.point.y = start_point.point.z = 0.0;
+    start_point.point.x = start_point.point.y = start_point.point.z = 0.00247192;
 
     currentExploreArea.explore_center = start_point;
     currentExploreArea.explore_boundary = squareBoundary;
@@ -129,10 +129,11 @@ void MasterTankExplore::setSimpleExploreSquare(geometry_msgs::Point32 topRight, 
 
 
 void MasterTankExplore::setSimpleExploreSquare(float squareAreaSize) {
+    cout << "Setting simple explore square" << endl;
     geometry_msgs::Point32 topRight, butLeft;
     topRight.x = topRight.y = squareAreaSize;
     butLeft.x = butLeft.y = squareAreaSize * (-1);
-    butLeft.z = topRight.z = 0.0;
+    butLeft.z = topRight.z = 0.00247192;
     setSimpleExploreSquare(topRight, butLeft);
 }
 

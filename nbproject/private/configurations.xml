@@ -122,41 +122,11 @@
               </df>
               <df name="clean_test_results_timestamp_tools.dir">
               </df>
-              <df name="roscpp_generate_messages_cpp.dir">
-              </df>
-              <df name="roscpp_generate_messages_eus.dir">
-              </df>
-              <df name="roscpp_generate_messages_lisp.dir">
-              </df>
-              <df name="roscpp_generate_messages_nodejs.dir">
-              </df>
-              <df name="roscpp_generate_messages_py.dir">
-              </df>
-              <df name="rosgraph_msgs_generate_messages_cpp.dir">
-              </df>
-              <df name="rosgraph_msgs_generate_messages_eus.dir">
-              </df>
-              <df name="rosgraph_msgs_generate_messages_lisp.dir">
-              </df>
-              <df name="rosgraph_msgs_generate_messages_nodejs.dir">
-              </df>
-              <df name="rosgraph_msgs_generate_messages_py.dir">
-              </df>
               <df name="run_tests_timestamp_tools.dir">
               </df>
               <df name="run_tests_timestamp_tools_gtest.dir">
               </df>
               <df name="run_tests_timestamp_tools_gtest_test_trigger_matcher.dir">
-              </df>
-              <df name="std_msgs_generate_messages_cpp.dir">
-              </df>
-              <df name="std_msgs_generate_messages_eus.dir">
-              </df>
-              <df name="std_msgs_generate_messages_lisp.dir">
-              </df>
-              <df name="std_msgs_generate_messages_nodejs.dir">
-              </df>
-              <df name="std_msgs_generate_messages_py.dir">
               </df>
               <df name="test_trigger_matcher.dir">
                 <df name="test">
@@ -329,16 +299,6 @@
             </df>
             <df name="dynamic_reconfigure_generate_messages_py.dir">
             </df>
-            <df name="geometry_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="geometry_msgs_generate_messages_py.dir">
-            </df>
             <df name="getFirmwareVersion.dir">
               <df name="src">
               </df>
@@ -356,16 +316,6 @@
             <df name="libhokuyo.dir">
               <df name="src">
               </df>
-            </df>
-            <df name="sensor_msgs_generate_messages_cpp.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_eus.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_lisp.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_nodejs.dir">
-            </df>
-            <df name="sensor_msgs_generate_messages_py.dir">
             </df>
           </df>
           <df name="docs">
