@@ -30,6 +30,7 @@ catkin_make --pkg driver_base timestamp_tools driver_common navigation frontier_
 # build all
 export ROS_LANG_DISABLE=genjava
 catkin_make
+catkin_make
 #catkin_make -DCATKIN_WHILELIST_PACKAGES=""
 
 echo "Done! :-)"
