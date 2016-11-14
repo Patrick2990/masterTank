@@ -25,11 +25,11 @@ cd ..
 
 export ROS_LANG_DISABLE=genjava
 catkin_make --pkg driver_base timestamp_tools driver_common navigation frontier_exploration
+
 #catkin_make -DCATKIN_WHILELIST_PACKAGES="driver_base; timestamp_tools; driver_common"
 
 # build all
 export ROS_LANG_DISABLE=genjava
-catkin_make
 catkin_make
 #catkin_make -DCATKIN_WHILELIST_PACKAGES=""
 
