@@ -37,15 +37,15 @@ bool MasterTankMarch::waitForServer(float interval) {
 
 void MasterTankMarch::doneMarching_cb(const actionlib::SimpleClientGoalState &state,
                                       const move_base_msgs::MoveBaseResultConstPtr &result) {
-
+  cout << ("doneMarching_cb") << endl;
 }
 
 void MasterTankMarch::activeMarch_cb() {
-
+  cout << ("activeMarch_cb") << endl;
 }
 
 void MasterTankMarch::feedbackMarch_cb(const move_base_msgs::MoveBaseFeedbackConstPtr &feedback) {
-
+  cout << ("feedbackMarch_cb") << endl;
 }
 
 void MasterTankMarch::halt() {
