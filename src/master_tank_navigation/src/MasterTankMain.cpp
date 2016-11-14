@@ -31,10 +31,10 @@ void stateMachineGunFire() {
             masterTankState = init();
             break;
         case EXPLORING:
-
+            // Is changed inside MasterTankExplore doneExploreTask_cb 
             break;
         case FECHING_OBJECT:
-
+            masterTankState = tankObjectPlotterPtr->fetchObjects(tankMoverPtr);
             break;
 
         default:

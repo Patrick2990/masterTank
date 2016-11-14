@@ -4,6 +4,7 @@
 
 
 #include "MasterTankExplore.h"
+#include "MasterTankMain.h"
 
 #define SQARE_BOUNDARY_POINTS 4
 
@@ -18,6 +19,7 @@ MasterTankExplore::MasterTankExplore() : exploreClient("explore_server", true) {
 void MasterTankExplore::doneExploreTask_cb(const actionlib::SimpleClientGoalState &state,
                                            const frontier_exploration::ExploreTaskResultConstPtr &result) {
     cout << "Exploration finished in state " << state.toString() << endl;
+    masterTankState = FECHING_OBJECT;
 //    cout << "Explored " << result. << endl;
 }
 

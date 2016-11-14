@@ -9,6 +9,7 @@ enum masterStates_e{
     INITALISING,
     EXPLORING,
     FECHING_OBJECT,
+    FINISH,
     ALL_STATE_COUNT
 };
 

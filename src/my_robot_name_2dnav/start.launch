@@ -2,12 +2,12 @@
     <machine name="smr14" address="192.168.0.101" env-loader="/home/local/sh/mobotware/ros_link/catkin_ws/env.sh" user="local" password=" "/>
     <node machine="smr14" name="smr" pkg="smr" type="smr_control"/> 
     
-    <!-- This transform place the ODOMETRY of the robot. Move the odom 15 cm backward from the middle -->
+     <!--This transform place the ODOMETRY of the robot. Move the odom 15 cm backward from the middle--> 
     <node 
         name="tf1" pkg="tf" type="static_transform_publisher" args="0.15 0 0 0 0 0 smr_odom base_footprint 10">
     </node> 
     
-    <!-- This transform place the LASER of the robot. Move the lasers 19 cm forward from the middle -->
+     <!--This transform place the LASER of the robot. Move the lasers 19 cm forward from the middle--> 
     <node 
         name="tf2" pkg="tf" type="static_transform_publisher" args="0.19 0 0 0 0 0 base_footprint scantf 10">
     </node> 
@@ -21,7 +21,24 @@
     <include file="$(find my_robot_name_2dnav)/demo_turtlebot_mapping.launch"/> 
     
     <include file="$(find frontier_exploration)/launch/no_global_map.launch"/>
-
+    
+    <!--Find-Object-->   	
+    <node name="find_object_3d" pkg="find_object_2d" type="find_object_2d" output="screen">
+        <param name="gui" value="false" type="bool"/>
+        <param name="settings_path"   value="$(find find_object_2d)/books_ini/kasse.ini" type="str"/>
+        <param name="subscribe_depth" value="true" type="bool"/>
+        <param name="objects_path"    value="$(find find_object_2d)/books_ini" type="str"/>
+		
+        <remap from="rgb/image_rect_color" to="camera/rgb/image_rect_color"/>
+        <remap from="depth_registered/image_raw" to="camera/depth_registered/image_raw"/>
+        <remap from="depth_registered/camera_info" to="camera/depth_registered/camera_info"/>
+    </node>
+	
+    <!--	 Example of tf synchronisation with the objectsStamped message -->	
+    <node name="tf_example" pkg="find_object_2d" type="tf_example" output="screen">
+        <param name="map_frame_id" value="/map" type="string"/>
+        <param name="object_prefix" value="object" type="str"/>
+    </node>
 </launch>
 
 

@@ -22,9 +22,21 @@ void MasterTankMarch::moveTo(std::string frameID, float x, float y) {
     currentMarchGoal.target_pose.pose.orientation.w = 1.0;
 
     cout << ("Sending goal") << endl;
-    moveClient.sendGoal(currentMarchGoal,boost::bind(&MasterTankMarch::doneMarching_cb, this, _1, _2),
-                              boost::bind(&MasterTankMarch::activeMarch_cb, this),
-                              boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
+    moveClient.sendGoal(currentMarchGoal, boost::bind(&MasterTankMarch::doneMarching_cb, this, _1, _2),
+            boost::bind(&MasterTankMarch::activeMarch_cb, this),
+            boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
+
+
+}
+
+void MasterTankMarch::moveTo(move_base_msgs::MoveBaseGoal goal) {
+    // Remember last position
+    currentMarchGoal = goal;
+    
+    cout << ("Sending object goal") << endl;
+    moveClient.sendGoal(goal, boost::bind(&MasterTankMarch::doneMarching_cb, this, _1, _2),
+            boost::bind(&MasterTankMarch::activeMarch_cb, this),
+            boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
 
 
 }
@@ -33,19 +45,17 @@ bool MasterTankMarch::waitForServer(float interval) {
     return false;
 }
 
-
-
 void MasterTankMarch::doneMarching_cb(const actionlib::SimpleClientGoalState &state,
-                                      const move_base_msgs::MoveBaseResultConstPtr &result) {
-  cout << ("doneMarching_cb") << endl;
+        const move_base_msgs::MoveBaseResultConstPtr &result) {
+    cout << ("doneMarching_cb") << endl;
 }
 
 void MasterTankMarch::activeMarch_cb() {
-  cout << ("activeMarch_cb") << endl;
+    cout << ("activeMarch_cb") << endl;
 }
 
 void MasterTankMarch::feedbackMarch_cb(const move_base_msgs::MoveBaseFeedbackConstPtr &feedback) {
-  cout << ("feedbackMarch_cb") << endl;
+    cout << ("feedbackMarch_cb") << endl;
 }
 
 void MasterTankMarch::halt() {

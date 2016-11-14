@@ -107,6 +107,7 @@ bool nearestCell(unsigned int &result, unsigned int start, unsigned char val, co
 
         //return if cell of correct value is found
         if(map[idx] == val){
+            ROS_INFO("found map idx: %d ",map[idx]);
             result = idx;
             return true;
         }

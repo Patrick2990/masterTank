@@ -14,6 +14,7 @@ public:
 
     MasterTankMarch();
     void moveTo(std::string frameID,float x,float y);
+    void moveTo(move_base_msgs::MoveBaseGoal goal);
     bool waitForServer(float interval);
     void halt();
     bool readyToGo();
