@@ -1,5 +1,5 @@
 <launch>
-    <machine name="smr14" address="192.168.0.101" env-loader="/home/local/sh/mobotware/ros_link/catkin_ws/envThor.sh" user="local" password=" "/>
+    <machine name="smr14" address="192.168.0.101" env-loader="/home/local/sh/mobotware/ros_link/catkin_ws/envPatrick.sh" user="local" password=" "/>
     <node machine="smr14" name="smr" pkg="smr" type="smr_control"/> 
     
      <!--This transform place the ODOMETRY of the robot. Move the odom 15 cm backward from the middle--> 
@@ -35,7 +35,7 @@
         <remap from="depth_registered/camera_info" to="camera/depth_registered/camera_info"/>
     </node>
 	
-    	 Example of tf synchronisation with the objectsStamped message 	
+    	 <!--Example of tf synchronisation with the objectsStamped message--> 	
     <node name="tf_example" pkg="find_object_2d" type="tf_example" output="screen">
         <param name="map_frame_id" value="/map" type="string"/>
         <param name="object_prefix" value="object" type="str"/>

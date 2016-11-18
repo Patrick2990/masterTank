@@ -53,11 +53,14 @@ void MasterTankMarch::activeMarch_cb() {
 }
 
 int feedbackDevider = 0;
-
+int 
 void MasterTankMarch::feedbackMarch_cb(const move_base_msgs::MoveBaseFeedbackConstPtr &feedback) {
     if (++feedbackDevider > 10) {
         cout << ("feedbackMarch_cb x:") << feedback->base_position.pose.position.x <<
                 " y " << feedback->base_position.pose.position.y << endl;
+        
+        
+        
         feedbackDevider = 0;
     }
 }

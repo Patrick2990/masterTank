@@ -39,7 +39,7 @@ obstacle_layer:
     clearing: true
     
   point_cloud_sensor: {
-    sensor_frame: base_footprint,
+    sensor_frame: base_link,
     data_type: PointCloud2, 
     topic: /rtabmap/cloud_obstacles, 
     expected_update_rate: 0.5, 

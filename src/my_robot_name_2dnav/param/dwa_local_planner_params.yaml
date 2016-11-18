@@ -1,6 +1,6 @@
 DWAPlannerROS:
 
-
+  planner_frequency: 5.0
 # Robot Configuration Parameters - Kobuki
   max_vel_x: 0.2  # 0.4
   min_vel_x: 0.0 

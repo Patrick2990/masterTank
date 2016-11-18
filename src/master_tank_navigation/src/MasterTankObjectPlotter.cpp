@@ -46,7 +46,7 @@ void MasterTankObjectPlotter::objectFound_cb(const find_object_2d::ObjectsStampe
                     pose.getRotation().x(), pose.getRotation().y(), pose.getRotation().z(), pose.getRotation().w());
 
 
-            currentMarchGoal.target_pose.pose.position.x = pose.getOrigin().x();
+            currentMarchGoal.target_pose.pose.position.x = pose.getOrigin().x()-0.30;
             currentMarchGoal.target_pose.pose.position.y = pose.getOrigin().y();
 //            currentMarchGoal.target_pose.pose.position.z = 0;
 //            currentMarchGoal.target_pose.pose.orientation.w = pose.getRotation().w();
