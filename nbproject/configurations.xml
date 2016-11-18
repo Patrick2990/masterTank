@@ -31,6 +31,11 @@
         </df>
       </df>
       <df name="src">
+        <df name="frontier_exploration">
+          <df name="src">
+            <in>frontier_search.cpp</in>
+          </df>
+        </df>
         <df name="hokuyo_node">
           <df name="CMakeFiles">
             <df name="2.8.12.2">
@@ -469,28 +474,28 @@
       <item path="build/rtabmap_ros/src/rtabmap_ros/src/rviz/moc_InfoDisplay.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="build/rtabmap_ros/src/rtabmap_ros/src/rviz/moc_MapCloudDisplay.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="build/rtabmap_ros/src/rtabmap_ros/src/rviz/moc_MapGraphDisplay.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="build/rtabmap_ros/src/rtabmap_ros/src/rviz/moc_OrbitOrientedViewController.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
@@ -541,6 +546,51 @@
             <Elem>ROS_PACKAGE_NAME="rtabmap_ros"</Elem>
             <Elem>WITH_OCTOMAP_ROS</Elem>
             <Elem>rtabmap_ros_EXPORTS</Elem>
+          </preprocessorList>
+        </ccTool>
+      </folder>
+      <folder path="0/src/frontier_exploration">
+        <ccTool>
+          <incDir>
+            <pElem>devel/include</pElem>
+            <pElem>src/frontier_exploration/include</pElem>
+            <pElem>src/navigation/costmap_2d/include</pElem>
+            <pElem>src/navigation/voxel_grid/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>/usr/include/eigen3</pElem>
+            <pElem>/usr/include/pcl-1.7</pElem>
+            <pElem>/usr/include/ni</pElem>
+            <pElem>/usr/include/openni2</pElem>
+            <pElem>/usr/include/vtk-6.2</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu</pElem>
+            <pElem>/usr/include/freetype2</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/freetype2</pElem>
+            <pElem>/usr/include/jsoncpp</pElem>
+            <pElem>/usr/include/hdf5/openmpi</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include</pElem>
+            <pElem>/usr/lib/openmpi/include</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi</pElem>
+            <pElem>/usr/include/libxml2</pElem>
+            <pElem>/usr/include/python2.7</pElem>
+            <pElem>/usr/include/tcl</pElem>
+            <pElem>src/frontier_exploration/src/test</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtWidgets</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtGui</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/qt5/QtCore</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64</pElem>
+            <pElem>build/frontier_exploration</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>QT_CORE_LIB</Elem>
+            <Elem>QT_GUI_LIB</Elem>
+            <Elem>QT_NO_DEBUG</Elem>
+            <Elem>QT_WIDGETS_LIB</Elem>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
+            <Elem>ROS_PACKAGE_NAME="frontier_exploration"</Elem>
+            <Elem>explore_costmap_EXPORTS</Elem>
           </preprocessorList>
         </ccTool>
       </folder>
@@ -1200,6 +1250,13 @@
           </preprocessorList>
         </ccTool>
       </folder>
+      <item path="src/frontier_exploration/src/frontier_search.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+        <ccTool flags="1">
+        </ccTool>
+      </item>
       <item path="src/hokuyo_node/CMakeFiles/2.8.12.2/CompilerIdC/CMakeCCompilerId.c"
             ex="false"
             tool="0"
@@ -2379,14 +2436,14 @@
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/CameraNode.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/CommonDataSubscriber.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
           <preprocessorList>
             <Elem>rtabmap_ros_EXPORTS</Elem>
@@ -2396,14 +2453,14 @@
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/CoreNode.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/CoreWrapper.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
           <preprocessorList>
             <Elem>rtabmap_ros_EXPORTS</Elem>
@@ -2413,49 +2470,49 @@
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/DbPlayerNode.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/GuiNode.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/GuiWrapper.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/ICPOdometryNode.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/MapAssemblerNode.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/MapOptimizerNode.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/MapsManager.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
           <preprocessorList>
             <Elem>rtabmap_ros_EXPORTS</Elem>
@@ -2465,7 +2522,7 @@
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/MsgConversion.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
           <preprocessorList>
             <Elem>rtabmap_ros_EXPORTS</Elem>
@@ -2475,14 +2532,14 @@
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/OdomMsgToTFNode.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/OdometryROS.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
           <preprocessorList>
             <Elem>rtabmap_ros_EXPORTS</Elem>
@@ -2492,203 +2549,203 @@
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/PreferencesDialogROS.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/RGBDICPOdometryNode.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/RGBDOdometryNode.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/StereoCameraNode.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/StereoOdometryNode.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="0">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/costmap_2d/static_layer.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/impl/CommonDataSubscriberDepth.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/impl/CommonDataSubscriberRGBD.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/impl/CommonDataSubscriberRGBD2.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/impl/CommonDataSubscriberStereo.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/data_odom_sync.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/data_throttle.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/disparity_to_depth.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/icp_odometry.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/obstacles_detection.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/obstacles_detection_old.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/point_cloud_aggregator.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/point_cloud_xyz.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/point_cloud_xyzrgb.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/rgbd_odometry.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/rgbd_sync.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/rgbdicp_odometry.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/stereo_odometry.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/stereo_throttle.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/nodelets/undistort_depth.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/rviz/InfoDisplay.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/rviz/MapCloudDisplay.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/rviz/MapGraphDisplay.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
       <item path="src/rtabmap_ros/src/rtabmap_ros/src/rviz/OrbitOrientedViewController.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>

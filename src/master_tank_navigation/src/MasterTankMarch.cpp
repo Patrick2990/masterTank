@@ -32,13 +32,11 @@ void MasterTankMarch::moveTo(std::string frameID, float x, float y) {
 void MasterTankMarch::moveTo(move_base_msgs::MoveBaseGoal goal) {
     // Remember last position
     currentMarchGoal = goal;
-    
+
     cout << ("Sending object goal") << endl;
     moveClient.sendGoal(goal, boost::bind(&MasterTankMarch::doneMarching_cb, this, _1, _2),
             boost::bind(&MasterTankMarch::activeMarch_cb, this),
             boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
-
-
 }
 
 bool MasterTankMarch::waitForServer(float interval) {
@@ -54,8 +52,14 @@ void MasterTankMarch::activeMarch_cb() {
     cout << ("activeMarch_cb") << endl;
 }
 
+int feedbackDevider = 0;
+
 void MasterTankMarch::feedbackMarch_cb(const move_base_msgs::MoveBaseFeedbackConstPtr &feedback) {
-    cout << ("feedbackMarch_cb") << endl;
+    if (++feedbackDevider > 10) {
+        cout << ("feedbackMarch_cb x:") << feedback->base_position.pose.position.x <<
+                " y " << feedback->base_position.pose.position.y << endl;
+        feedbackDevider = 0;
+    }
 }
 
 void MasterTankMarch::halt() {

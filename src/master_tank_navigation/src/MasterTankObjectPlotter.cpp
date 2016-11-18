@@ -21,6 +21,7 @@ void MasterTankObjectPlotter::objectFound_cb(const find_object_2d::ObjectsStampe
             // get data
             int id = (int) msg->objects.data[i];
 
+
             std::stringstream objectFrameId_ss;
             objectFrameId_ss << "object_" << id;
             std::string objectFrameId = objectFrameId_ss.str();
@@ -30,8 +31,9 @@ void MasterTankObjectPlotter::objectFound_cb(const find_object_2d::ObjectsStampe
             try {
                 // Get transformation from "object_#" frame to target frame "map"
                 // The timestamp matches the one sent over TF
+
                 tfListener_.lookupTransform("/map", objectFrameId, msg->header.stamp, pose);
-                tfListener_.lookupTransform(msg->header.frame_id, objectFrameId, msg->header.stamp, poseCam);
+                //                tfListener_.lookupTransform(msg->header.frame_id, objectFrameId, msg->header.stamp, poseCam);
             } catch (tf::TransformException & ex) {
                 cout << (ex.what()) << endl;
                 continue;
@@ -43,12 +45,11 @@ void MasterTankObjectPlotter::objectFound_cb(const find_object_2d::ObjectsStampe
                     pose.getOrigin().x(), pose.getOrigin().y(), pose.getOrigin().z(),
                     pose.getRotation().x(), pose.getRotation().y(), pose.getRotation().z(), pose.getRotation().w());
 
-            currentMarchGoal.target_pose.header.stamp = ros::Time::now();
-            currentMarchGoal.target_pose.header.frame_id = "/map";
+
             currentMarchGoal.target_pose.pose.position.x = pose.getOrigin().x();
             currentMarchGoal.target_pose.pose.position.y = pose.getOrigin().y();
-            currentMarchGoal.target_pose.pose.position.z = 0;
-            currentMarchGoal.target_pose.pose.orientation.w = pose.getRotation().w();
+//            currentMarchGoal.target_pose.pose.position.z = 0;
+//            currentMarchGoal.target_pose.pose.orientation.w = pose.getRotation().w();
 
             //            printf("Object_%d [x,y,z] [x,y,z,w] in \"%s\" frame: [%f,%f,%f] [%f,%f,%f,%f]",
             //                    id, msg->header.frame_id.c_str(),
@@ -59,8 +60,23 @@ void MasterTankObjectPlotter::objectFound_cb(const find_object_2d::ObjectsStampe
 }
 
 masterStates_e MasterTankObjectPlotter::fetchObjects(MasterTankMarch *tankMoverPtr) {
+//    currentMarchGoal.target_pose.header.stamp = ros::Time::now();
+//    currentMarchGoal.target_pose.header.frame_id = "base_link";
+//    currentMarchGoal.target_pose.pose.position.x = 1.0;
+//    currentMarchGoal.target_pose.pose.position.y = 0.0;
+//    currentMarchGoal.target_pose.pose.position.z = 0.0;
+//    currentMarchGoal.target_pose.pose.orientation.w = 1.0;
+
+
+    currentMarchGoal.target_pose.header.stamp = ros::Time::now();
+    currentMarchGoal.target_pose.header.frame_id = "map";
+//    currentMarchGoal.target_pose.pose.position.x = 0.0;
+//    currentMarchGoal.target_pose.pose.position.y = 0.0;
+    currentMarchGoal.target_pose.pose.position.z = 0.0;
+    currentMarchGoal.target_pose.pose.orientation.w = 1.0;
+    
     cout << ("Fetching objects inside MasterTankObjectPlotter") << endl;
-    cout << "Fetching objects. Sending goal - x: " << currentMarchGoal.target_pose.pose.position.x 
+    cout << "Fetching objects. Sending goal - x: " << currentMarchGoal.target_pose.pose.position.x
             << " y: " << currentMarchGoal.target_pose.pose.position.y
             << " w: " << currentMarchGoal.target_pose.pose.orientation.w
             << endl;

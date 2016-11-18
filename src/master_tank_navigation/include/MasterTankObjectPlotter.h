@@ -12,6 +12,7 @@
 #include <move_base_msgs/MoveBaseAction.h>
 #include "MasterTankMain.h"
 #include "MasterTankMarch.h"
+#include <map>
 
 
 
@@ -26,6 +27,7 @@ private:
     void objectFound_cb(const find_object_2d::ObjectsStampedConstPtr &object);
     tf::TransformListener tfListener_;
     move_base_msgs::MoveBaseGoal currentMarchGoal;
+    std::map<int,move_base_msgs::MoveBaseGoal> objects;
 };
 
 #endif //PROJECT_MASTERTANKOBJECTPLOTTER_H
