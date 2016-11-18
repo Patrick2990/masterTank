@@ -26,9 +26,9 @@
 -->    
     <node name="find_object_3d" pkg="find_object_2d" type="find_object_2d" output="screen">
         <param name="gui" value="false" type="bool"/>
-        <param name="settings_path"   value="$(find find_object_2d)/books_ini/kasse.ini" type="str"/>
+        <param name="settings_path"   value="$(find my_robot_name_2dnav)/books_ini/kasse.ini" type="str"/>
         <param name="subscribe_depth" value="true" type="bool"/>
-        <param name="objects_path"    value="$(find find_object_2d)/books_ini" type="str"/>
+        <param name="objects_path"    value="$(find my_robot_name2_dnav)/books_ini" type="str"/>
 		
         <remap from="rgb/image_rect_color" to="camera/rgb/image_rect_color"/>
         <remap from="depth_registered/image_raw" to="camera/depth_registered/image_raw"/>
