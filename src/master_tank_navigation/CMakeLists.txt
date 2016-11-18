@@ -15,6 +15,26 @@ find_package(catkin REQUIRED COMPONENTS
         actionlib_msgs
 #        visualization_msgs
         message_generation
+        genmsg 
+        sensor_msgs
+        )
+        
+add_message_files(
+        DIRECTORY
+        msg
+        FILES
+        PointCloud2Object.msg
+)
+generate_messages(
+        DEPENDENCIES
+        std_msgs
+        sensor_msgs
+)
+catkin_package(
+        #INCLUDE_DIRS include
+        #LIBRARIES lib
+        CATKIN_DEPENDS roscpp message_runtime sensor_msgs std_msgs
+        #DEPENDS system_lib
 )
 
 set(CMAKE_CXX_FLAGS "-std=c++14 ${CMAKE_CXX_FLAGS}")
@@ -226,6 +246,7 @@ include_directories(include ${catkin_INCLUDE_DIRS} ${Boost_INCLUDE_DIRS} ${PCL_I
 add_executable(master_tank_navigation src/MasterTankMain.cpp include/MasterTankMain.h src/mianTest.cpp include/mianTest.h src/MasterTankExplore.cpp include/MasterTankExplore.h src/MasterTankObjectPlotter.cpp include/MasterTankObjectPlotter.h src/MasterTankMood.cpp include/MasterTankMood.h src/MasterTankMarch.cpp include/MasterTankMarch.h include/masterTankCommon.h)
 target_link_libraries(master_tank_navigation ${catkin_LIBRARIES} ${LIBAO_LIBRARIES} ${MPG123_LIBRARIES} )
 
+add_dependencies(master_tank_navigation  ${PROJECT_NAME}_generate_messages_cpp ${catkin_EXPORTED_TARGETS})
 
 #add_executable(simple_navigation_goals src/simple_navigation_goals.cpp)
 #target_link_libraries(simple_navigation_goals ${catkin_LIBRARIES})
