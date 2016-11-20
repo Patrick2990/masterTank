@@ -6,8 +6,5 @@ build/
 devel/
 src/find-object
 .catkin_workspace
-.idea/masterTank.iml
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml
+.idea/
 src/.idea/
