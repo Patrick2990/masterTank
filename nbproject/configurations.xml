@@ -1319,7 +1319,9 @@
             flavor2="11">
         <ccTool flags="3">
           <incDir>
+            <pElem>devel/include</pElem>
             <pElem>src/master_tank_navigation/include</pElem>
+            <pElem>src/driver_common/driver_base/include</pElem>
             <pElem>/opt/ros/kinetic/include</pElem>
             <pElem>build/master_tank_navigation</pElem>
           </incDir>
@@ -1331,11 +1333,11 @@
             flavor2="11">
         <ccTool flags="3">
           <incDir>
-            <pElem>devel/include</pElem>
             <pElem>src/master_tank_navigation/include</pElem>
-            <pElem>src/driver_common/driver_base/include</pElem>
             <pElem>/opt/ros/kinetic/include</pElem>
             <pElem>build/master_tank_navigation</pElem>
+            <pElem>devel/include</pElem>
+            <pElem>src/driver_common/driver_base/include</pElem>
           </incDir>
         </ccTool>
       </item>
@@ -1357,7 +1359,9 @@
             flavor2="11">
         <ccTool flags="3">
           <incDir>
+            <pElem>devel/include</pElem>
             <pElem>src/master_tank_navigation/include</pElem>
+            <pElem>src/driver_common/driver_base/include</pElem>
             <pElem>/opt/ros/kinetic/include</pElem>
             <pElem>build/master_tank_navigation</pElem>
           </incDir>
