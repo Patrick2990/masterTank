@@ -1253,7 +1253,7 @@
       <item path="src/frontier_exploration/src/frontier_search.cpp"
             ex="false"
             tool="1"
-            flavor2="0">
+            flavor2="4">
         <ccTool flags="1">
         </ccTool>
       </item>
@@ -1306,6 +1306,11 @@
             tool="1"
             flavor2="11">
         <ccTool flags="3">
+          <incDir>
+            <pElem>src/master_tank_navigation/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/master_tank_navigation</pElem>
+          </incDir>
         </ccTool>
       </item>
       <item path="src/master_tank_navigation/src/MasterTankMain.cpp"
@@ -1313,6 +1318,11 @@
             tool="1"
             flavor2="11">
         <ccTool flags="3">
+          <incDir>
+            <pElem>src/master_tank_navigation/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/master_tank_navigation</pElem>
+          </incDir>
         </ccTool>
       </item>
       <item path="src/master_tank_navigation/src/MasterTankMarch.cpp"
@@ -1320,6 +1330,13 @@
             tool="1"
             flavor2="11">
         <ccTool flags="3">
+          <incDir>
+            <pElem>devel/include</pElem>
+            <pElem>src/master_tank_navigation/include</pElem>
+            <pElem>src/driver_common/driver_base/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/master_tank_navigation</pElem>
+          </incDir>
         </ccTool>
       </item>
       <item path="src/master_tank_navigation/src/MasterTankMood.cpp"
@@ -1327,6 +1344,11 @@
             tool="1"
             flavor2="11">
         <ccTool flags="3">
+          <incDir>
+            <pElem>src/master_tank_navigation/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/master_tank_navigation</pElem>
+          </incDir>
         </ccTool>
       </item>
       <item path="src/master_tank_navigation/src/MasterTankObjectPlotter.cpp"
@@ -1334,6 +1356,11 @@
             tool="1"
             flavor2="11">
         <ccTool flags="3">
+          <incDir>
+            <pElem>src/master_tank_navigation/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/master_tank_navigation</pElem>
+          </incDir>
         </ccTool>
       </item>
       <item path="src/master_tank_navigation/src/mianTest.cpp"
@@ -1341,6 +1368,11 @@
             tool="1"
             flavor2="11">
         <ccTool flags="3">
+          <incDir>
+            <pElem>src/master_tank_navigation/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/master_tank_navigation</pElem>
+          </incDir>
         </ccTool>
       </item>
       <item path="src/navigation/amcl/src/amcl/map/map.c"

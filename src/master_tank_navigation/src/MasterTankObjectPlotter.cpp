@@ -9,7 +9,7 @@
 using namespace std;
 
 MasterTankObjectPlotter::MasterTankObjectPlotter(ros::NodeHandle *nh_ptr) : nh_ptr(nh_ptr),
-objSub(nh_ptr->subscribe("/objectsStamped", 1, &MasterTankObjectPlotter::objectFound_cb, this)) {
+objSub(nh_ptr->subscribe("/objectsStamped", 1, &MasterTankObjectPlotter::objectFound_cb, this)), objSub(nh_ptr->subscribe("/objectsStamped", 1, &MasterTankObjectPlotter::objectFound_cb, this)){
     cout << "starting MasterTankObjectPlotter" << endl;
 
 }

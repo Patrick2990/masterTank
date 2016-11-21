@@ -472,12 +472,32 @@
         </df>
         <df name="master_tank_navigation">
           <df name="catkin_generated">
+            <df name="installspace">
+            </df>
             <df name="stamps">
               <df name="master_tank_navigation">
               </df>
             </df>
           </df>
+          <df name="cmake">
+          </df>
           <df name="CMakeFiles">
+            <df name="_master_tank_navigation_generate_messages_check_deps_ExploreTaskAction.dir">
+            </df>
+            <df name="_master_tank_navigation_generate_messages_check_deps_ExploreTaskActionFeedback.dir">
+            </df>
+            <df name="_master_tank_navigation_generate_messages_check_deps_ExploreTaskActionGoal.dir">
+            </df>
+            <df name="_master_tank_navigation_generate_messages_check_deps_ExploreTaskActionResult.dir">
+            </df>
+            <df name="_master_tank_navigation_generate_messages_check_deps_ExploreTaskFeedback.dir">
+            </df>
+            <df name="_master_tank_navigation_generate_messages_check_deps_ExploreTaskGoal.dir">
+            </df>
+            <df name="_master_tank_navigation_generate_messages_check_deps_ExploreTaskResult.dir">
+            </df>
+            <df name="_master_tank_navigation_generate_messages_check_deps_PointCloud2Object.dir">
+            </df>
             <df name="actionlib_generate_messages_cpp.dir">
             </df>
             <df name="actionlib_generate_messages_eus.dir">
@@ -501,6 +521,28 @@
             <df name="master_tank_navigation.dir">
               <df name="src">
               </df>
+            </df>
+            <df name="master_tank_navigation_gencpp.dir">
+            </df>
+            <df name="master_tank_navigation_generate_messages.dir">
+            </df>
+            <df name="master_tank_navigation_generate_messages_cpp.dir">
+            </df>
+            <df name="master_tank_navigation_generate_messages_eus.dir">
+            </df>
+            <df name="master_tank_navigation_generate_messages_lisp.dir">
+            </df>
+            <df name="master_tank_navigation_generate_messages_nodejs.dir">
+            </df>
+            <df name="master_tank_navigation_generate_messages_py.dir">
+            </df>
+            <df name="master_tank_navigation_geneus.dir">
+            </df>
+            <df name="master_tank_navigation_genlisp.dir">
+            </df>
+            <df name="master_tank_navigation_gennodejs.dir">
+            </df>
+            <df name="master_tank_navigation_genpy.dir">
             </df>
             <df name="move_base_msgs_generate_messages_cpp.dir">
             </df>
@@ -1595,6 +1637,16 @@
           <df name="hokuyo_node">
             <in>HokuyoConfig.h</in>
           </df>
+          <df name="master_tank_navigation">
+            <in>ExploreTaskAction.h</in>
+            <in>ExploreTaskActionFeedback.h</in>
+            <in>ExploreTaskActionGoal.h</in>
+            <in>ExploreTaskActionResult.h</in>
+            <in>ExploreTaskFeedback.h</in>
+            <in>ExploreTaskGoal.h</in>
+            <in>ExploreTaskResult.h</in>
+            <in>PointCloud2Object.h</in>
+          </df>
           <df name="move_base">
             <in>MoveBaseConfig.h</in>
           </df>
@@ -1720,6 +1772,10 @@
               </df>
               <df name="local_planner_limits">
               </df>
+              <df name="master_tank_navigation">
+                <df name="msg">
+                </df>
+              </df>
               <df name="move_base">
                 <df name="cfg">
                 </df>
@@ -1798,6 +1854,10 @@
                 <df name="srv">
                 </df>
               </df>
+              <df name="master_tank_navigation">
+                <df name="msg">
+                </df>
+              </df>
               <df name="navfn">
                 <df name="srv">
                 </df>
@@ -1868,6 +1928,10 @@
                 <df name="srv">
                 </df>
               </df>
+              <df name="master_tank_navigation">
+                <df name="msg">
+                </df>
+              </df>
               <df name="navfn">
                 <df name="srv">
                 </df>
@@ -1901,6 +1965,8 @@
             </df>
           </df>
           <df name="master_tank_navigation">
+            <df name="cmake">
+            </df>
             <df name="msg">
             </df>
           </df>
@@ -1952,6 +2018,10 @@
                 <df name="msg">
                 </df>
                 <df name="srv">
+                </df>
+              </df>
+              <df name="master_tank_navigation">
+                <df name="msg">
                 </df>
               </df>
               <df name="navfn">

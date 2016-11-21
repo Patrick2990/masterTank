@@ -24,6 +24,7 @@ public:
 private:
     ros::NodeHandle* nh_ptr;
     ros::Subscriber objSub;
+    ros::Subscriber objSubCh;
     void objectFound_cb(const find_object_2d::ObjectsStampedConstPtr &object);
     tf::TransformListener tfListener_;
     move_base_msgs::MoveBaseGoal currentMarchGoal;
