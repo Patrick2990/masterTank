@@ -1,5 +1,5 @@
 <launch>
-    <machine name="smr14" address="192.168.0.101" env-loader="/home/local/sh/mobotware/ros_link/catkin_ws/envThor.sh" user="local" password=" "/>
+    <machine name="smr14" address="192.168.0.101" env-loader="/home/local/sh/mobotware/ros_link/catkin_ws/envPatrick.sh" user="local" password=" "/>
     <node machine="smr14" name="smr" pkg="smr" type="smr_control"/> 
     
      <!--This transform place the ODOMETRY of the robot. Move the odom 15 cm backward from the middle--> 
@@ -17,7 +17,11 @@
     </node> 
 
     <include file="$(find my_robot_name_2dnav)/hokuyo_setup.launch"/>
-    <include file="$(find openni_launch)/launch/openni.launch"/>
+
+    <include file="$(find openni_launch)/launch/openni.launch" >
+        <arg name="depth_registration" default="true" />
+    </include>
+
     <include file="$(find my_robot_name_2dnav)/demo_turtlebot_mapping.launch"/> 
     
     <include file="$(find frontier_exploration)/launch/no_global_map.launch"/>
@@ -28,7 +32,7 @@
         <param name="gui" value="false" type="bool"/>
         <param name="settings_path"   value="$(find my_robot_name_2dnav)/books_ini/kasse.ini" type="str"/>
         <param name="subscribe_depth" value="true" type="bool"/>
-        <param name="objects_path"    value="$(find my_robot_name_2dnav)/books_ini" type="str"/>
+        <param name="objects_path"    value="$(find my_robot_name2_dnav)/books_ini" type="str"/>
 		
         <remap from="rgb/image_rect_color" to="camera/rgb/image_rect_color"/>
         <remap from="depth_registered/image_raw" to="camera/depth_registered/image_raw"/>

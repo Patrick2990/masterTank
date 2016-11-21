@@ -13,6 +13,7 @@
 #include "MasterTankMain.h"
 #include "MasterTankMarch.h"
 #include <map>
+#include "../../devel/include/master_tank_navigation/PointCloud2Object.h"
 
 
 
@@ -24,8 +25,9 @@ public:
 private:
     ros::NodeHandle* nh_ptr;
     ros::Subscriber objSub;
-    ros::Subscriber objSubCh;
+    ros::Subscriber objSub3d;
     void objectFound_cb(const find_object_2d::ObjectsStampedConstPtr &object);
+    void objectFound3d_cb(const master_tank_navigation::PointCloud2ObjectConstPtr &msg);
     tf::TransformListener tfListener_;
     move_base_msgs::MoveBaseGoal currentMarchGoal;
     std::map<int,move_base_msgs::MoveBaseGoal> objects;

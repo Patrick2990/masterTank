@@ -5,3 +5,6 @@ nbproject/
 build/
 devel/
 src/find-object
+.catkin_workspace
+.idea/
+src/.idea/
