@@ -22,7 +22,7 @@
         <arg name="depth_registration" default="true" />
     </include>
 
-    <include file="$(find my_robot_name_2dnav)/demo_turtlebot_mapping.launch"/> 
+    <include file="$(find my_robot_name_2dnav)/launch/demo_turtlebot_mapping.launch"/>
     
     <include file="$(find frontier_exploration)/launch/no_global_map.launch"/>
     
