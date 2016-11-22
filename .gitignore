@@ -8,6 +8,3 @@ src/find-object
 .idea/
 src/.idea/
 src/CMakeLists.txt
-/src/rtabmap_ros/
-/src/pcl_conversions/
-/src/perception_pcl/
