@@ -1,10 +1,5 @@
-//
-// Created by thor on 9/30/16.
-//
-
 #ifndef PROJECT_MASTERTANKOBJECTPLOTTER_H
 #define PROJECT_MASTERTANKOBJECTPLOTTER_H
-
 
 #include <ros/ros.h>
 #include <find_object_2d/ObjectsStamped.h>
@@ -14,23 +9,26 @@
 #include "MasterTankMarch.h"
 #include <map>
 #include "../../devel/include/master_tank_navigation/PointCloud2Object.h"
-
-
+#include <string.h>
 
 class MasterTankObjectPlotter {
 public:
     MasterTankObjectPlotter(ros::NodeHandle* nh_ptr);
-    masterStates_e fetchObjects(MasterTankMarch *tankMoverPtr);
+    void fetchObjects(float xRobotPos, float yRobotPos, MasterTankMarch *tankMoverPtr);
+    void doneFetching(int x, int y, MasterTankMarch *tankMoverPtr);
+
+    // #### TESTING - Should be private later? #### // 
+    std::map<std::string, move_base_msgs::MoveBaseGoal> objects;
+    // #### TESTING - Should be private later? #### // 
 
 private:
     ros::NodeHandle* nh_ptr;
     ros::Subscriber objSub;
     ros::Subscriber objSub3d;
-    void objectFound_cb(const find_object_2d::ObjectsStampedConstPtr &object);
+    //    void objectFound_cb(const find_object_2d::ObjectsStampedConstPtr &object);
     void objectFound3d_cb(const master_tank_navigation::PointCloud2ObjectConstPtr &msg);
     tf::TransformListener tfListener_;
-    move_base_msgs::MoveBaseGoal currentMarchGoal;
-    std::map<int,move_base_msgs::MoveBaseGoal> objects;
+    std::string findClosestObject(float xRobotPos, float yRobotPos);
 };
 
 #endif //PROJECT_MASTERTANKOBJECTPLOTTER_H

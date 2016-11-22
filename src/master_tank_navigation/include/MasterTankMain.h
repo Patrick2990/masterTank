@@ -1,7 +1,3 @@
-//
-// Created by thor on 9/27/16.
-//
-
 #ifndef PROJECT_MASTERTANKMAIN_H
 #define PROJECT_MASTERTANKMAIN_H
 

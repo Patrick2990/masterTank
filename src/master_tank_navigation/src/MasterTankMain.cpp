@@ -5,8 +5,7 @@
 #include <MasterTankObjectPlotter.h>
 #include <MasterTankMarch.h>
 #include <MasterTankMain.h>
-
-using namespace std; 
+using namespace std;
 
 MasterTankExplore *tankExplorePtr;
 MasterTankMarch *tankMoverPtr;
@@ -34,7 +33,9 @@ void stateMachineGunFire() {
             // Is changed inside MasterTankExplore doneExploreTask_cb 
             break;
         case FECHING_OBJECT:
-            masterTankState = tankObjectPlotterPtr->fetchObjects(tankMoverPtr);
+            // Is changed inside MasterTankObjectPlotter
+
+            tankObjectPlotterPtr->fetchObjects(0, 0, tankMoverPtr);
             break;
 
         default:
@@ -45,7 +46,7 @@ void stateMachineGunFire() {
 }
 
 void heartbeat(const ros::TimerEvent &event) {
-//    cout << "heartbeat!!!" << endl;
+    //    cout << "heartbeat!!!" << endl;
     stateMachineGunFire();
 }
 
@@ -76,8 +77,35 @@ int main(int argc, char **argv) {
     tankObjectPlotterPtr = &tankObjectPlotterInst;
 
     signal(SIGINT, shutdownSignal);
-    
-    
+
+//    move_base_msgs::MoveBaseGoal currentGoal;
+//    move_base_msgs::MoveBaseGoal currentGoal1;
+//    move_base_msgs::MoveBaseGoal currentGoal2;
+//    move_base_msgs::MoveBaseGoal currentGoal3;
+//    currentGoal.target_pose.pose.position.x = 1;
+//    currentGoal.target_pose.pose.position.y = 1;
+//    
+//    currentGoal1.target_pose.pose.position.x = 10;
+//    currentGoal1.target_pose.pose.position.y = 10;
+//
+//    
+//    currentGoal2.target_pose.pose.position.x = 5;
+//    currentGoal2.target_pose.pose.position.y = 5;
+//
+//    
+//    currentGoal3.target_pose.pose.position.x = -21;
+//    currentGoal3.target_pose.pose.position.y = 1;
+//
+//
+//    // insert goal in map
+//    tankObjectPlotterPtr->objects["Test"] = currentGoal;
+//    tankObjectPlotterPtr->objects["Test1"] = currentGoal1;
+//    tankObjectPlotterPtr->objects["Test2"] = currentGoal2;
+//    tankObjectPlotterPtr->objects["Test3"] = currentGoal3;
+//    
+//    tankObjectPlotterPtr->fetchObjects(0, 0, tankMoverPtr);
+
+
     //    boost::thread kepressThread(&kepressThread);
     ros::Timer timer = nh.createTimer(ros::Duration(0.5), &heartbeat);
     cout << "All is up! Start spinning... " << endl;

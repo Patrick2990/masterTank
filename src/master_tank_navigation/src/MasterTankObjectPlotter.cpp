@@ -2,97 +2,57 @@
 #include "MasterTankMain.h"
 #include "MasterTankMarch.h"
 #include <iostream>
+#include <algorithm> 
+#include <cmath> 
+#include <functional>
+
 using namespace std;
 
 MasterTankObjectPlotter::MasterTankObjectPlotter(ros::NodeHandle *nh_ptr) : nh_ptr(nh_ptr),
-objSub(nh_ptr->subscribe("/objectsStamped", 1, &MasterTankObjectPlotter::objectFound_cb, this)),
 objSub3d(nh_ptr->subscribe("/vision/object", 1, &MasterTankObjectPlotter::objectFound3d_cb, this)) {
     cout << "starting MasterTankObjectPlotter" << endl;
-    cout << "starting MasterTankObjectPlotter" << endl;
-
 }
 
-void MasterTankObjectPlotter::objectFound_cb(const find_object_2d::ObjectsStampedConstPtr &msg) {
-    //    cout << "starting objectFound_cb" << endl;
-    if (msg->objects.data.size()) {
-        for (unsigned int i = 0; i < msg->objects.data.size(); i += 12) {
-            // get data
-            int id = (int) msg->objects.data[i];
+void MasterTankObjectPlotter::fetchObjects(float xRobotPos, float yRobotPos, MasterTankMarch *tankMoverPtr) {
 
+    // find closest object from current robot position
+    string closestObject = findClosestObject(xRobotPos, yRobotPos);
 
-            std::stringstream objectFrameId_ss;
-            objectFrameId_ss << "object_" << id;
-            std::string objectFrameId = objectFrameId_ss.str();
+    if (closestObject.length() != 0) {
+        cout << "Found object to visit!" << endl;
+        move_base_msgs::MoveBaseGoal goal = objects.at(closestObject);
+        cout << "Fetching object at: " << goal.target_pose.pose.position.x << " , " << goal.target_pose.pose.position.y << endl;
+               // removes object when visited
+        cout << "Removing: " << closestObject << endl;
+        objects.erase(closestObject);
 
-            tf::StampedTransform pose;
-            tf::StampedTransform poseCam;
-            try {
-                // Get transformation from "object_#" frame to target frame "map"
-                // The timestamp matches the one sent over TF
-
-                tfListener_.lookupTransform("/map", objectFrameId, msg->header.stamp, pose);
-                //                tfListener_.lookupTransform(msg->header.frame_id, objectFrameId, msg->header.stamp, poseCam);
-            } catch (tf::TransformException & ex) {
-                cout << (ex.what()) << endl;
-                continue;
-            }
-
-            // Here "pose" is the position of the object "id" in "/map" frame.
-            printf("Object_%d [x,y,z] [x,y,z,w] in \"%s\" frame: [%f,%f,%f] [%f,%f,%f,%f]",
-                    id, "/map",
-                    pose.getOrigin().x(), pose.getOrigin().y(), pose.getOrigin().z(),
-                    pose.getRotation().x(), pose.getRotation().y(), pose.getRotation().z(), pose.getRotation().w());
-
-
-            currentMarchGoal.target_pose.pose.position.x = pose.getOrigin().x() - 0.30;
-            currentMarchGoal.target_pose.pose.position.y = pose.getOrigin().y();
-            //            currentMarchGoal.target_pose.pose.position.z = 0;
-            //            currentMarchGoal.target_pose.pose.orientation.w = pose.getRotation().w();
-
-            //            printf("Object_%d [x,y,z] [x,y,z,w] in \"%s\" frame: [%f,%f,%f] [%f,%f,%f,%f]",
-            //                    id, msg->header.frame_id.c_str(),
-            //                    poseCam.getOrigin().x(), poseCam.getOrigin().y(), poseCam.getOrigin().z(),
-            //                    poseCam.getRotation().x(), poseCam.getRotation().y(), poseCam.getRotation().z(), poseCam.getRotation().w());
+        cout << "Objects contains:" << endl;
+        for (auto& object : objects) {
+            std::cout << object.first << ":" << endl << "{" << object.second.target_pose.pose.position.x << "," << object.second.target_pose.pose.position.y << "}" << endl;
         }
+        tankMoverPtr->moveTo(goal, std::bind(&MasterTankObjectPlotter::doneFetching, this, std::placeholders::_1, std::placeholders::_2, std::placeholders::_3));
+    } 
+    else {
+        // no more objects
+        cout << "Finished fetching objects!" << endl;
+        masterTankState = FINISH;
     }
 }
 
-masterStates_e MasterTankObjectPlotter::fetchObjects(MasterTankMarch *tankMoverPtr) {
-    //    currentMarchGoal.target_pose.header.stamp = ros::Time::now();
-    //    currentMarchGoal.target_pose.header.frame_id = "base_link";
-    //    currentMarchGoal.target_pose.pose.position.x = 1.0;
-    //    currentMarchGoal.target_pose.pose.position.y = 0.0;
-    //    currentMarchGoal.target_pose.pose.position.z = 0.0;
-    //    currentMarchGoal.target_pose.pose.orientation.w = 1.0;
-
-
-    currentMarchGoal.target_pose.header.stamp = ros::Time::now();
-    currentMarchGoal.target_pose.header.frame_id = "map";
-    //    currentMarchGoal.target_pose.pose.position.x = 0.0;
-    //    currentMarchGoal.target_pose.pose.position.y = 0.0;
-    currentMarchGoal.target_pose.pose.position.z = 0.0;
-    currentMarchGoal.target_pose.pose.orientation.w = 1.0;
-
-    cout << ("Fetching objects inside MasterTankObjectPlotter") << endl;
-    cout << "Fetching objects. Sending goal - x: " << currentMarchGoal.target_pose.pose.position.x
-            << " y: " << currentMarchGoal.target_pose.pose.position.y
-            << " w: " << currentMarchGoal.target_pose.pose.orientation.w
-            << endl;
-    tankMoverPtr->moveTo(currentMarchGoal);
-    return FINISH;
+void MasterTankObjectPlotter::doneFetching(int x, int y, MasterTankMarch *tankMoverPtr) {
+    cout << "INSIDE THORS AWESOME DONE FETCHING. " << x << " " << y << endl;
+    fetchObjects(x, y, tankMoverPtr);
 }
 
 void MasterTankObjectPlotter::objectFound3d_cb(const master_tank_navigation::PointCloud2ObjectConstPtr &msg) {
     cout << "Received from Christian, 3d: " << msg->object << endl;
-    
+
     std::stringstream objectFrameId_ss;
     objectFrameId_ss << msg->object;
     std::string objectFrameId = objectFrameId_ss.str();
 
     tf::StampedTransform pose;
-    tf::StampedTransform poseCam;
     try {
-
         tfListener_.lookupTransform("/map", objectFrameId, msg->header.stamp, pose);
     } catch (tf::TransformException & ex) {
         cout << (ex.what()) << endl;
@@ -102,12 +62,49 @@ void MasterTankObjectPlotter::objectFound3d_cb(const master_tank_navigation::Poi
             "/map",
             pose.getOrigin().x(), pose.getOrigin().y(), pose.getOrigin().z(),
             pose.getRotation().x(), pose.getRotation().y(), pose.getRotation().z(), pose.getRotation().w());
-    
-     cout << endl;
 
-    currentMarchGoal.target_pose.pose.position.x = pose.getOrigin().x() - 0.30;
-    currentMarchGoal.target_pose.pose.position.y = pose.getOrigin().y();
+    cout << endl;
+
+    move_base_msgs::MoveBaseGoal currentGoal;
+    currentGoal.target_pose.pose.position.x = pose.getOrigin().x() - 0.30;
+    currentGoal.target_pose.pose.position.y = pose.getOrigin().y();
+    currentGoal.target_pose.header.stamp = ros::Time::now();
+    currentGoal.target_pose.header.frame_id = "map";
+    currentGoal.target_pose.pose.position.z = 0.0;
+    currentGoal.target_pose.pose.orientation.w = 1.0;
+
+    // insert goal in map
+    objects[objectFrameId] = currentGoal;
 }
+
+
+/**
+ * 
+ * @param xRobotPos
+ * @param yRobotPos
+ * @return the name of the closest object
+ */
+string MasterTankObjectPlotter::findClosestObject(float xRobotPos, float yRobotPos) {
+
+    // find closest object to research
+    string closestObject;
+    float lowestDistance = 10000;
+    for (auto& object : objects) {
+        float deltaX = xRobotPos - object.second.target_pose.pose.position.x;
+        float deltaY = yRobotPos - object.second.target_pose.pose.position.y;
+        float distance = sqrt(deltaX * deltaX + deltaY * deltaY);
+
+        std::cout << "Distance from " << object.first << " is: " << distance << endl;
+
+        if (distance < lowestDistance) {
+            lowestDistance = distance;
+            closestObject = object.first;
+        }
+    }
+    cout << "Closest object: " << closestObject << endl;
+    return closestObject;
+}
+
 
 
 

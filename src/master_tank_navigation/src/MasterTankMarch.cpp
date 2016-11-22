@@ -7,7 +7,6 @@ MasterTankMarch::MasterTankMarch() : moveClient("move_base", true) {
 }
 
 void MasterTankMarch::moveTo(std::string frameID, float x, float y) {
-
     std::stringstream objectFrameID_ss;
 
     currentMarchGoal.target_pose.header.stamp = ros::Time::now();
@@ -24,9 +23,13 @@ void MasterTankMarch::moveTo(std::string frameID, float x, float y) {
 
 }
 
-void MasterTankMarch::moveTo(move_base_msgs::MoveBaseGoal goal) {
+void MasterTankMarch::moveTo(move_base_msgs::MoveBaseGoal goal, std::function<void(int, int, MasterTankMarch *tankMoverPtr) > donefunk) {
     // Remember last position
     currentMarchGoal = goal;
+    doneExtern = donefunk;
+    
+    // test - below sending goal must be outcommented for testing
+//    doneExtern(4, 2, this);
 
     cout << ("Sending object goal") << endl;
     moveClient.sendGoal(goal, boost::bind(&MasterTankMarch::doneMarching_cb, this, _1, _2),
@@ -40,7 +43,8 @@ bool MasterTankMarch::waitForServer(float interval) {
 
 void MasterTankMarch::doneMarching_cb(const actionlib::SimpleClientGoalState &state,
         const move_base_msgs::MoveBaseResultConstPtr &result) {
-    cout << ("doneMarching_cb") << endl;
+    cout << "doneMarching_cb" << endl;
+    doneExtern(currentX, currentY, this);
 }
 
 void MasterTankMarch::activeMarch_cb() {
@@ -53,11 +57,13 @@ void MasterTankMarch::feedbackMarch_cb(const move_base_msgs::MoveBaseFeedbackCon
     if (++feedbackDevider > 10) {
         cout << ("feedbackMarch_cb x:") << feedback->base_position.pose.position.x <<
                 " y " << feedback->base_position.pose.position.y << endl;
-        
-        
-        
+
+
+
         feedbackDevider = 0;
     }
+    currentX = feedback->base_position.pose.position.x;
+    currentY = feedback->base_position.pose.position.y;
 }
 
 void MasterTankMarch::halt() {
