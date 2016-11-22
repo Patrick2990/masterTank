@@ -2,6 +2,13 @@
     <machine name="smr14" address="192.168.0.101" env-loader="/home/local/sh/mobotware/ros_link/catkin_ws/envChristian.sh" user="local" password=" "/>
     <node machine="smr14" name="smr" pkg="smr" type="smr_control"/>
 
+  <node pkg="hokuyo_node" type="hokuyo_node" name="hokuyo" output="screen">
+    <param name="frame_id" value="scantf" />
+    <param name="port" value="/dev/ttyACM0" />
+    <!--<param name="port" value="/dev/ttyACM0" />-->
+    <param name="publish_intensity" value="true" />
+  </node>
+
     <include file="$(find my_robot_name_2dnav)/launch/start.launch" />
 
 </launch>
