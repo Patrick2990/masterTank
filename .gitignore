@@ -8,3 +8,4 @@ src/find-object
 .catkin_workspace
 .idea/
 src/.idea/
+src/CMakeLists.txt
