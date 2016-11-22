@@ -1,6 +1,4 @@
 <launch>
-    <machine name="smr14" address="192.168.0.101" env-loader="/home/local/sh/mobotware/ros_link/catkin_ws/envThor.sh" user="local" password=" "/>
-    <node machine="smr14" name="smr" pkg="smr" type="smr_control"/> 
     
      <!--This transform place the ODOMETRY of the robot. Move the odom 15 cm backward from the middle--> 
     <node 
