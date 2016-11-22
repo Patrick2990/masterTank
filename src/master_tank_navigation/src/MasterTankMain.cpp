@@ -6,7 +6,7 @@
 #include <MasterTankMarch.h>
 #include <MasterTankMain.h>
 
-using namespace std;
+using namespace std; 
 
 MasterTankExplore *tankExplorePtr;
 MasterTankMarch *tankMoverPtr;

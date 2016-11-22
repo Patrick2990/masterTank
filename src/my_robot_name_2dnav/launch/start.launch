@@ -26,7 +26,7 @@
     
 <!--    Find-Object   	
 -->    
-    <node name="find_object_3d" pkg="find_object_2d" type="find_object_2d" output="screen">
+<!--    <node name="find_object_3d" pkg="find_object_2d" type="find_object_2d" output="screen">
         <param name="gui" value="false" type="bool"/>
         <param name="settings_path"   value="$(find my_robot_name_2dnav)/books_ini/kasse.ini" type="str"/>
         <param name="subscribe_depth" value="true" type="bool"/>
@@ -37,11 +37,11 @@
         <remap from="depth_registered/camera_info" to="camera/depth_registered/camera_info"/>
     </node>
 	
-    	 <!--Example of tf synchronisation with the objectsStamped message--> 	
+    	 Example of tf synchronisation with the objectsStamped message 	
     <node name="tf_example" pkg="find_object_2d" type="tf_example" output="screen">
         <param name="map_frame_id" value="/map" type="string"/>
         <param name="object_prefix" value="object" type="str"/>
-    </node>
+    </node>-->
 </launch>
 
 

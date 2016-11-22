@@ -1,7 +1,3 @@
-//
-// Created by thor on 9/30/16.
-//
-
 #include "MasterTankObjectPlotter.h"
 #include "MasterTankMain.h"
 #include "MasterTankMarch.h"
