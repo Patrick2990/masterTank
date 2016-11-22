@@ -2702,6 +2702,13 @@
           </df>
           <df name="msg">
           </df>
+          <df name="src">
+            <in>MasterTankExplore.cpp</in>
+            <in>MasterTankMain.cpp</in>
+            <in>MasterTankMarch.cpp</in>
+            <in>MasterTankMood.cpp</in>
+            <in>MasterTankObjectPlotter.cpp</in>
+          </df>
         </df>
         <df name="my_robot_name_2dnav">
           <df name="books_ini">
@@ -3286,7 +3293,7 @@
       </df>
     </df>
   </logicalFolder>
-  <projectmakefile>Makefile</projectmakefile>
+  <projectmakefile></projectmakefile>
   <confs>
     <conf name="Default" type="0">
       <toolsSet>
