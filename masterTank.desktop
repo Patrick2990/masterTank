@@ -1,0 +1,26 @@
+[Desktop Entry]
+Version=1.0
+Name=masterTank
+Comment=masterTank ROS startup
+Exec=gnome-terminal -e "bash -c 'echo PUT IN YOUR UNITY LAUNCHER DOCK AND RIGHT CLICK TO CHOOSE USER -masterTank;$SHELL'"
+Icon=/home/hippomormor/Workspaces/masterTank/masterTankIcon.png
+Terminal=true
+Type=Application
+Categories=Robotics;Application;
+
+Actions=Christian;Patrick;Thor
+
+[Desktop Action Christian]
+Name=Christian
+Exec=gnome-terminal -e "bash -c '/home/hippomormor/Workspaces/masterTank/start.sh Christian;$SHELL'"
+OnlyShowIn=Unity;
+
+[Desktop Action Patrick]
+Name=Patrick
+Exec=gnome-terminal -e "bash -c '/home/plinux/RosPacks/masterTank/start.sh Patrick;$SHELL'"
+OnlyShowIn=Unity;
+
+[Desktop Action Thor]
+Name=Thor
+Exec=gnome-terminal -e "bash -c '/home/hippomormor/Workspaces/masterTank/start.sh Thor;$SHELL'"
+OnlyShowIn=Unity;
