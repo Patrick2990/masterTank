@@ -29,3 +29,5 @@ add_executable(tst_subscriber src/tst_subscriber.cpp)
 target_link_libraries(tst_subscriber ${catkin_LIBRARIES})
 add_executable(smr_laser src/smr_laser_node.cpp src/pugixml.cpp)
 target_link_libraries(smr_laser ${catkin_LIBRARIES})
+
+file(COPY ${CMAKE_SOURCE_DIR}/../masterTankIcon.png DESTINATION $ENV{HOME}/.icons)
