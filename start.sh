@@ -16,12 +16,12 @@ elif [ $1 == "Patrick" ]; then
     . ~/RosPacks/masterTank/devel/setup.bash
     . ~/RosPacks/visionnode/devel/setup.bash
     echo Heeej $1!
-    export ROS_IP="192.168.0.7"
-    export ROS_HOSTNAME="192.168.0.7"
+    export ROS_IP="192.168.0.4"
+    export ROS_HOSTNAME="192.168.0.4"
 elif [ $1 == "Thor" ]; then
     . /opt/ros/kinetic/setup.bash
-    . ~/Workspaces/masterTank/devel/setup.bash
-    . ~/Workspaces/visionnode/devel/setup.bash
+    . ~/Dropbox/DTU_5_semester/Ros/masterTank/devel/setup.bash
+    . ~/Dropbox/DTU_5_semester/Ros/visionnode/devel/setup.bash
     echo Heeej $1!
     export ROS_IP="192.168.0.3"
     export ROS_HOSTNAME="192.168.0.3"
@@ -44,7 +44,7 @@ if [ ${master} == "1" ]; then
     export ROS_MASTER="$masterString"
     export ROS_MASTER_URI="http://192.168.0.5:11311/"
 elif [ ${master} == "2" ]; then
-    masterString="192.168.0.7"
+    masterString="192.168.0.4"
     export ROS_MASTER="$masterString"
     export ROS_MASTER_URI="http://192.168.0.7:11311/"
 elif [ ${master} == "3" ]; then

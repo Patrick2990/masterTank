@@ -22,5 +22,5 @@ OnlyShowIn=Unity;
 
 [Desktop Action Thor]
 Name=Thor
-Exec=gnome-terminal -e "bash -c '/home/hippomormor/Workspaces/masterTank/start.sh Thor;$SHELL'"
+Exec=gnome-terminal -e "bash -c '/home/thor/Dropbox/DTU_5_semester/Ros/masterTank/masterTank/start.sh Thor;$SHELL'"
 OnlyShowIn=Unity;
