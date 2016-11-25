@@ -1,4 +1,5 @@
-#include "MasterTankMarch.h"
+#include "MasterTankMover.h"
+#include "MasterTankMain.h"
 
 using namespace std;
 
@@ -20,21 +21,39 @@ void MasterTankMarch::moveTo(std::string frameID, float x, float y) {
             boost::bind(&MasterTankMarch::activeMarch_cb, this),
             boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
 
-
 }
 
 void MasterTankMarch::moveTo(move_base_msgs::MoveBaseGoal goal, std::function<void(int, int, MasterTankMarch *tankMoverPtr) > donefunk) {
     // Remember last position
     currentMarchGoal = goal;
     doneExtern = donefunk;
-    
-    // test - below sending goal must be outcommented for testing
-//    doneExtern(4, 2, this);
 
+#ifdef TEST_MODE_ENABLED
+    doneExtern(4, 2, this);
+#else
     cout << ("Sending object goal") << endl;
     moveClient.sendGoal(goal, boost::bind(&MasterTankMarch::doneMarching_cb, this, _1, _2),
             boost::bind(&MasterTankMarch::activeMarch_cb, this),
             boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
+#endif
+}
+
+void MasterTankMarch::goHome() {
+#ifdef TEST_MODE_ENABLED
+    masterTankState = FINISH;
+#else
+    move_base_msgs::MoveBaseGoal homeGoal;
+        homeGoal.target_pose.header.stamp = ros::Time::now();
+        homeGoal.target_pose.header.frame_id = "map";
+        homeGoal.target_pose.pose.position.x = 0.0;
+        homeGoal.target_pose.pose.position.y = 0.0;
+        homeGoal.target_pose.pose.position.z = 0.0;
+        homeGoal.target_pose.pose.orientation.w = 1.0;
+
+        moveClient.sendGoal(homeGoal, boost::bind(&MasterTankMarch::doneComingHome_cb, this, _1, _2),
+                boost::bind(&MasterTankMarch::activeMarch_cb, this),
+                boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
+#endif
 }
 
 bool MasterTankMarch::waitForServer(float interval) {
@@ -42,6 +61,17 @@ bool MasterTankMarch::waitForServer(float interval) {
 }
 
 void MasterTankMarch::doneMarching_cb(const actionlib::SimpleClientGoalState &state,
+        const move_base_msgs::MoveBaseResultConstPtr &result) {
+    
+    masterTankState = FINISH;
+}
+
+void MasterTankMarch::doneFetching_cb(const actionlib::SimpleClientGoalState &state,
+        const move_base_msgs::MoveBaseResultConstPtr &result) {
+    doneExtern(currentX, currentY, this);
+}
+
+void MasterTankMarch::doneComingHome_cb(const actionlib::SimpleClientGoalState &state,
         const move_base_msgs::MoveBaseResultConstPtr &result) {
     cout << "doneMarching_cb" << endl;
     doneExtern(currentX, currentY, this);

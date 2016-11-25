@@ -57,7 +57,7 @@ catkin_package(
 
 include_directories(include ${catkin_INCLUDE_DIRS} ${Boost_INCLUDE_DIRS} ${PCL_INCLUDE_DIRS})
 
-add_executable(master_tank_navigation src/MasterTankMain.cpp include/MasterTankMain.h src/MasterTankExplore.cpp include/MasterTankExplore.h src/MasterTankObjectPlotter.cpp include/MasterTankObjectPlotter.h src/MasterTankMood.cpp include/MasterTankMood.h src/MasterTankMarch.cpp include/MasterTankMarch.h include/masterTankCommon.h)
+add_executable(master_tank_navigation src/MasterTankMain.cpp include/MasterTankMain.h src/MasterTankExplore.cpp include/MasterTankExplore.h src/MasterTankObjectPlotter.cpp include/MasterTankObjectPlotter.h src/MasterTankMood.cpp include/MasterTankMood.h src/MasterTankMover.cpp include/MasterTankMover.h include/masterTankCommon.h)
 target_link_libraries(master_tank_navigation ${catkin_LIBRARIES})
 
 add_dependencies(master_tank_navigation  ${PROJECT_NAME}_generate_messages_cpp ${catkin_EXPORTED_TARGETS})

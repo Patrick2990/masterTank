@@ -115,8 +115,8 @@
           <df name="src">
             <in>MasterTankExplore.cpp</in>
             <in>MasterTankMain.cpp</in>
-            <in>MasterTankMarch.cpp</in>
             <in>MasterTankMood.cpp</in>
+            <in>MasterTankMover.cpp</in>
             <in>MasterTankObjectPlotter.cpp</in>
           </df>
         </df>
@@ -808,19 +808,6 @@
             flavor2="11">
         <ccTool flags="0">
           <incDir>
-            <pElem>/opt/ros/kinetic/include</pElem>
-            <pElem>.</pElem>
-            <pElem>src/master_tank_navigation/include</pElem>
-            <pElem>/usr/include/c++/5/map</pElem>
-          </incDir>
-        </ccTool>
-      </item>
-      <item path="src/master_tank_navigation/src/MasterTankMain.cpp"
-            ex="false"
-            tool="1"
-            flavor2="11">
-        <ccTool flags="0">
-          <incDir>
             <pElem>devel/include</pElem>
             <pElem>src/master_tank_navigation/include</pElem>
             <pElem>src/driver_common/driver_base/include</pElem>
@@ -834,7 +821,7 @@
           </preprocessorList>
         </ccTool>
       </item>
-      <item path="src/master_tank_navigation/src/MasterTankMarch.cpp"
+      <item path="src/master_tank_navigation/src/MasterTankMain.cpp"
             ex="false"
             tool="1"
             flavor2="11">
@@ -864,6 +851,25 @@
             <pElem>src/master_tank_navigation/include</pElem>
             <pElem>/usr/include/c++/5/map</pElem>
           </incDir>
+        </ccTool>
+      </item>
+      <item path="src/master_tank_navigation/src/MasterTankMover.cpp"
+            ex="false"
+            tool="1"
+            flavor2="11">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>devel/include</pElem>
+            <pElem>src/master_tank_navigation/include</pElem>
+            <pElem>src/driver_common/driver_base/include</pElem>
+            <pElem>/opt/ros/kinetic/include</pElem>
+            <pElem>build/master_tank_navigation</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ROSCONSOLE_BACKEND_LOG4CXX</Elem>
+            <Elem>ROS_BUILD_SHARED_LIBS=1</Elem>
+            <Elem>ROS_PACKAGE_NAME="master_tank_navigation"</Elem>
+          </preprocessorList>
         </ccTool>
       </item>
       <item path="src/master_tank_navigation/src/MasterTankObjectPlotter.cpp"

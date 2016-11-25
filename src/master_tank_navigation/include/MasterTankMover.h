@@ -14,12 +14,15 @@ public:
     bool waitForServer(float interval);
     void halt();
     bool readyToGo();
+    void goHome();
 
 private:
     typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;
     MoveBaseClient moveClient;
     move_base_msgs::MoveBaseGoal currentMarchGoal;
     void doneMarching_cb(const actionlib::SimpleClientGoalState& state, const move_base_msgs::MoveBaseResultConstPtr& result);
+    void doneComingHome_cb(const actionlib::SimpleClientGoalState &state, const move_base_msgs::MoveBaseResultConstPtr &result);
+    void doneFetching_cb(const actionlib::SimpleClientGoalState &state, const move_base_msgs::MoveBaseResultConstPtr &result);
     void activeMarch_cb();
     void feedbackMarch_cb(const move_base_msgs::MoveBaseFeedbackConstPtr& feedback);
     std::function<void(int,int, MasterTankMarch *tankMoverPtr)> doneExtern;

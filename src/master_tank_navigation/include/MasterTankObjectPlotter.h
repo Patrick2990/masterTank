@@ -6,7 +6,7 @@
 #include <tf/transform_listener.h>
 #include <move_base_msgs/MoveBaseAction.h>
 #include "MasterTankMain.h"
-#include "MasterTankMarch.h"
+#include "MasterTankMover.h"
 #include <map>
 #include "../../devel/include/master_tank_navigation/PointCloud2Object.h"
 #include <string.h>

@@ -1,6 +1,6 @@
 #include "MasterTankObjectPlotter.h"
 #include "MasterTankMain.h"
-#include "MasterTankMarch.h"
+#include "MasterTankMover.h"
 #include <iostream>
 #include <algorithm> 
 #include <cmath> 
@@ -35,17 +35,17 @@ void MasterTankObjectPlotter::fetchObjects(float xRobotPos, float yRobotPos, Mas
     else {
         // no more objects
         cout << "Finished fetching objects!" << endl;
-        masterTankState = FINISH;
+        masterTankState = GO_HOME;
     }
 }
 
 void MasterTankObjectPlotter::doneFetching(int x, int y, MasterTankMarch *tankMoverPtr) {
-    cout << "INSIDE THORS AWESOME DONE FETCHING. " << x << " " << y << endl;
+    cout << "Done fetching. New robot position: " << x << " " << y << endl;
     fetchObjects(x, y, tankMoverPtr);
 }
 
 void MasterTankObjectPlotter::objectFound3d_cb(const master_tank_navigation::PointCloud2ObjectConstPtr &msg) {
-    cout << "Received from Christian, 3d: " << msg->object << endl;
+    cout << "Received from 3d: " << msg->object << endl;
 
     std::stringstream objectFrameId_ss;
     objectFrameId_ss << msg->object;
@@ -76,7 +76,6 @@ void MasterTankObjectPlotter::objectFound3d_cb(const master_tank_navigation::Poi
     // insert goal in map
     objects[objectFrameId] = currentGoal;
 }
-
 
 /**
  * 
