@@ -79,8 +79,8 @@ void stateMachineGunFire() {
 }
 
 void heartbeat(const ros::TimerEvent &event) {
-    //    cout << "Heartbeat!!!" << endl;
     stateMachineGunFire();
+    //    cout << "Heartbeat!!!" << endl;   
 }
 
 void shutdownSignal(int sig) {
@@ -113,6 +113,7 @@ int main(int argc, char **argv) {
 
     //    boost::thread kepressThread(&kepressThread);
     timer = nh.createTimer(ros::Duration(0.5), &heartbeat);
+    
 
 #ifdef TEST_MODE_ENABLED
     test();

@@ -36,6 +36,7 @@ void MasterTankObjectPlotter::fetchObjects(float xRobotPos, float yRobotPos, Mas
         // no more objects
         cout << "Finished fetching objects!" << endl;
         masterTankState = GO_HOME;
+        stateMachineGunFire();
     }
 }
 

@@ -64,6 +64,7 @@ void MasterTankMarch::doneMarching_cb(const actionlib::SimpleClientGoalState &st
         const move_base_msgs::MoveBaseResultConstPtr &result) {
     
     masterTankState = FINISH;
+    stateMachineGunFire();
 }
 
 void MasterTankMarch::doneFetching_cb(const actionlib::SimpleClientGoalState &state,

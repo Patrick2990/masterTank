@@ -15,6 +15,7 @@ void MasterTankExplore::doneExploreTask_cb(const actionlib::SimpleClientGoalStat
                                            const frontier_exploration::ExploreTaskResultConstPtr &result) {
     cout << "Exploration finished in state " << state.toString() << endl;
     masterTankState = FECHING_OBJECT;
+    stateMachineGunFire();
 //    cout << "Explored " << result. << endl;
 }
 
