@@ -38,18 +38,22 @@ echo "2. ${arr[2]}"
 echo "3. ${arr[3]}"
 
 let masterString
+let masterUser
 read master
 if [ ${master} == "1" ]; then
     masterString="192.168.0.5"
+    masterUser="hippomormor"
     export ROS_MASTER="$masterString"
     export ROS_MASTER_URI="http://192.168.0.5:11311/"
 elif [ ${master} == "2" ]; then
     masterString="192.168.0.4"
+    masterUser="plinux"
     export ROS_MASTER="$masterString"
-    export ROS_MASTER_URI="http://192.168.0.7:11311/"
+    export ROS_MASTER_URI="http://192.168.0.4:11311/"
 elif [ ${master} == "3" ]; then
     masterString="192.168.0.3"
     export ROS_MASTER="$masterString"
+    masterUser="thor"
     export ROS_MASTER_URI="http://192.168.0.3:11311/"
 else
     echo Unknown input..
@@ -63,10 +67,10 @@ echo "Run packages? 'y' to continue"
 read node
 if [ ${node} == "y" ]; then
     echo Starting SSH to master "${masterString}"
-    exec gnome-terminal -e "bash -c 'ssh root@"${masterString}" roslaunch my_robot_name_2dnav ${arr[${master}]}.launch;$SHELL'" &
+    exec gnome-terminal -e "bash -c 'ssh $masterUser@"${masterString}" echo Starting && roslaunch my_robot_name_2dnav ${arr[${master}]}.launch;$SHELL'" &
     echo "Waiting a bit for my_robot_name_2dnav.."
     sleep 7
-    exec gnome-terminal -e "bash -c 'ssh root@"${masterString}" roslaunch visionnode main.launch;$SHELL'" &
+    exec gnome-terminal -e "bash -c 'ssh $masterUser@"${masterString}" echo Starting && roslaunch visionnode main.launch;$SHELL'" &
     exec gnome-terminal -e "bash -c 'rosrun rtabmap_ros rtabmap;$SHELL'" &
     exec rviz
 else
