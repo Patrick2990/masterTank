@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="moodnode" type="moodnode" name="moodnode" output="screen"></node>
+</launch>
