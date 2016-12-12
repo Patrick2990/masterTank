@@ -14,6 +14,7 @@ git clone https://github.com/introlab/rtabmap_ros.git
 git clone https://github.com/ros-perception/pcl_conversions.git
 git clone https://github.com/strawlab/perception_pcl.git
 
+
 # build driver_base; timestamp_tools; driver_common packages first
 cd ..
 
