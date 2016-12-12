@@ -5,7 +5,7 @@
 #include <chrono>
 #include <thread>
 
-float throttle = 10;
+float throttle = 0;
 
 void runEuclid(ros::NodeHandle nh, euclidCluster * eCluster) {
     eCluster->runThread();
