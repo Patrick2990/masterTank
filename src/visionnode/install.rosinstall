@@ -1,0 +1,6 @@
+# The Master Tank install package
+
+[
+    {'git': {'local-name': 'moodnode', 'version': 'master', 'uri':'https://github.com/hippomormor/moodnode.git'}},
+    {'git': {'local-name': 'visionnode', 'version': 'master', 'uri':'https://github.com/hippomormor/visionnode.git'}},
+]
