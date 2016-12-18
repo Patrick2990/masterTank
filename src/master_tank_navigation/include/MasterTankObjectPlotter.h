@@ -27,8 +27,12 @@ private:
     ros::Subscriber objSub3d;
     //    void objectFound_cb(const find_object_2d::ObjectsStampedConstPtr &object);
     void objectFound3d_cb(const master_tank_navigation::PointCloud2ObjectConstPtr &msg);
+    void objectFound2d_cb(const find_object_2d::ObjectsStampedConstPtr &msg);
     tf::TransformListener tfListener_;
     std::string findClosestObject(float xRobotPos, float yRobotPos);
+
+
+
 };
 
 #endif //PROJECT_MASTERTANKOBJECTPLOTTER_H

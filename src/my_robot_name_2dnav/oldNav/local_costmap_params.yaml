@@ -1,11 +1,31 @@
  local_costmap:
   global_frame_id: odom
+  
+  
+  ##### TODAY ######
   robot_base_frame: base_footprint
-  update_frequency: 10.0
-  publish_frequency: 10.0
+#  robot_base_frame: base_link
+  
+  
+  update_frequency: 2.0
+  publish_frequency: 1.0
   static_map: false
   rolling_window: true
-  width: 6.0
-  height: 6.0
+#  cost_scaling_factor: 23.0  # exponential rate at which the obstacle cost drops off (default: 10)
+#  inflation_radius: 0.3  # max. distance from an obstacle at which costs are incurred for planning paths.
+  width: 5.0
+  height: 5.0
   resolution: 0.03
+  
+  inflation_layer:
+    enabled:              true
+    cost_scaling_factor:  23.0  # exponential rate at which the obstacle cost drops off (default: 10)
+    inflation_radius:     0.3  # max. distance from an obstacle at which costs are incurred for planning paths.
+
+
+
+    ##### TODAY ######
+  plugins:
+    - {name: obstacle_layer,      type: "costmap_2d::VoxelLayer"}
+    - {name: inflation_layer,     type: "costmap_2d::InflationLayer"}
 

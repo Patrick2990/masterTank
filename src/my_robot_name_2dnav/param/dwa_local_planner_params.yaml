@@ -1,6 +1,6 @@
 DWAPlannerROS:
 
-  planner_frequency: 5.0
+#  planner_frequency: 5.0
 # Robot Configuration Parameters - Kobuki
   max_vel_x: 0.2  # 0.4
   min_vel_x: 0.0 
@@ -30,14 +30,14 @@ DWAPlannerROS:
   # latch_xy_goal_tolerance: false
 
 # Forward Simulation Parameters
-  sim_time: 3.0       # 1.710
+  sim_time: 2.0        # 1.710
   vx_samples: 20 #6       # 3
   vy_samples: 1       # diff drive robot, there is only one sample
   vth_samples: 40  # 20
   sim_granularity: 0.025
 
 # Trajectory Scoring Parameters
-  path_distance_bias: 32.0      # 32.0   - weighting for how much it should stick to the global path plan
+  path_distance_bias: 100.0      # 32.0   - weighting for how much it should stick to the global path plan
   goal_distance_bias: 20.0      # 24.0   - wighting for how much it should attempt to reach its goal
   occdist_scale: 0.8           # 0.01   - weighting for how much the controller should avoid obstacles
   forward_point_distance: 0.325 # 0.325  - how far along to place an additional scoring point

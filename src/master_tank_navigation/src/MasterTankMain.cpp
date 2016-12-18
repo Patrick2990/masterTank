@@ -7,14 +7,14 @@
 #include <MasterTankMain.h>
 using namespace std;
 
-// ### Public variables ###
-masterStates_e masterTankState = INITALISING;
 
 // ### Private variables ###
 MasterTankExplore *tankExplorePtr;
 MasterTankMarch *tankMoverPtr;
 MasterTankObjectPlotter *tankObjectPlotterPtr;
 ros::Timer timer;
+masterStates_e masterTankState = INITALISING;
+
 
 // ### Private prototypes ###
 void test();
@@ -22,27 +22,30 @@ void shutdownSignal(int sig);
 
 std::string enumToString(masterStates_e masterState) {
     switch (masterState) {
-        case 0:
+        case INITALISING:
             return "INITALISING";
-        case 1:
+        case EXPLORING:
             return "EXPLORING";
-        case 2:
+        case FECHING_OBJECT:
             return "FECHING_OBJECT";
-        case 3:
+        case GO_HOME:
             return "GO_HOME";
-        case 4:
+        case FINISH:
             return "FINISH";
-        case 5:
+        case ALL_STATE_COUNT:
             return "ALL_STATE_COUNT";
         default:
             return "INVALID ENUM";
     }
 }
 
+float exploreSize = 10.5240;
+
 masterStates_e init() {
     if (tankExplorePtr->readyToGo() && tankMoverPtr->readyToGo()) {
         cout << "Ready to go" << endl;
-        tankExplorePtr->setSimpleExploreSquare(20.31240);
+
+        tankExplorePtr->setSimpleExploreSquare(exploreSize);
         tankExplorePtr->goExplore();
         return EXPLORING;
     }
@@ -56,20 +59,27 @@ void stateMachineGunFire() {
     switch (masterTankState) {
 
         case INITALISING:
-            masterTankState = init();
+            masterTankState = EXPLORING;
+            tankMoverPtr->rotate(); //this should be in init map state
+            //            
             break;
         case EXPLORING:
-            // State is changed inside MasterTankExplore doneExploreTask_cb 
+            masterTankState = FECHING_OBJECT;
+            tankExplorePtr->setSimpleExploreSquare(exploreSize);
+            tankExplorePtr->goExplore();
             break;
         case FECHING_OBJECT:
-            // State is changed inside MasterTankObjectPlotter
+            masterTankState = GO_HOME;
             tankObjectPlotterPtr->fetchObjects(0, 0, tankMoverPtr);
+            // State is changed inside MasterTankExplore doneExploreTask_cb 
             break;
         case GO_HOME:
+            masterTankState = FINISH;
             tankMoverPtr->goHome();
+            // State is changed inside MasterTankObjectPlotter
             break;
         case FINISH:
-            timer.stop();
+            //            timer.stop();
             shutdownSignal(0);
             break;
         default:
@@ -78,10 +88,10 @@ void stateMachineGunFire() {
     }
 }
 
-void heartbeat(const ros::TimerEvent &event) {
-    stateMachineGunFire();
-    //    cout << "Heartbeat!!!" << endl;   
-}
+//void heartbeat(const ros::TimerEvent &event) {
+//    stateMachineGunFire();
+//    //    cout << "Heartbeat!!!" << endl;   
+//}
 
 void shutdownSignal(int sig) {
     cout << "Caught signal!! Stopping action clients and canceling all goals" << endl;
@@ -112,12 +122,16 @@ int main(int argc, char **argv) {
     signal(SIGINT, shutdownSignal);
 
     //    boost::thread kepressThread(&kepressThread);
-    timer = nh.createTimer(ros::Duration(0.5), &heartbeat);
-    
+    //    timer = nh.createTimer(ros::Duration(0.5), &heartbeat);
+
 
 #ifdef TEST_MODE_ENABLED
     test();
 #endif
+    while (!(tankExplorePtr->readyToGo() && tankMoverPtr->readyToGo())) {//initilising 
+    }
+    cout << "Ready to go" << endl;
+    stateMachineGunFire();
 
     cout << "All is up! Start spinning... " << endl;
     ros::spin();

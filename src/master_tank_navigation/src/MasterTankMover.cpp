@@ -4,24 +4,24 @@
 using namespace std;
 
 MasterTankMarch::MasterTankMarch() : moveClient("move_base", true) {
-
+    rotateCounter = 0;
 }
 
-void MasterTankMarch::moveTo(std::string frameID, float x, float y) {
-    std::stringstream objectFrameID_ss;
-
-    currentMarchGoal.target_pose.header.stamp = ros::Time::now();
-
-    currentMarchGoal.target_pose.pose.position.x = x;
-    currentMarchGoal.target_pose.pose.position.y = y;
-    currentMarchGoal.target_pose.pose.orientation.w = 1.0;
-
-    cout << ("Sending goal") << endl;
-    moveClient.sendGoal(currentMarchGoal, boost::bind(&MasterTankMarch::doneMarching_cb, this, _1, _2),
-            boost::bind(&MasterTankMarch::activeMarch_cb, this),
-            boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
-
-}
+//void MasterTankMarch::moveTo(std::string frameID, float x, float y) {
+//    std::stringstream objectFrameID_ss;
+//
+//    currentMarchGoal.target_pose.header.stamp = ros::Time::now();
+//
+//    currentMarchGoal.target_pose.pose.position.x = x;
+//    currentMarchGoal.target_pose.pose.position.y = y;
+//    currentMarchGoal.target_pose.pose.orientation.w = 1.0;
+//
+//    cout << ("Sending goal") << endl;
+//    moveClient.sendGoal(currentMarchGoal, boost::bind(&MasterTankMarch::doneFetching_cb, this, _1, _2),
+//            boost::bind(&MasterTankMarch::activeMarch_cb, this),
+//            boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
+//
+//}
 
 void MasterTankMarch::moveTo(move_base_msgs::MoveBaseGoal goal, std::function<void(int, int, MasterTankMarch *tankMoverPtr) > donefunk) {
     // Remember last position
@@ -32,7 +32,7 @@ void MasterTankMarch::moveTo(move_base_msgs::MoveBaseGoal goal, std::function<vo
     doneExtern(4, 2, this);
 #else
     cout << ("Sending object goal") << endl;
-    moveClient.sendGoal(goal, boost::bind(&MasterTankMarch::doneMarching_cb, this, _1, _2),
+    moveClient.sendGoal(goal, boost::bind(&MasterTankMarch::doneFetching_cb, this, _1, _2),
             boost::bind(&MasterTankMarch::activeMarch_cb, this),
             boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
 #endif
@@ -43,29 +43,60 @@ void MasterTankMarch::goHome() {
     masterTankState = FINISH;
 #else
     move_base_msgs::MoveBaseGoal homeGoal;
-        homeGoal.target_pose.header.stamp = ros::Time::now();
-        homeGoal.target_pose.header.frame_id = "map";
-        homeGoal.target_pose.pose.position.x = 0.0;
-        homeGoal.target_pose.pose.position.y = 0.0;
-        homeGoal.target_pose.pose.position.z = 0.0;
-        homeGoal.target_pose.pose.orientation.w = 1.0;
+    homeGoal.target_pose.header.stamp = ros::Time::now();
+    homeGoal.target_pose.header.frame_id = "map";
+    homeGoal.target_pose.pose.position.x = 0.0;
+    homeGoal.target_pose.pose.position.y = 0.0;
+    homeGoal.target_pose.pose.position.z = 0.0;
+    homeGoal.target_pose.pose.orientation.w = 1.0;
 
-        moveClient.sendGoal(homeGoal, boost::bind(&MasterTankMarch::doneComingHome_cb, this, _1, _2),
-                boost::bind(&MasterTankMarch::activeMarch_cb, this),
-                boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
+    moveClient.sendGoal(homeGoal, boost::bind(&MasterTankMarch::doneComingHome_cb, this, _1, _2),
+            boost::bind(&MasterTankMarch::activeMarch_cb, this),
+            boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
 #endif
+}
+
+void MasterTankMarch::rotate() {
+#ifdef TEST_MODE_ENABLED
+    masterTankState = INITALISING;
+#else
+    cout << "Sending rotate goal" << endl;
+
+    move_base_msgs::MoveBaseGoal rotateGoal;
+    rotateGoal.target_pose.header.stamp = ros::Time::now();
+    rotateGoal.target_pose.header.frame_id = "base_footprint";
+    rotateGoal.target_pose.pose.position.x = 0.0;
+    rotateGoal.target_pose.pose.position.y = 0.0;
+    rotateGoal.target_pose.pose.position.z = 0.0;
+    rotateGoal.target_pose.pose.orientation.w = 1.0;
+    rotateGoal.target_pose.pose.orientation.z = 1.0;
+
+
+    moveClient.sendGoal(rotateGoal, boost::bind(&MasterTankMarch::doneRotate_cb, this, _1, _2),
+            boost::bind(&MasterTankMarch::activeMarch_cb, this),
+            boost::bind(&MasterTankMarch::feedbackMarch_cb, this, _1));
+#endif
+}
+
+void MasterTankMarch::doneRotate_cb(const actionlib::SimpleClientGoalState &state, const move_base_msgs::MoveBaseResultConstPtr &result) {
+    if (rotateCounter++ >= 3) {
+        stateMachineGunFire();
+        rotateCounter = 0;
+    } else {
+        rotate();
+    }
 }
 
 bool MasterTankMarch::waitForServer(float interval) {
     return false;
 }
-
-void MasterTankMarch::doneMarching_cb(const actionlib::SimpleClientGoalState &state,
-        const move_base_msgs::MoveBaseResultConstPtr &result) {
-    
-    masterTankState = FINISH;
-    stateMachineGunFire();
-}
+//
+//void MasterTankMarch::doneMarching_cb(const actionlib::SimpleClientGoalState &state,
+//        const move_base_msgs::MoveBaseResultConstPtr &result) {
+//
+//
+//
+//}
 
 void MasterTankMarch::doneFetching_cb(const actionlib::SimpleClientGoalState &state,
         const move_base_msgs::MoveBaseResultConstPtr &result) {
@@ -74,8 +105,10 @@ void MasterTankMarch::doneFetching_cb(const actionlib::SimpleClientGoalState &st
 
 void MasterTankMarch::doneComingHome_cb(const actionlib::SimpleClientGoalState &state,
         const move_base_msgs::MoveBaseResultConstPtr &result) {
-    cout << "doneMarching_cb" << endl;
-    doneExtern(currentX, currentY, this);
+    cout << "doneComingHome_cb" << endl;
+    //    doneExtern(currentX, currentY, this);
+    stateMachineGunFire();
+
 }
 
 void MasterTankMarch::activeMarch_cb() {

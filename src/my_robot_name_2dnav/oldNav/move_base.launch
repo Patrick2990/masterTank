@@ -5,14 +5,20 @@
   <node name="map_server" pkg="map_server" type="map_server" />
 -->
   <!--- Run AMCL -->
-  <include file="$(find my_robot_name_2dnav)/amcl_omni.launch" />
+    <!--- Run AMCL -->
+  <!--<include file="$(find amcl)/examples/amcl_omni.launch" />-->
+  <!--<include file="$(find my_robot_name_2dnav)/amcl_omni.launch" />-->
 
   <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
-    <param name="controller_frequency" type="double" value="20.0"/>
+    <param name="controller_frequency" type="double" value="10.0"/>
+    <param name="planner_frequency" type="double" value="2.0"/>
     <rosparam file="$(find my_robot_name_2dnav)/oldNav/costmap_common_params.yaml" command="load" ns="global_costmap" />
     <rosparam file="$(find my_robot_name_2dnav)/oldNav/costmap_common_params.yaml" command="load" ns="local_costmap" />
     <rosparam file="$(find my_robot_name_2dnav)/oldNav/local_costmap_params.yaml" command="load" />
     <rosparam file="$(find my_robot_name_2dnav)/oldNav/global_costmap_params.yaml" command="load" />
     <rosparam file="$(find my_robot_name_2dnav)/oldNav/base_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find my_robot_name_2dnav)/param/move_base_params.yaml" command="load" />
+    <rosparam file="$(find my_robot_name_2dnav)/param/navfn_global_planner_params.yaml" command="load" />
+ 
   </node>
 </launch>

@@ -1,0 +1,54 @@
+<launch>
+    <!--<param name="use_sim_time" type="bool" value="True"/>-->
+    <machine name="smr14" address="192.168.0.101" env-loader="/home/local/sh/mobotware/ros_link/catkin_ws/envPatrick.sh" user="local" password=" "/>
+    <node machine="smr14" name="smr" pkg="smr" type="smr_control"/> 
+    
+    <!--This transform place the ODOMETRY of the robot. Move the odom 15 cm backward from the middle--> 
+    <node 
+        name="tf1" pkg="tf" type="static_transform_publisher" args="0.15 0 0 0 0 0 base_link base_footprint 10">
+    </node> 
+
+    <!--This transform place the LASER of the robot. Move the lasers 19 cm forward from the middle--> 
+    <node 
+        name="tf2" pkg="tf" type="static_transform_publisher" args="0.19 0 0 0 0 0 base_footprint scantf 10">
+    </node> 
+    
+    <node 
+        name="tf3" pkg="tf" type="static_transform_publisher" args="-0.15 0 0.43 0 0 0 base_footprint camera_link 10">
+    </node> 
+
+    <include file="$(find my_robot_name_2dnav)/launch/hokuyo_setup.launch"/>
+
+    
+    <include file="$(find openni_launch)/launch/openni.launch" >
+        <arg name="depth_registration" default="true" />
+    </include>
+
+    <include file="$(find my_robot_name_2dnav)/param_teb/move_base_teb.launch"/>
+     
+    <!--<include file="$(find my_robot_name_2dnav)/launch/rtabmap.launch"/>--> 
+    <!--<include file="$(find my_robot_name_2dnav)/param_teb/rtabmap_rgbd_mapping.launch"/>--> 
+    <include file="$(find my_robot_name_2dnav)/param_teb/gmapping.launch"/>
+
+    <node name="find_object_3d" pkg="find_object_2d" type="find_object_2d" output="screen">
+        <param name="gui"             value="false" type="bool"/>
+        <param name="settings_path"   value="$(find my_robot_name_2dnav)/books_ini/objects.ini" type="str"/>
+        <param name="subscribe_depth" value="true" type="bool"/>
+        <param name="objects_path"    value="$(find my_robot_name_2dnav)/books_ini" type="str"/>
+        <param name="object_prefix" value="object" type="str"/>
+
+        <remap from="rgb/image_rect_color" to="camera/rgb/image_rect_color"/>
+        <remap from="depth_registered/image_raw" to="camera/depth_registered/image_raw"/>
+        <remap from="depth_registered/camera_info" to="camera/depth_registered/camera_info"/>
+    </node>
+    
+    <include file="$(find frontier_exploration)/launch/no_global_map.launch"/>
+    
+</launch>
+
+
+
+
+
+
+

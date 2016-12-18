@@ -1,0 +1,19 @@
+ <launch>
+
+    <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+        <rosparam file="$(find my_robot_name_2dnav)/param_teb/costmap_common_params.yaml" command="load" ns="global_costmap" />
+        <rosparam file="$(find my_robot_name_2dnav)/param_teb/costmap_common_params.yaml" command="load" ns="local_costmap" />
+        <rosparam file="$(find my_robot_name_2dnav)/param_teb/local_costmap_params.yaml" command="load" />
+        <rosparam file="$(find my_robot_name_2dnav)/param_teb/global_costmap_params.yaml" command="load" />
+        <rosparam file="$(find my_robot_name_2dnav)/param_teb/base_local_planner_params_teb.yaml" command="load" />
+        <rosparam file="$(find my_robot_name_2dnav)/param_teb/move_base_params.yaml" command="load" />
+        <rosparam file="$(find my_robot_name_2dnav)/param_teb/navfn_global_planner_params.yaml" command="load" />
+        <!--<rosparam file="$(find my_robot_name_2dnav)/param_teb/costmap_converter_params.yml" command="load" />--> 
+
+        <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
+        <param name="planner_frequency" value="1.0" />
+        <param name="planner_patience" value="5.0" />
+        <param name="controller_frequency" value="5.0" />
+        <param name="controller_patience" value="15.0" />
+    </node>
+</launch>

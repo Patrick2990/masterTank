@@ -16,7 +16,7 @@ enum masterStates_e {
 
 std::string enumToString(masterStates_e masterState);
 
-extern masterStates_e masterTankState;
 void stateMachineGunFire();
+extern masterStates_e masterTankState;
 
 #endif //PROJECT_MASTERTANKMAIN_H
