@@ -3476,6 +3476,21 @@
             <in>MasterTankObjectPlotter.cpp</in>
           </df>
         </df>
+        <df name="moodnode">
+          <df name="include">
+            <in>Sound.h</in>
+            <in>moodEnums.h</in>
+            <in>soundFiles.h</in>
+          </df>
+          <df name="launch">
+          </df>
+          <df name="sounds">
+          </df>
+          <df name="src">
+            <in>Sound.cpp</in>
+            <in>main.cpp</in>
+          </df>
+        </df>
         <df name="my_robot_name_2dnav">
           <df name="books_ini">
           </df>
